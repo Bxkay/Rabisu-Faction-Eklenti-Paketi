@@ -1,4 +1,4 @@
-<img src="https://github.com/Bxkay/Rabisu-Faction-Eklenti-Paketi/blob/main/4_1.gif" width="auto">
+<img src="https://github.com/Bxkay/Rabisu-Faction-Eklenti-Paketi/blob/main/download.jpg" width="auto">
 # Faction Eklenti Paketi Hakkında Bilgilendirme!
 
 Paketin taban sürümü 1.8.8'dir. Java 8 sürümünü kullanmanız gerekmektedir. Sunucunuzun kullanacağı ram miktarını ayarlamak için:
