@@ -1,0 +1,32 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lKozmikNetwork'
+  - '&c&n&lKozmikNetwork'
+  - '&b&lKozmikNetwork'
+  - '&b&l&nKozmikNetwork'
+  - '&e&lKozmikNetwork'
+  - '&e&n&lKozmikNetwork'
+Kd:
+  change-interval: 5000
+  texts:
+  - '&fK/D: &e%statistic_player_kills%&8/&e%statistic_deaths%'
+  - '&fKlan KD: &e%factionsuuid_faction_kills%&8/&e%factionsuuid_faction_deaths%'
+time:
+  change-interval: 900
+  texts:
+  - '&eTarih &7%date%'
+ping-tps:
+  change-interval: 5000
+  texts:
+  - '&eServer TPS: &7%tps%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

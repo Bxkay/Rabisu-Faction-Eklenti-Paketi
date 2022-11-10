@@ -1,0 +1,397 @@
+spawn:
+  location: Haritalar, -14999.484, 103.000, 14995.488
+  lines:
+  - '&6&lRabisu Faction'
+  - ''
+  - '&7Faction sunucumuza hoşgeldin &a{player}'
+  - '&7Seninle birlikte sunucumuzda &a%server_online% &7oyuncu var'
+  - ''
+  - '&7Sunucu hakkında bilgi almak için &e/bilgi'
+  - '&7Klanlar hakkında bilgi almak için &e/f help'
+  - '&7Güncellemelerden haberdar olmak için &e/discord'
+  - ''
+  - '&cwww.rabisu.com'
+warp:
+  location: Haritalar, -14999.500, 105.000, 14945.500
+  lines:
+  - '&6&lIŞINLANMA NOKTALARI'
+  - ''
+  - '&7Sunucudaki ışınlanma noktalarına'
+  - '&7bakabilir ve ışınlanabilirsin.'
+  - ''
+  - '&6(&eIncelemek için tıkla&6)'
+rutbe:
+  location: Haritalar, -14991.500, 105.000, 14949.500
+  lines:
+  - '&6&lRÜTBELER'
+  - ''
+  - '&7Oyun parası karşılığında alabileceğiniz'
+  - '&7rütbelere göz atabilirsiniz.'
+  - ''
+  - '&6(&eIncelemek için tıkla&6)'
+kurallar:
+  location: Haritalar, -15007.500, 105.000, 14949.500
+  lines:
+  - '&6&lKURALLAR'
+  - ''
+  - '&7Sunucuda bulunan kurallara'
+  - '&7göz atabilirsin'
+  - ''
+  - '&6(&eIncelemek için tıkla&6)'
+vipbilgi:
+  location: Haritalar, -15011.500, 105.000, 14957.500
+  lines:
+  - '&6&lVIP BİLGİ'
+  - ''
+  - '&7Site kredisi karşılığında alabileceğiniz'
+  - '&7VIP''lere göz atabilirsiniz.'
+  - ''
+  - '&6(&eIncelemek için tıkla&6)'
+klan:
+  location: Haritalar, -14987.500, 105.000, 14957.500
+  lines:
+  - '&6&lKLAN'
+  - ''
+  - '&7Klanlar hakkında bilgi'
+  - '&7sahibi olabilirsin'
+  - ''
+  - '&6(&eIncelemek için tıkla&6)'
+topkill:
+  location: Haritalar, -14984.500, 104.000, 14979.500
+  lines:
+  - '&6&lOLDURME SIRALAMASI'
+  - ''
+  - '{fastest}%alonsoleaderboards_ranking_topkills_1%'
+  - '{fastest}%alonsoleaderboards_ranking_topkills_2%'
+  - '{fastest}%alonsoleaderboards_ranking_topkills_3%'
+  - '{fastest}%alonsoleaderboards_ranking_topkills_4%'
+  - '{fastest}%alonsoleaderboards_ranking_topkills_5%'
+  - '{fastest}%alonsoleaderboards_ranking_topkills_6%'
+  - '{fastest}%alonsoleaderboards_ranking_topkills_7%'
+  - '{fastest}%alonsoleaderboards_ranking_topkills_8%'
+  - '{fastest}%alonsoleaderboards_ranking_topkills_9%'
+  - '{fastest}%alonsoleaderboards_ranking_topkills_10%'
+  - ''
+  - '&c&owww.rabisu.com'
+topkill1:
+  location: Haritalar, -14974.500, 104.000, 14986.500
+  lines:
+  - '&8「&6&l%alonsoleaderboards_ranking_name_topkills_1%&8」'
+  - ''
+  - '&7Sıra: &e1'
+  - '&7Değer: &e%alonsoleaderboards_ranking_score_topkills_1%'
+  - ''
+  - '&c&owww.rabisu.com'
+topkill2:
+  location: Haritalar, -14977.500, 104.000, 14991.500
+  lines:
+  - '&8「&6&l%alonsoleaderboards_ranking_name_topkills_2%&8」'
+  - ''
+  - '&7Sıra: &e2'
+  - '&7Değer: &e%alonsoleaderboards_ranking_score_topkills_2%'
+  - ''
+  - '&c&owww.rabisu.com'
+topkill3:
+  location: Haritalar, -14977.500, 104.000, 14981.500
+  lines:
+  - '&8「&6&l%alonsoleaderboards_ranking_name_topkills_3%&8」'
+  - ''
+  - '&7Sıra: &e3'
+  - '&7Değer: &e%alonsoleaderboards_ranking_score_topkills_3%'
+  - ''
+  - '&c&owww.rabisu.com'
+etiket:
+  location: Haritalar, -15047.500, 104.000, 14979.500
+  lines:
+  - '&6&lETİKET'
+  - ''
+  - '&7Daha hoş görünmek için'
+  - '&7etiket satın alabilirsin.'
+  - ''
+  - '&6(&eIncelemek için tıkla&6)'
+pvpmarket:
+  location: Haritalar, -15047.500, 104.000, 14975.500
+  lines:
+  - '&6&lPVPMARKET'
+  - ''
+  - '&7Para karşılığında pvp için'
+  - '&7eşya satın alabilirsin.'
+  - ''
+  - '&6(&eIncelemek için tıkla&6)'
+coinmarket:
+  location: Haritalar, -15047.500, 104.000, 14971.500
+  lines:
+  - '&6&lCOINMARKET'
+  - ''
+  - '&7Editten kastığınız coinler ile'
+  - '&7güçlü eşyalar satın alabilirsin.'
+  - ''
+  - '&6(&eIncelemek için tıkla&6)'
+  - '&f'
+levelmarket:
+  location: Haritalar, -15047.500, 104.000, 14967.500
+  lines:
+  - '&6&lLEVELMARKET'
+  - ''
+  - '&7Çeşitli yollarla kastığınız leveller ile'
+  - '&7değerli eşyalar satın alabilirsiniz.'
+  - ''
+  - '&6(&eIncelemek için tıkla&6)'
+market:
+  location: Haritalar, -15047.500, 104.000, 14963.500
+  lines:
+  - '&6&lMARKET'
+  - ''
+  - '&7Belirli bir para karşılığında'
+  - '&7çeşit çeşit eşya satın alabilirsiniz.'
+  - ''
+  - '&6(&eIncelemek için tıkla&6)'
+ihale:
+  location: Haritalar, -15047.500, 104.000, 14959.500
+  lines:
+  - '&6&lİHALE'
+  - ''
+  - '&7Eşyalarınızı belirli bir para karşılığında'
+  - '&7açık arttırmaya koyabilirsiniz.'
+  - ''
+  - '&6(&eIncelemek için tıkla&6)'
+lapis:
+  location: Haritalar, -14999.500, 102.000, 14894.500
+  lines:
+  - '&6&lLAPİS'
+  - ''
+  - '&7Lapis bölgesine hoşgeldin &a{player}!'
+  - '&7Bu bölgede lapis kazarak xp, para, kasa anahtarı gibi'
+  - '&7bir çok değerli eşya kazanabilir, güçlenebilirsin'
+  - ''
+  - '&c&owww.rabisu.com'
+pvpmadengiris:
+  location: Haritalar, 9865.500, 46.000, 9882.500
+  lines:
+  - '&6&lPVPMADEN GIRIS'
+  - ''
+  - '&7PvPMaden bölgesine giriş yapmak için'
+  - '&7Alttaki NPC''ye tıklamalısın.'
+  - '&7Tıkladığın an bölgeye ışınlanırsın ve pvp açılır'
+  - ''
+  - '&6(&eIşınlanmak için tıkla&6)'
+arenagiris:
+  location: Haritalar, 15000.500, 77.000, -5020.500
+  lines:
+  - '&6&lARENA GIRIS'
+  - ''
+  - '&7Arena bölgesine giriş yapmak için'
+  - '&7Alttaki NPC''ye tıklamalısın.'
+  - '&7Tıkladığın an bölgeye ışınlanırsın ve pvp açılır'
+  - ''
+  - '&6(&eIşınlanmak için tıkla&6)'
+kothgiris:
+  location: Haritalar, 10000.500, 67.000, -1957.500
+  lines:
+  - '&6&lKOTH GIRIS'
+  - ''
+  - '&7Koth bölgesine giriş yapmak için'
+  - '&7Alttaki NPC''ye tıklamalısın.'
+  - '&7Tıkladığın an bölgeye ışınlanırsın ve pvp açılır'
+  - ''
+  - '&6(&eIşınlanmak için tıkla&6)'
+edit:
+  location: Haritalar, -6587.490, 46.000, 2713.598
+  lines:
+  - '&6&lEDIT'
+  - ''
+  - '&7Edit bölgesine hoşgeldin &a{player}!'
+  - '&7Bu bölgede yosuntaşı kazarak coin elde edebilirsin.'
+  - '&7Kazandığın coinleri harcamak için: &e/coinmarket'
+  - ''
+  - '&c&owww.rabisu.com'
+editnpc:
+  location: Haritalar, -6587.500, 45.500, 2707.500
+  lines:
+  - '&6&lCOINMARKET'
+  - '&7'
+  - '&7Yosun taşı kazarken kastığın coinleri'
+  - '&7harcamak için NPC''ye tıklayabilirsin'
+  - '&f'
+  - '&6(&eHarcamak için tıkla&6)'
+vip:
+  location: Haritalar, 2462.500, 103.000, 11904.500
+  lines:
+  - '&8「&6VIP Hammadde &8」'
+  - ''
+  - '&7Bu hammadeyi kazabilmek için &6VIP'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&6VIP &7rütbesini satın almak için:'
+  - '&c&owww.rabisu.com'
+vipplus:
+  location: Haritalar, 2486.500, 103.000, 11904.500
+  lines:
+  - '&8「&6VIP&c+ &6Hammadde &8」'
+  - ''
+  - '&7Bu hammadeyi kazabilmek için &6VIP&c+'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&6VIP&c+ &7rütbesini satın almak için:'
+  - '&c&owww.rabisu.com'
+mvip:
+  location: Haritalar, 2511.500, 103.000, 11904.500
+  lines:
+  - '&8「&aMVIP &aHammadde &8」'
+  - ''
+  - '&7Bu hammadeyi kazabilmek için &aMVIP'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&aMVIP &7rütbesini satın almak için:'
+  - '&c&owww.rabisu.com'
+mvipplus:
+  location: Haritalar, 2536.500, 103.000, 11904.500
+  lines:
+  - '&8「&aMVIP&c+ &aHammadde &8」'
+  - ''
+  - '&7Bu hammadeyi kazabilmek için &aMVIP&c+'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&aMVIP&c+ &7rütbesini satın almak için:'
+  - '&c&owww.rabisu.com'
+rutbehammadde:
+  location: Haritalar, 2500.500, 107.000, 11995.500
+  lines:
+  - '&8「&6&lRÜTBEHAMMADDE &8」'
+  - ''
+  - '&7RütbeHammadde bölgesine hoşgeldin &a{player}'
+  - '&7Bu bölgede rütbene özel olarak hazırlanmış'
+  - '&7hammaddelerden daha hızlı para kasabilirsin.'
+  - '&7Rütbe yükseldikçe hammadden dahada değerlenir.'
+  - ''
+  - '&c&owww.rabisu.com'
+nefer:
+  location: Haritalar, 2461.500, 103.000, 11982.500
+  lines:
+  - '&8「&eNefer Hammadde &8」'
+  - ''
+  - '&7Bu hammaddeyi kazabilmek için &eNefer'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&7Rütbe Fiyatı: &aUCRETSIZ'
+  - '&c&o/rankup'
+onbasi:
+  location: Haritalar, 2486.500, 103.000, 11982.500
+  lines:
+  - '&8「&6Onbaşı Hammadde &8」'
+  - ''
+  - '&7Bu hammaddeyi kazabilmek için &6Onbaşı'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&7Rütbe Fiyatı: &a500.000'
+  - '&c&o/rankup'
+cavus:
+  location: Haritalar, 2511.500, 103.000, 11982.500
+  lines:
+  - '&8「&aÇavuş Hammadde &8」'
+  - ''
+  - '&7Bu hammaddeyi kazabilmek için &aÇavuş'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&7Rütbe Fiyatı: &a1.000.000'
+  - '&c&o/rankup'
+bascavus:
+  location: Haritalar, 2536.500, 103.000, 11982.500
+  lines:
+  - '&8「&2Başçavuş Hammadde &8」'
+  - ''
+  - '&7Bu hammaddeyi kazabilmek için &2Başçavuş'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&7Rütbe Fiyatı: &a5.000.000'
+  - '&c&o/rankup'
+mulazim:
+  location: Haritalar, 2461.500, 103.000, 11956.500
+  lines:
+  - '&8「&bMülazım Hammadde &8」'
+  - ''
+  - '&7Bu hammaddeyi kazabilmek için &bMülazım'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&7Rütbe Fiyatı: &a10.000.000'
+  - '&c&o/rankup'
+yuzbasi:
+  location: Haritalar, 2486.500, 103.000, 11956.500
+  lines:
+  - '&8「&3Yüzbaşı Hammadde &8」'
+  - ''
+  - '&7Bu hammaddeyi kazabilmek için &3Yüzbaşı'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&7Rütbe Fiyatı: &a50.000.000'
+  - '&c&o/rankup'
+kolagasi:
+  location: Haritalar, 2511.500, 103.000, 11956.500
+  lines:
+  - '&8「&dKolağası Hammadde &8」'
+  - ''
+  - '&7Bu hammaddeyi kazabilmek için &dKolağası'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&7Rütbe Fiyatı: &a100.000.000'
+  - '&c&o/rankup'
+binbasi:
+  location: Haritalar, 2536.500, 103.000, 11956.500
+  lines:
+  - '&8「&5Binbaşı Hammadde &8」'
+  - ''
+  - '&7Bu hammaddeyi kazabilmek için &5Binbaşı'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&7Rütbe Fiyatı: &a250.000.000'
+  - '&c&o/rankup'
+ferik:
+  location: Haritalar, 2486.500, 103.000, 11930.500
+  lines:
+  - '&8「&cFerik Hammadde &8」'
+  - ''
+  - '&7Bu hammaddeyi kazabilmek için &cFerik'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&7Rütbe Fiyatı: &a500.000.000'
+  - '&c&o/rankup'
+musir:
+  location: Haritalar, 2511.500, 103.000, 11930.500
+  lines:
+  - '&8「&4Müşir Hammadde &8」'
+  - ''
+  - '&7Bu hammaddeyi kazabilmek için &4Müşir'
+  - '&7rütbesine sahip olmalısın'
+  - ''
+  - '&7Rütbe Fiyatı: &a1.000.000.000'
+  - '&c&o/rankup'
+vipvipplus:
+  location: Haritalar, 2461.500, 103.000, 11930.500
+  lines:
+  - '&8「&6VIP &8- &6VIP&c+ &6Hammadde &8」'
+  - ''
+  - '&7Bu hammadeyi kazabilmek için &6VIP'
+  - '&6VIP&c+ &7rütbesine sahip olmalısın'
+  - ''
+  - '&6VIP &6VIP&c+ &7rütbesini satın almak için:'
+  - '&c&owww.rabisu.com'
+mvipmvipplus:
+  location: Haritalar, 2536.500, 103.000, 11930.500
+  lines:
+  - '&8「&aMVIP &8- &aMVIP&c+ &aHammadde &8」'
+  - ''
+  - '&7Bu hammadeyi kazabilmek için &aMVIP'
+  - '&aMVIP&c+ &7rütbesine sahip olmalısın'
+  - ''
+  - '&aMVIP &aMVIP&c+ &7rütbesini satın almak için:'
+  - '&c&owww.rabisu.com'
+ormangiris:
+  location: orman, 206.458, 73.000, -155.700
+  lines:
+  - '&6&lORMAN GIRIS'
+  - ''
+  - '&7Orman bölgesine giriş yapmak için'
+  - '&7Alttaki NPC''ye tıklamalısın.'
+  - '&7Tıkladığın an bölgeye ışınlanırsın ve pvp açılır'
+  - ''
+  - '&6(&eIşınlanmak için tıkla&6)'

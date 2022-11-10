@@ -1,0 +1,139 @@
+menu_title: '&8CoinMarket &8▸ &8Diğer'
+open_command: coindiger
+size: 45
+items:
+  '1':
+    material: 131
+    slot: 20
+    display_name: '&8▸ &6Set Kasa Anahtarı &8【&a1x&8】 &8◂'
+    lore:
+    - ' '
+    - '&7Ücret: &a1.000 Coin'
+    left_click_commands:
+    - '[console] crazycrates give p set 1 %player_name%'
+    - '[console] coin sil %player_name% 1000'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] crazycrates give p set 1 %player_name%'
+    - '[console] coin sil %player_name% 1000'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%skript_coin::{player}%'
+          output: '1000'
+          deny_commands:
+          - '[close]'
+          - '[message] &6Rab&eisu &8» &cSatın almak için yeterli coinin bulunmuyor.'   
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%skript_coin::{player}%'
+          output: '1000'
+          deny_commands:
+          - '[close]'
+          - '[message] &6Rab&eisu &8» &cSatın almak için yeterli coinin bulunmuyor.'   
+  '2':
+    material: 46
+    slot: 22
+    display_name: '&8▸ &6TNT &8【&a4x&8】 &8◂'
+    lore:
+    - ' '
+    - '&7Ücret: &a2.500 Coin'
+    left_click_commands:
+    - '[console] give %player_name% 46 4'
+    - '[console] coin sil %player_name% 5000'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] give %player_name% 46 4'
+    - '[console] coin sil %player_name% 5000'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%skript_coin::{player}%'
+          output: '5000'
+          deny_commands:
+          - '[close]'
+          - '[message] &6Rab&eisu &8» &cSatın almak için yeterli coinin bulunmuyor.'   
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%skript_coin::{player}%'
+          output: '5000'
+          deny_commands:
+          - '[close]'
+          - '[message] &6Rab&eisu &8» &cSatın almak için yeterli coinin bulunmuyor.'   
+  '3':
+    material: 131
+    slot: 24
+    display_name: '&8▸ &6Para Kasa Anahtarı &8【&a1x&8】 &8◂'
+    lore:
+    - ' '
+    - '&7Ücret: &a2.000 Coin'
+    left_click_commands:
+    - '[console] crazycrates give p para 1 %player_name%'
+    - '[console] coin sil %player_name% 2000'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] crazycrates give p set 1 %player_name%'
+    - '[console] coin sil %player_name% 2000'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%skript_coin::{player}%'
+          output: '2000'
+          deny_commands:
+          - '[close]'
+          - '[message] &6Rab&eisu &8» &cSatın almak için yeterli coinin bulunmuyor.'   
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%skript_coin::{player}%'
+          output: '2000'
+          deny_commands:
+          - '[close]'
+          - '[message] &6Rab&eisu &8» &cSatın almak için yeterli coinin bulunmuyor.'   
+  kapat:
+    material: barrier
+    slot: 40
+    display_name: '&cGeri Dön'
+    right_click_commands:
+    - '[player] coinmarket'
+    left_click_commands:
+    - '[player] coinmarket'
+  cam:
+    material: 160
+    data: 15
+    slots: 
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 26
+        - 18
+        - 17
+        - 35
+        - 27
+        - 36
+        - 37
+        - 38
+        - 39
+        - 41
+        - 42
+        - 43
+        - 44
+    display_name: '&8'

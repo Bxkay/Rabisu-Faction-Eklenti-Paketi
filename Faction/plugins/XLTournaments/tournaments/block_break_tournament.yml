@@ -1,0 +1,92 @@
+#########################
+## TOURNAMENT SETTINGS ##
+#########################
+
+# Should this tournament be enabled and loaded?
+enabled: true
+
+# Worlds listed in here will not have the tournament active.
+disabled_worlds: [example_world, another_world]
+
+# Gamemodes that should not contribute to the tournament
+disabled_gamemodes:
+  - SPECTATOR
+ # - SURVIVAL
+ # - ADVENTURE
+
+# Tournament objective
+# Full Objectives List: https://wiki.lewisdev.fun/premium-resources/xltournaments/objective-types
+objective: BLOCK_BREAK
+
+# How long should we wait to refresh the leaderboard (in seconds)?
+# Min: 10
+leaderboard_refresh: 60
+
+# Available Timeline Types:
+# - SPECIFIC (see times below)
+# - DAILY
+# - WEEKLY
+# - MONTHLY
+# If SPECIFIC is selected, configure the times below
+timeline: MONTHLY
+
+# Options for the timezone
+timezone_options:
+  # This will automatically detect the timezone on your machine
+  automatically_detect: true
+  # Force specific timezone if option above is set to false
+  # Java TimeZone List: https://pastebin.com/raw/EFYWxTRe
+  # GMT will be used if the given ID below is invalid.
+  force_timezone: "GMT"
+
+# Only applicable for 'SPECIFIC' timeline tournament.
+start_date: 2020/09/16 00:00:00
+end_date: 2020/09/16 23:59:00
+
+# Should this be a challenge tournament?
+# Challenge type tournaments are based on reaching
+# a certain goal rather than having as much score
+# when the tournament ends.
+challenge:
+  enabled: false
+  goal: 50
+
+# Participation Settings
+participation:
+  # Set this to true to automatically enter players into the tournament when they join the server (ignores participation cost)
+  automatic: false
+
+  # Require a permission in order to join the tournament
+  # (Uncomment to enable)
+  #permission: tournament.blockbreak
+
+  # Set the participation cost (0 = no cost, requires Vault + Economy plugin to work)
+  cost: 50
+  # A list of actions to be executed when anyone joins the tournament.
+  # Set join_actions: [] to disable join actions
+  join_actions:
+    - "[MESSAGE] &7You have joined the &bBlock Break Tournament&7."
+
+# Valid Actions
+# - [MESSAGE] <message> | Send a message to the player
+# - [CONSOLE] <command> | Execute a command as console
+#
+# A list of actions to be executed per player when a tournament begins.
+start_actions:
+  - "[MESSAGE] &6Rab&eisu &8» &7Blok kırma turnuvası başladı! &a/turnuva"
+# A list of actions to be executed per player when a tournament ends.
+end_actions:
+  - "[MESSAGE] &6Rab&eisu &8» &7Blok kırma turnuvası sona erdi! &a/turnuva"
+
+# Rewards to be given when tournament has ended
+# or player has completed the challenge goal (if enabled)
+rewards:
+  '1': # 1st place
+    - "[MESSAGE] &eBlok Kırma &7turnuvasını &a1. &7sırada tamamladın!"
+    - "[CONSOLE] givevip {PLAYER} mvip 7"
+  '2': # 2nd place
+    - "[MESSAGE] &eBlok Kırma &7turnuvasını &a2. &7sırada tamamladın!"
+    - "[CONSOLE] givevip {PLAYER} vip+ 7"
+  '3': # 3rd place
+    - "[MESSAGE] &eBlok Kırma &7turnuvasını &a3. &7sırada tamamladın!"
+    - "[CONSOLE] givevip {PLAYER} vip 7"

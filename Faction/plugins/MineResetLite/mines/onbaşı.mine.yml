@@ -1,0 +1,23 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 30
+  surface: ''
+  maxZ: 11981
+  maxY: 99
+  maxX: 2497
+  ignoreLadders: false
+  fillMode: false
+  world: Haritalar
+  minY: 50
+  resetWarnings: []
+  minX: 2476
+  composition:
+    '22:0': 0.05
+    '21:0': 0.95
+  name: onbaşı
+  resetClock: 22
+  minZ: 11960
+  isSilent: false
+  tpY: -1
+  tpX: 0
+  tpZ: 0

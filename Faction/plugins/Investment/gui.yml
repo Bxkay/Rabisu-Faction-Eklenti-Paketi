@@ -1,0 +1,123 @@
+name: "&8VakitNakittir"
+size: 54
+items:
+  idle-items:
+    red-glasses:
+      type: YELLOW_STAINED_GLASS_PANE
+      data: 0
+      name: ""
+      amount: 1
+      slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+  # The name of the section must be the same as the name of the investment
+  investments-items:
+    investment1:
+      type: CLOCK
+      data: 0
+      name: "&e30 Dakika"
+      lore:
+        - ""
+        - " &8→ &7Yatırım: &f%toInvest%"
+        - " &8→ &7Ödül: &f%reward%"
+        - " &8→ &7Ödül Türü: &f%type%"
+        - ""
+      amount: 1
+      slot: 11
+    investment2:
+      type: CLOCK
+      data: 0
+      name: "&e1 Saat"
+      lore:
+        - ""
+        - " &8→ &7Yatırım: &f%toInvest%"
+        - " &8→ &7Ödül: &f%reward%"
+        - " &8→ &7Ödül Türü: &f%type%"
+        - ""
+      amount: 1
+      slot: 13 
+    investment3:
+      type: CLOCK
+      data: 0
+      name: "&e4 Saat"
+      lore:
+        - ""
+        - " &8→ &7Yatırım: &f%toInvest%"
+        - " &8→ &7Ödül: &f%reward%"
+        - " &8→ &7Ödül Türü: &f%type%"
+        - ""
+      amount: 1
+      slot: 15
+    investment4:
+      type: CLOCK
+      data: 0
+      name: "&e6 Saat"
+      lore:
+        - ""
+        - " &8→ &7Yatırım: &f%toInvest%"
+        - " &8→ &7Ödül: &f%reward%"
+        - " &8→ &7Ödül Türü: &f%type%"
+        - ""
+      amount: 1
+      slot: 29
+    investment5:
+      type: CLOCK
+      data: 0
+      name: "&e12 Saat"
+      lore:
+        - ""
+        - " &8→ &7Yatırım: &f%toInvest%"
+        - " &8→ &7Ödül: &f%reward%"
+        - " &8→ &7Ödül Türü: &f%type%"
+        - ""
+      amount: 1
+      slot: 31 
+    investment6:
+      type: CLOCK
+      data: 0
+      name: "&e24 Saat"
+      lore:
+        - ""
+        - " &8→ &7Yatırım: &f%toInvest%"
+        - " &8→ &7Ödül: &f%reward%"
+        - " &8→ &7Ödül Türü: &f%type%"
+        - ""
+      amount: 1
+      slot: 33      
+  other-items:
+    emerald:
+      type: book
+      data: 0
+      name: "&eVakitNakittir"
+      lore:
+        - ""
+        - "&fYatırım yapıp yaptığınız"
+        - "&fYatırımın Fazlasını kazanabilirsin"
+        - "&fYatırımı iptal etmek için"
+        - "&e/yatirim iptal &fkomutunu kullanınız."
+        - ""
+      amount: 1
+      slot: 49

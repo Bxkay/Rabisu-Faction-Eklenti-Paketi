@@ -1,0 +1,296 @@
+menu_title: '&8Rütbeler'
+open_command:
+    - rütbe
+    - rutbe
+    - rutbeler
+    - ranks
+    - ranklar
+size: 54
+update_interval: 3
+items:
+##############################
+  1:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc3OTlmMDkyODk1YzFmZjFjMTI1MTI3MTlmZjI2MjlmZDNmMWNlZTZkOTMyYWE5ODczYWNkOTA2YjY0ZCJ9fX0=
+    slot: 19
+    priority: 1
+    display_name: '&8&l「 &e&lNefer &8&l」'
+    lore:
+    - ''
+    - ' &7Bu rütbeye sahip olmak için &a&lUCRETSIZ'
+    - ' &7bakiyeye sahip olman gerek.'
+    - ''
+    - ' &eRütbe Özellikleri'
+    - ' &8▪ &e/kit Nefer &8- &7Nefer kiti alabilme.'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &e1'
+    - ' &8▪ &7Sandık sınırı: &e1'
+    - ' &8▪ &7Rütbe sırası: &a#1'
+    - ''
+    - '&8► &7Rütbe atlamak için tıkla!'
+    left_click_commands:
+    - '[close]'
+    - '[player] rankup'
+    right_click_commands:
+    - '[close]'
+    - '[player] rankup'
+  2:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA1YmE0NWY1MzczMTc2OWJlMmJlMTgyZjEzYmYyOGRlOTFjNDQ2ZjJhMzQyMmQ4OGFkYmM4NDlhMzE2ZDYifX19
+    slot: 20
+    priority: 1
+    display_name: '&8&l「 &6&lOnbaşı &8&l」'
+    lore:
+    - ''
+    - ' &7Bu rütbeye sahip olmak için &a500.000'
+    - ' &7bakiyeye sahip olman gerek.'
+    - ''
+    - ' &6Rütbe Özellikleri'
+    - ' &8▪ &6/kit Onbaşı &8- &7Onbaşı kiti alabilme.'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &61'
+    - ' &8▪ &7Sandık sınırı: &61'
+    - ' &8▪ &7Rütbe sırası: &a#2'
+    - ''
+    - '&8► &7Rütbe atlamak için tıkla!'
+    left_click_commands:
+    - '[close]'
+    - '[player] rankup'
+    right_click_commands:
+    - '[close]'
+    - '[player] rankup'
+  3:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZlMjk4NWE2ZmU4NDRmZWU3YmI4Yzg2MTc4N2E4YmI0NjQxMWMxMTMzZGYxNzI2Yjg3ZDI1ZDEyMTA4MWRhIn19fQ===
+    slot: 21
+    priority: 1
+    display_name: '&8&l「 &a&lÇavuş &8&l」'
+    lore:
+    - ''
+    - ' &7Bu rütbeye sahip olmak için &a1.000.000'
+    - ' &7bakiyeye sahip olman gerek.'
+    - ''
+    - ' &aRütbe Özellikleri'
+    - ' &8▪ &a/kit Çavuş &8- &7Çavuş kiti alabilme.'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &a1'
+    - ' &8▪ &7Sandık sınırı: &a1'
+    - ' &8▪ &7Rütbe sırası: &a#3'
+    - ''
+    - '&8► &7Rütbe atlamak için tıkla!'
+    left_click_commands:
+    - '[close]'
+    - '[player] rankup'
+    right_click_commands:
+    - '[close]'
+    - '[player] rankup'
+  4:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg0Zjc2NWM1NGFlYjcwMTY0Yjc0YjA1OGJjNWI4M2YyOWI3MWVkN2Q5MTQxYWRkYmVjZThjNDk5YjE1OGEwIn19fQ===
+    slot: 23
+    priority: 1
+    display_name: '&8&l「 &2&lBaşçavuş &8&l」'
+    lore:
+    - ''
+    - ' &7Bu rütbeye sahip olmak için &a5.000.000'
+    - ' &7bakiyeye sahip olman gerek.'
+    - ''
+    - ' &2Rütbe Özellikleri'
+    - ' &8▪ &2/kit Başçavuş &8- &7Başçavuş kiti alabilme.'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &21'
+    - ' &8▪ &7Sandık sınırı: &21'
+    - ' &8▪ &7Rütbe sırası: &a#4'
+    - ''
+    - '&8► &7Rütbe atlamak için tıkla!'
+    left_click_commands:
+    - '[close]'
+    - '[player] rankup'
+    right_click_commands:
+    - '[close]'
+    - '[player] rankup'
+  5:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTEyYjFmN2U0NTU5NGJmODRlNWViNWE3YTQ4YWY4MmZkOGZjYWM2MDJhNjdmYWZkNjg2YTk5NDlkNjg3MDlmIn19fQ==
+    slot: 24
+    priority: 1
+    display_name: '&8&l「 &b&lMülazım &8&l」'
+    lore:
+    - ''
+    - ' &7Bu rütbeye sahip olmak için &a10.000.000'
+    - ' &7bakiyeye sahip olman gerek.'
+    - ''
+    - ' &bRütbe Özellikleri'
+    - ' &8▪ &b/kit Mülazım &8- &7Mülazım kiti alabilme.'
+    - ' &8▪ &b/feed &8- &7Açlığı fulleme'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &b2'
+    - ' &8▪ &7Sandık sınırı: &b1'
+    - ' &8▪ &7Rütbe sırası: &a#5'
+    - ''
+    - '&8► &7Rütbe atlamak için tıkla!'
+    left_click_commands:
+    - '[close]'
+    - '[player] rankup'
+    right_click_commands:
+    - '[close]'
+    - '[player] rankup'
+  6:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTA4ZjQwZjUzZjFjMjdiMzZiNTcyMWMxNDc0ZDZkYTY5NWM3ZDRlMGQ2ZDBmZmIzNDNiOWE1NmNhM2M1MTVmZSJ9fX0=
+    slot: 25
+    priority: 1
+    display_name: '&8&l「 &3&lYüzbaşı &8&l」'
+    lore:
+    - ''
+    - ' &7Bu rütbeye sahip olmak için &a50.000.000'
+    - ' &7bakiyeye sahip olman gerek.'
+    - ''
+    - ' &3Rütbe Özellikleri'
+    - ' &8▪ &3/kit Yüzbaşı &8- &7Yüzbaşı kiti alabilme.'
+    - ' &8▪ &3/feed &8- &7Açlığı fulleme'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &32'
+    - ' &8▪ &7Sandık sınırı: &32'
+    - ' &8▪ &7Rütbe sırası: &a#6'
+    - ''
+    - '&8► &7Rütbe atlamak için tıkla!'
+    left_click_commands:
+    - '[close]'
+    - '[player] rankup'
+    right_click_commands:
+    - '[close]'
+    - '[player] rankup'
+  7:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg0Zjc2NWM1NGFlYjcwMTY0Yjc0YjA1OGJjNWI4M2YyOWI3MWVkN2Q5MTQxYWRkYmVjZThjNDk5YjE1OGEwIn19fQ===
+    slot: 30
+    priority: 1
+    display_name: '&8&l「 &d&lKolağası &8&l」'
+    lore:
+    - ''
+    - ' &7Bu rütbeye sahip olmak için &a100.000.000'
+    - ' &7bakiyeye sahip olman gerek.'
+    - ''
+    - ' &dRütbe Özellikleri'
+    - ' &8▪ &d/kit Kolağası &8- &7Kolağası kiti alabilme.'
+    - ' &8▪ &d/feed &8- &7Açlığı fulleme'
+    - ' &8▪ &d/repair &8- &7Elindeki eşyayı tamir edebilme'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &d3'
+    - ' &8▪ &7Sandık sınırı: &d2'
+    - ' &8▪ &7Rütbe sırası: &a#7'
+    - ''
+    - '&8► &7Rütbe atlamak için tıkla!'
+    left_click_commands:
+    - '[close]'
+    - '[player] rankup'
+    right_click_commands:
+    - '[close]'
+    - '[player] rankup'
+  8:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZlMjk4NWE2ZmU4NDRmZWU3YmI4Yzg2MTc4N2E4YmI0NjQxMWMxMTMzZGYxNzI2Yjg3ZDI1ZDEyMTA4MWRhIn19fQ===
+    slot: 31
+    priority: 1
+    display_name: '&8&l「 &5&lBinbaşı &8&l」'
+    lore:
+    - ''
+    - ' &7Bu rütbeye sahip olmak için &a250.000.000'
+    - ' &7bakiyeye sahip olman gerek.'
+    - ''
+    - ' &5Rütbe Özellikleri'
+    - ' &8▪ &5/kit Binbaşı &8- &7Binbaşı kiti alabilme.'
+    - ' &8▪ &5/feed &8- &7Açlığı fulleme'
+    - ' &8▪ &5/repair &8- &7Elindeki eşyayı tamir edebilme'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &53'
+    - ' &8▪ &7Sandık sınırı: &53'
+    - ' &8▪ &7Rütbe sırası: &a#8'
+    - ''
+    - '&8► &7Rütbe atlamak için tıkla!'
+    left_click_commands:
+    - '[close]'
+    - '[player] rankup'
+    right_click_commands:
+    - '[close]'
+    - '[player] rankup'
+  9:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBlYjM4NTI2MDIxYWIxMzk4MjJhOWFhZjlhNTU4MTRhNWE1YmQ5MTNlOGY0OGNlNzQwYzFiYWFkM2EyNzI3In19fQ===
+    slot: 32
+    priority: 1
+    display_name: '&8&l「 &c&lFerik &8&l」'
+    lore:
+    - ''
+    - ' &7Bu rütbeye sahip olmak için &a500.000.000'
+    - ' &7bakiyeye sahip olman gerek.'
+    - ''
+    - ' &cRütbe Özellikleri'
+    - ' &8▪ &c/kit Ferik &8- &7Ferik kiti alabilme.'
+    - ' &8▪ &c/feed &8- &7Açlığı fulleme'
+    - ' &8▪ &c/repair &8- &7Elindeki eşyayı tamir edebilme'
+    - ' &8▪ &c/repair all &8- &7Bütün eşyaları tamir edebilme'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &c4'
+    - ' &8▪ &7Sandık sınırı: &c3'
+    - ' &8▪ &7Rütbe sırası: &a#9'
+    - ''
+    - '&8► &7Rütbe atlamak için tıkla!'
+    left_click_commands:
+    - '[close]'
+    - '[player] rankup'
+    right_click_commands:
+    - '[close]'
+    - '[player] rankup'
+  10:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiMjkwYTEzZGY4ODI2N2VhNWY1ZmNmNzk2YjYxNTdmZjY0Y2NlZTVjZDM5ZDQ2OTcyNDU5MWJhYmVlZDFmNiJ9fX0====
+    slot: 40
+    priority: 1
+    display_name: '&8&l「 &4&lMüşir &8&l」'
+    lore:
+    - ''
+    - ' &7Bu rütbeye sahip olmak için &a1.000.000.000'
+    - ' &7bakiyeye sahip olman gerek.'
+    - ''
+    - ' &4Rütbe Özellikleri'
+    - ' &8▪ &4/kit Müşir &8- &7Müşir kiti alabilme.'
+    - ' &8▪ &4/feed &8- &7Açlığı fulleme'
+    - ' &8▪ &4/repair &8- &7Elindeki eşyayı tamir edebilme'
+    - ' &8▪ &4/repair all &8- &7Bütün eşyaları tamir edebilme'
+    - ' &8▪ &4/fly &8- &7Uçabilme'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &c4'
+    - ' &8▪ &7Sandık sınırı: &c4'
+    - ' &8▪ &7Rütbe sırası: &a#10'
+    - ''
+    - '&8► &7Rütbe atlamak için tıkla!'
+    left_click_commands:
+    - '[close]'
+    - '[player] rankup'
+    right_click_commands:
+    - '[close]'
+    - '[player] rankup'
+  'cam1':
+    material: 160
+    data: 15
+    slots:
+    - 0
+    - 1
+    - 2
+    - 6
+    - 12
+    - 13
+    - 14
+    - 3
+    - 5
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 7
+    - 27
+    - 28
+    - 34
+    - 35
+    - 37
+    - 38
+    - 43
+    - 42
+    - 48
+    - 47
+    - 51
+    - 50
+    - 49

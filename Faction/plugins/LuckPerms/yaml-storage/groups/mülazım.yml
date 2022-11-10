@@ -1,0 +1,16 @@
+name: Mülazım
+permissions:
+- multiverse.*:
+    value: false
+- weight.5
+- essentials.kit.mülazım
+- essentials.repair
+- essentials.feed
+- essentials.sethome.multiple.mulazim
+- playervaults.amount.1
+- playervaults.size.6
+parents:
+- yetkiler
+prefixes:
+- '&bMülazım':
+    priority: 1

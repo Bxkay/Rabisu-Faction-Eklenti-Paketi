@@ -1,0 +1,25 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 30
+  surface: ''
+  maxZ: 11981
+  maxY: 99
+  maxX: 2547
+  ignoreLadders: false
+  fillMode: true
+  world: Haritalar
+  minY: 50
+  resetWarnings: []
+  minX: 2526
+  composition:
+    '22:0': 0.05
+    '21:0': 0.85
+    '15:0': 0.05
+    '14:0': 0.05
+  name: başçavuş
+  resetClock: 25
+  minZ: 11960
+  isSilent: true
+  tpY: -1
+  tpX: 0
+  tpZ: 0

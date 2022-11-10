@@ -1,0 +1,302 @@
+Settings:
+  Prefix: '&dIhale &8» '
+  GUIName: '&8Ihale'
+  Players-Current-Items: '&8Sattığın Aktif Ürünler'
+  Cancelled/Expired-Items: '&8Depo'
+  Buying-Item: '&8Ogeyi almak mı istiyorsun?'
+  Bidding-On-Item: '&8Bu öğeye teklif veriyorsunuz.'
+  Categories: '&8Kategoriler'
+  Sell-Time: 2d #
+  Bid-Time: 2d 30s #
+  Full-Expire-Time: 7d #
+  Bid-Winner-Time: 20d #
+  Minimum-Sell-Price: 10 
+  Max-Beginning-Sell-Price: 1000000000000
+  Minimum-Bid-Price: 1000
+  Max-Beginning-Bid-Price: 10000000000000
+  Allow-Damaged-Items: False
+  Category-Page-Opens-First: False
+  Sounds:
+    Toggle: KAPALI
+    Sound: 'TIKLA'
+    #1.8 sounds are found here: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+    #1.9 sounds are found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  GUISettings: #Settings for things in the gui.
+    SellingItemLore: #The lore on items that are being sold.
+      - ''
+      - '&7Bu eşyayı satın almak için tıkla.'
+      - ''
+      - '&fMiktar: &7$%Price%'
+      - '&fSatıcı: &e%Seller%'
+      - ''
+    CurrentLore: #Lore on items that are in your current items GUI.
+      - ''
+      - '&eGeri almak icin tikla'
+      - ''
+      - '&6Miktar: &7$%Price%'
+      - '&6Zaman: &7%Time%'
+      - ''
+    Cancelled/ExpiredLore: #Lore on items that are in your cancelled/expired GUI.
+      - ''
+      - '&eGeri almak icin tikla'
+      - ''
+      - '&6Zaman: &7%Time%'
+      - ''
+    Bidding: #Lore on Bidding Items.
+      - ''
+      - '&aClick here to bid.'
+      - ''
+      - '&9Seller: &e%Seller%'
+      - '&9Current Bid: &e$%TopBid%'
+      - '&9Top Bidder: &e%TopBidder%'
+      - '&9Time Left: &e%Time%'
+      - ''
+    Category-Settings:
+      Armor:
+        Item: '315'
+        Toggle: true
+        Slot: 11
+        Name: '&6&lZırhlar'
+        Lore:
+          - '&7Sadece zırhları görmek ve'
+          - '&7onları satın almak için tıkla!'
+      Weapons:
+        Item: '283'
+        Toggle: true
+        Slot: 12
+        Name: '&6&lSilah'
+        Lore:
+          - '&7Sadece silahları görmek ve'
+          - '&7onları satın almak için tıkla!'
+      Tools:
+        Item: '285'
+        Toggle: true
+        Slot: 13
+        Name: '&6&lAraç/Gereç'
+        Lore:
+          - '&7Sadece araç/gereçleri görmek ve'
+          - '&7onları satın almak için tıkla!'
+      Food:
+        Item: '322'
+        Toggle: true
+        Slot: 14
+        Name: '&6&lYiyecek'
+        Lore:
+          - '&7Sadece yiyecekleri görmek ve'
+          - '&7onları satın almak için tıkla!'
+      Potions:
+        Item: '373:8227'
+        Toggle: true
+        Slot: 15
+        Name: '&6&liksir'
+        Lore:
+          - '&7Sadece iksirleri görmek ve'
+          - '&7onları satın almak için tıkla!'
+      Blocks:
+        Item: '2'
+        Toggle: true
+        Slot: 16
+        Name: '&6&lBlok'
+        Lore:
+          - '&7Sadece blokları görmek ve'
+          - '&7onları satın almak için tıkla!'
+      Other:
+        Item: '371'
+        Toggle: true
+        Slot: 17
+        Name: '&6&lDiğerleri'
+        Lore:
+          - '&7Sadece diğerleri görmek ve'
+          - '&7onları satın almak için tıkla!'
+      None:
+        Item: '166'
+        Toggle: true
+        Slot: 23
+        Name: '&6&lBütün Kategoriler'
+        Lore:
+          - '&7Bütün herşeyi görmek ve'
+          - '&7onları satın almak için tıkla!'
+    OtherSettings: #Other Settings for the GUIs.
+      SellingItems: #The button for your current items.
+        Item: '54'
+        Toggle: true
+        Slot: 46
+        Name: '&6Satışta olan eşyaların'
+        Lore: #Lore of the item
+          - '&6'
+          - '&7İhale''de aktif olarak sattığın'
+          - '&7eşyaları görmebileceğin yer.'
+          - ''
+          - '&8▪ &e&nGörmek için tıkla!'
+      Cancelled/ExpiredItems: #The button for Cancelled/Expired Items.
+        Item: '394'
+        Toggle: true
+        Slot: 47
+        Name: '&6Depo'
+        Lore:
+          - ''
+          - '&7İhale''de süresi biten eşyaları'
+          - '&7Bu alanda görebilceğin tek menü!'
+          - ''
+          - '&8▪ &e&nGörmek için tıkla!'
+      PreviousPage: #The button for Previous Page.
+        Item: '262'
+        Toggle: true
+        Slot: 49
+        Name: '&7Önceki Sayfa'
+        Lore: {}
+      Refesh: #The button for Refresh Page.
+        Item: '77'
+        Toggle: true
+        Slot: 50
+        Name: '&4Sayfayı Yenile'
+        Lore: 
+          - ''
+          - '&7Sayfayı yenilemek için'
+          - '&7bu butonu kullanabilirsin.'  
+          - ''
+      NextPage: #The button for Next Page.
+        Item: '262'
+        Toggle: true
+        Slot: 51
+        Name: '&7Sonraki Sayfa'
+        Lore: {}
+      Category1: #The button for Next Page.
+        Item: '54'
+        Toggle: true
+        Slot: 53
+        Name: '&6Kategori'
+        Lore:
+          - '&7Şuanda bulunduğun kategori &6%Category%'
+          - '&7Bütün kategorileri görmek mi istiyorsun?'
+          - '&7Buraya tıklayarak hepsini görebilirsin.'
+      Category2: #The button for Next Page.
+        Item: '54'
+        Toggle: false
+        Slot: 48
+        Name: '&6Kategori'
+        Lore:
+          - '&7Şuanda bulunduğun kategori &6%Category%'
+          - '&7Bütün kategorileri görmek mi istiyorsun?'
+          - '&7Buraya tıklayarak hepsini görebilirsin.'
+      Bidding/Selling: #Switch between Bidding and Selling.
+        Selling:
+          Item: '341'
+          Toggle: false
+          Slot: 48
+          Name: '&3Sıralamayı Değiştir'
+          Lore:
+            - ''
+            - '&7Sıralamayı değiştirmek için'
+            - '&7buraya tıklayabilirsin.'
+            - ''
+            - '&8▪ &bSatılan eşyalara &7bakıyorsun.'
+            - ''
+        Bidding:
+          Item: '378'
+          Toggle: false
+          Slot: 48
+          Name: '&3Sıralamayı Değiştir'
+          Lore:
+            - ''
+            - '&7Sıralamayı değiştirmek için'
+            - '&7buraya tıklayabilirsin.'
+            - ''
+            - '&8▪ &bTeklif istenen eşyalara &7bakıyorsun.'
+            - ''
+      WhatIsThis: #The info on all the Books buttons.
+        SellingShop: #The Book in the main shop.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&2Nasıl eşya satılır?'
+          Lore:
+            - ''
+            - '&7Eşyalarını açık arttırmada satmak'
+            - '&7için aşağıdaki komudu girmen gerekir.'
+            - ''
+            - ' &8▪ &a/ah sell <fiyat>'
+        BiddingShop: #The Book in the main shop.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&2Nasıl eşya satılır?'
+          Lore:
+            - ''
+            - '&7Eşyalarını açık arttırmada satmak'
+            - '&7için aşağıdaki komudu girmen gerekir.'
+            - ''
+            - ' &8▪ &a/ah sell <fiyat>'
+        CurrentItems: #The Book in the Current items GUI.
+          Item: '340'
+          Toggle: false
+          Slot: 54
+          Name: '&aNasıl eşya satılır?'
+          Lore:
+            - ''
+            - '&7Eşyalarını açık arttırmada satmak'
+            - '&7için aşağıdaki komudu girmen gerekir.'
+            - ''
+            - ' &8▪ &b/ah sell <fiyat>'
+        Cancelled/ExpiredItems: #The Book in the Cancelled/Expired Items GUI.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&6Bu sayfa nedir?'
+          Lore:
+            - '&aBu sayfada senin satmak istedigin'
+            - '&aesyalar bulunur. iptal etmek icin'
+            - '&auzerlerine tiklaman yeterlidir.'
+        Viewing: #The Book in the Viewing Items GUI.
+          Item: '340'
+          Toggle: true
+          Slot: 50
+          Name: '&6Bu sayfa nedir?'
+          Lore:
+            - '&awww.mineking.net'
+        Categories: #The Book in the Viewing Items GUI.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&6Bu sayfa nedir?'
+          Lore:
+            - '&aBu sayfada kategoriler bulunmaktadir.'
+      Back: #The Back Buttons.
+        Item: '166'
+        Slot: 46
+        Name: '&cGeri dön.'
+      Return: #The Return Buttons.
+        Item: '390'
+        Slot: 50
+        Name: '&6Hepsini al'
+        Lore:
+          - '&aTüm iptal edilen/süresi dolan itemleri'
+          - '&aalmak için tıkla!'
+      Confirm: #The Confirm Buttons.
+        Item: '160:5'
+        Name: '&aOnayla'
+      Cancel: #The Cancel Buttons.
+        Item: '160:14'
+        Name: '&cVazgeç'
+      Your-Item: #The item that shows when you try to buy/bid on your item.
+        Item: '166'
+        Name: '&cKendi itemini satın alamazsın.'
+      Cant-Afford: #The item that shows when you cant afford this item.
+        Item: '166'
+        Name: '&cBu ürüne paranız yetmemekte.'
+      Top-Bidder: #The item for when a player is already the top bidder.
+        Item: '166'
+        Name: '&cEn iyi teklif veren zaten sensin?'
+      Bidding: #The item in the middle when bidding on an item.
+        Item: '160:15'
+        Name: '&7Bidding'
+        Lore:
+          - '&9Teklifiniz: &e$%Bid%'
+          - '&9En yüksek teklif: &e$%TopBid%'
+      Bid: #The button for when you want to confirm your bid.
+        Item: '160:3'
+        Name: '&Teklif Verin'
+        Lore:
+          - '&7Teklif vermek için tıkla!'
+  BlackList:
+    - '7'

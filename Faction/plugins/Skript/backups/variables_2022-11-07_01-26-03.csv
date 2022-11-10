@@ -1,0 +1,24 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.2-dev36
+
+coin::berkayreyiz, long, 0000000000000000
+coin::bxkay, long, 00000000000007D1
+coin::cinxr, long, 0000000000000000
+coin::efehann0, long, 0000000000000000
+coin::insaneplayer8, long, 0000000000000000
+coin::kafeintr, long, 0000000000000000
+coin::kurtxenon, long, 0000000000000064
+coin::moreoss, long, 0000000000000000
+coin::sacremental, long, 00000000000186A0
+coin::sarituborg, long, 0000000000000000
+coin::speltura, long, 0000000000000000
+coin::yagobaba, long, 0000000000000000
+coin::yesiltuborg, long, 0000000000000000
+coin::yucerexoz, long, 0000000000000000
+coin::yunusreizz, long, 0000000000000000
+spawn, location, 8605776F726C6480FF0000000181046E616D652080094861726974616C6172017809C0CD4BC0000000000179094059000000000000017A0940CD4C4000000000057069746368083F86663B03796177084334268C
+
+coin::bxkay, long, 0000000000000835
+coin::moreoss, long, 0000000000000064

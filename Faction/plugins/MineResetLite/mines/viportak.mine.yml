@@ -1,0 +1,23 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 30
+  surface: ''
+  maxZ: 11929
+  maxY: 99
+  maxX: 2472
+  ignoreLadders: false
+  fillMode: false
+  world: Haritalar
+  minY: 50
+  resetWarnings: []
+  minX: 2451
+  composition:
+    '15:0': 0.5
+    '14:0': 0.5
+  name: viportak
+  resetClock: 18
+  minZ: 11908
+  isSilent: false
+  tpY: -1
+  tpX: 0
+  tpZ: 0

@@ -1,0 +1,23 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 30
+  surface: ''
+  maxZ: 11981
+  maxY: 99
+  maxX: 2472
+  ignoreLadders: false
+  fillMode: false
+  world: Haritalar
+  minY: 50
+  resetWarnings: []
+  minX: 2451
+  composition:
+    '22:0': 0.01
+    '21:0': 0.99
+  name: nefer
+  resetClock: 21
+  minZ: 11960
+  isSilent: false
+  tpY: -1
+  tpX: 0
+  tpZ: 0

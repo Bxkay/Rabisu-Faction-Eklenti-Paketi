@@ -1,0 +1,141 @@
+# "Streak" or "Casual" rewarding system
+Type: Streak
+debug: false
+forceOpen: true
+rewardSound: "LEVEL_UP"
+Rewards:
+   first:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&61. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&8- &6100 &eCoin"
+      - ""
+      - "&7Durum: {status}"
+      commands:
+      - "coin ver %player% 100"
+   second:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&62. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&8- &6250 &eCoin"
+      - ""
+      - "&7Durum: {status}"
+      commands:
+      - "coin ver %player% 250"
+   third:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&63. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&8- &6250 &eCoin"
+      - "&8- &61M &eBakiye"
+      - ""
+      - "&7Durum: {status}"
+      commands:
+      - "coin ver %player% 100"
+      - "eco give %player% 1000000"
+   fourth:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&64. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&8- &6500 &eCoin"
+      - "&8- &62M &eBakiye"
+      - ""
+      - "&7Durum: {status}"
+      commands:
+      - "coin ver %player% 500"
+      - "eco give %player% 2000000"
+   fifth:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&65. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&8- &61000 &eCoin"
+      - "&8- &65M &eBakiye"
+      - ""
+      - "&7Durum: {status}"
+      commands:
+      - "coin ver %player% 1000"
+      - "eco give %player% 5000000"
+   sixth:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&66. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&8- &61000 &eCoin"
+      - "&8- &65M &eBakiye"
+      - "&8- &62x &eSet Kasa Anahtarı"
+      - ""
+      - "&7Durum: {status}"
+      commands:
+      - "coin ver %player% 1000"
+      - "eco give %player% 5000000"
+      - "crazycrates give p set 2 %player%"
+   seventh:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&67. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&8- &61000 &eCoin"
+      - "&8- &65M &eBakiye"
+      - "&8- &62x &eSet Kasa Anahtarı"
+      - "&8- &62x &ePara Kasa Anahtarı"
+      - ""
+      - "&7Durum: {status}"
+      commands:
+      - "coin ver %player% 1000"
+      - "eco give %player% 5000000"
+      - "crazycrates give p set 2 %player%"
+      - "crazycrates give p para 2 %player%"

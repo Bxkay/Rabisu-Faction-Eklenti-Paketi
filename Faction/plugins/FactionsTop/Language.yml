@@ -1,0 +1,50 @@
+Percentages:
+  unchanged: '&70.0%'
+  plus: '&a▲ %percentage%'
+  minus: '&c▼ -%percentage%%'
+RelationColours:
+  enemy: '&f'
+  truce: '&f'
+  ally: '&f'
+  member: '&a'
+  neutral: '&f'
+Command-FTop:
+  footerlines:
+  - ''
+  - ' &e» &7Değer Dağılımı için bir Klanın üzerine gelin'
+  - ' &e» &7Son güncelleme &e%timebetweennowandcalculation% &7önceydi'
+  - ' &e» &7Sayfa: &8(&e%page%&F/&e%maxpage%&8)'
+  - '&f&m-------------------------------'
+  previous-page: '&8[&b<&8]'
+  next-page: '&8[&b>&8]'
+  line: ' &8&l* &c#%rank% %relationcolour%%factionname% &8- &e%blocks%'
+  headerlines:
+  - '&f&m-------------------------------'
+  command-preventage: '&6Rab&eisu » &fLütfen ftop hesaplaması bitene kadar bekleyin
+    !'
+  tooltip:
+  - '&f&n%faction%'
+  - ''
+  - '&b» &fKlan Lideri: &e%leader%'
+  - '&b» &fBlok Değeri: &e$%blocks%'
+Calculation:
+  starting-msg:
+  - '&6Rab&eisu » &fTüm puanları şimdi hesaplıyoruz!'
+  finished-msg:
+  - '&6Rab&eisu » &fPuanların hesaplanması bitti !'
+Command-FValue:
+  console-sender: '&6Rab&eisu » &fBu komutu konsol üzerinden çalıştıramazsınız !.'
+  your-faction-not-synced: '&6Rab&eisu » &fKlanınız senkronize değil.'
+  other-faction-not-synced: '&6Rab&eisu » &c%faction% &fklanı senkronize değil.'
+  faction-doesent-exist: '&6Rab&eisu » &c%faction% &fklanı mevcut değil.'
+  no-faction: '&6Rab&eisu »&f Mevcut bir klanın yok.'
+  line-self: '&6Rab&eisu »&f Klanınız &b$%value% &fdeğerinde.'
+  line-others: '&6Rab&eisu » &c%faction% &b$%value% &fdeğerinde.'
+  tooltip:
+  - '&f&m-------- &f&n%faction% &f&m --------'
+  - '&b » &fKlan Lideri: &b%leader%'
+  - '&b » &fKlan Değeri: &b$%total%'
+  - '&b » &fBlok Değeri: &b$%blocks%'
+Command-Reload:
+  no-permission: '&6Rab&eisu »&f Bunu yapmaya yetkiniz yok !.'
+  reloaded: '&6Rab&eisu »&f Config yeniden başlatıldı !.'

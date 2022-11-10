@@ -1,0 +1,1874 @@
+shops:
+  blocks:
+    name: "&c&lBloklar"
+    size: 54
+    buttons:
+      goBack:
+        slot: 49
+      previousPage:
+        slot: 50
+      nextPage:
+        slot: 53
+    items:   
+      1:
+        type: item
+        item:
+          material: LOG
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 1
+        slot: 0
+      2:
+        type: item
+        item: 
+          material: LOG
+          quantity: 1
+          damage: 1
+        buyPrice: 95
+        page: 1
+        slot: 1
+      3:
+        type: item
+        item: 
+          material: LOG
+          quantity: 1
+          damage: 2
+        buyPrice: 95
+        page: 1
+        slot: 2
+      4:
+        type: item
+        item:
+          material: LOG
+          quantity: 1
+          damage: 3
+        buyPrice: 95
+        page: 1
+        slot: 3
+      5:
+        type: item
+        item:
+          material: LOG_2
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 1
+        slot: 4
+      6:
+        type: item
+        item:
+          material: LOG_2
+          quantity: 1
+          damage: 1
+        buyPrice: 95
+        page: 1
+        slot: 5
+      7:
+        type: item
+        item:
+          material: QUARTZ_BLOCK
+          quantity: 1
+          damage: 0
+        buyPrice: 110
+        page: 1
+        slot: 6
+      8:
+        type: item
+        item:
+          material: QUARTZ_BLOCK
+          quantity: 1
+          damage: 1
+        buyPrice: 110
+        page: 1
+        slot: 7
+      9:
+        type: item
+        item:
+          material: QUARTZ_BLOCK
+          quantity: 1
+          damage: 2
+        buyPrice: 110
+        page: 1
+        slot: 8
+      10:
+        type: item
+        item:
+          material: WOOD
+          quantity: 1
+          damage: 0
+        buyPrice: 24
+        page: 1
+        slot: 9
+      11:
+        type: item
+        item:
+          material: WOOD
+          quantity: 1
+          damage: 1
+        buyPrice: 24
+        page: 1
+        slot: 10
+      12:
+        type: item
+        item:
+          material: WOOD
+          quantity: 1
+          damage: 2
+        buyPrice: 24
+        page: 1
+        slot: 11
+      13:
+        type: item
+        item:
+          material: WOOD
+          quantity: 1
+          damage: 3
+        buyPrice: 24
+        page: 1
+        slot: 12
+      14:
+        type: item
+        item:
+          material: WOOD
+          quantity: 1
+          damage: 4
+        buyPrice: 24
+        page: 1
+        slot: 13
+      15:
+        type: item
+        item:
+          material: WOOD
+          quantity: 1
+          damage: 5
+        buyPrice: 24
+        page: 1
+        slot: 14
+      16:
+        type: item
+        item:
+          material: PRISMARINE
+          quantity: 1
+          damage: 0
+        buyPrice: 110
+        page: 1
+        slot: 15
+      17:
+        type: item
+        item:
+          material: PRISMARINE
+          quantity: 1
+          damage: 1
+        buyPrice: 110
+        page: 1
+        slot: 16
+      18:
+        type: item
+        item:
+          material: PRISMARINE
+          quantity: 1
+          damage: 2
+        buyPrice: 110
+        page: 1
+        slot: 17
+      19:
+        type: item
+        item:
+          material: STONE
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 1
+        slot: 18
+      20:
+        type: item
+        item:
+          material: SMOOTH_BRICK
+          quantity: 1
+        buyPrice: 110
+        page: 1
+        slot: 19
+      21:
+        type: item
+        item:
+          material: COBBLESTONE
+          quantity: 1
+        buyPrice: 95
+        page: 1
+        slot: 20
+      22:
+        type: item
+        item:
+          material: BRICK
+          quantity: 1
+        buyPrice: 95
+        page: 1
+        slot: 21
+      25:
+        type: item
+        item:
+          material: NETHER_BRICK
+          quantity: 1
+        buyPrice: 200
+        page: 1
+        slot: 22
+      26:
+        type: item
+        item:
+          material: GLOWSTONE
+          quantity: 1
+        buyPrice: 200
+        page: 1
+        slot: 27
+      27:
+        type: item
+        item:
+          material: SEA_LANTERN
+          quantity: 1
+        buyPrice: 200
+        page: 1
+        slot: 28
+      29:
+        type: item
+        item:
+          material: SANDSTONE
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 1
+        slot: 29
+      31:
+        type: item
+        item:
+          material: SAND
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 1
+        slot: 30
+      32:
+        type: item
+        item:
+          material: SAND
+          quantity: 1
+          damage: 1
+        buyPrice: 95
+        page: 1
+        slot: 31
+      33:
+        type: item
+        item:
+          material: GRAVEL
+          quantity: 1
+        buyPrice: 95
+        page: 1
+        slot: 32
+      34:
+        type: item
+        item:
+          material: SNOW_BLOCK
+          quantity: 1
+        buyPrice: 300
+        page: 1
+        slot: 33
+      35:
+        type: item
+        item:
+          material: GLASS
+          quantity: 1
+        buyPrice: 110
+        page: 1
+        slot: 34
+      36:
+        type: item
+        item:
+          material: ICE
+          quantity: 1
+        buyPrice: 110
+        page: 1
+        slot: 35
+      37:
+        type: item
+        item:
+          material: PACKED_ICE
+          quantity: 1
+        buyPrice: 200
+        page: 1
+        slot: 36
+      38:
+        type: item
+        item:
+          material: DIRT
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 1
+        slot: 26
+      39:
+        type: item
+        item:
+          material: GRASS
+          quantity: 1
+        buyPrice: 110
+        page: 1
+        slot: 25
+      40:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 0
+        buyPrice: 200
+        page: 1
+        slot: 39
+      41:
+        type: item
+        item:
+          material: STONE
+          quantity: 1
+          damage: 1
+        buyPrice: 95
+        page: 1
+        slot: 37
+      42:
+        type: item
+        item:
+          material: STONE
+          quantity: 1
+          damage: 5
+        buyPrice: 95
+        page: 1
+        slot: 38
+      43:
+        type: item
+        item:
+          material: STONE
+          quantity: 1
+          damage: 3
+        buyPrice: 95
+        page: 1
+        slot: 23
+      44:
+        type: item
+        item:
+          material: DIRT
+          quantity: 1
+          damage: 2
+        buyPrice: 95
+        page: 1
+        slot: 24
+      45:
+        type: item
+        item:
+          material: LEAVES
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        slot: 40
+      46:
+        type: item
+        item:
+          material: LEAVES
+          quantity: 1
+          damage: 1
+        buyPrice: 95
+        slot: 41
+      47:
+        type: item
+        item:
+          material: LEAVES
+          quantity: 1
+          damage: 2
+        buyPrice: 95
+        slot: 42
+      48:
+        type: item
+        item:
+          material: LEAVES
+          quantity: 1
+          damage: 3
+        buyPrice: 95
+        slot: 43
+      49:
+        type: item
+        item:
+          material: ACACIA_STAIRS
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 2
+        slot: 0
+      50:
+        type: item
+        item:
+          material: 53
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 2
+        slot: 1
+      51:
+        type: item
+        item:
+          material: 134
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 2
+        slot: 2
+      52:
+        type: item
+        item:
+          material: 135
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 2
+        slot: 3
+      53:
+        type: item
+        item:
+          material: 136
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 2
+        slot: 4
+      54:
+        type: item
+        item:
+          material: 164
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 2
+        slot: 5
+      55:
+        type: item
+        item:
+          material: 67
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 2
+        slot: 6
+      56:
+        type: item
+        item:
+          material: 109
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 2
+        slot: 7
+      57:
+        type: item
+        item:
+          material: 108
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 2
+        slot: 8
+      58:
+        type: item
+        item:
+          material: 114
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 2
+        slot: 9
+      59:
+        type: item
+        item:
+          material: 156
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 2
+        slot: 10
+      60:
+        type: item
+        item:
+          material: 128
+          quantity: 1
+          damage: 0
+        buyPrice: 95
+        page: 2
+        slot: 11
+      61:
+        type: item
+        item:
+          material: SOUL_SAND
+          quantity: 1
+        buyPrice: 200
+        page: 1
+        slot: 44
+  food:
+    name: "&c&lYemek"
+    size: 36
+    buttons:
+      goBack:
+        slot: 31
+      previousPage:
+        slot: 30
+      nextPage:
+        slot: 32
+    items:
+      1:
+        type: item
+        item:
+          material: BAKED_POTATO
+          quantity: 1
+        buyPrice: 300
+        slot: 0
+      2:
+        type: item
+        item:
+          material: MUSHROOM_SOUP
+          quantity: 1
+        buyPrice: 2000
+        slot: 1
+      3:
+        type: item
+        item:
+          material: RABBIT_STEW
+          quantity: 1
+        buyPrice: 2000
+        slot: 2
+      4:
+        type: item
+        item:
+          material: MUTTON
+          quantity: 1
+        buyPrice: 300
+        slot: 3
+      5:
+        type: item
+        item:
+          material: COOKED_MUTTON
+          quantity: 1
+        buyPrice: 300
+        slot: 4
+      6:
+        type: item
+        item:
+          material: RABBIT
+          quantity: 1
+        buyPrice: 100
+        slot: 5
+      7:
+        type: item
+        item:
+          material: COOKED_RABBIT
+          quantity:
+        buyPrice: 200
+        slot: 6
+      8:
+        type: item
+        item:
+          material: RAW_BEEF
+          quantity: 1
+        buyPrice: 100
+        slot: 7
+      9:
+        type: item
+        item:
+          material: COOKED_BEEF
+          quantity: 1
+        buyPrice: 300
+        slot: 8
+      10:
+        type: item
+        item:
+          material: COOKIE
+          quantity: 1
+        buyPrice: 200
+        slot: 9
+      11:
+        type: item
+        item:
+          material: PUMPKIN_PIE
+          quantity: 1
+        buyPrice: 200
+        slot: 10
+      12:
+        type: item
+        item:
+          material: BREAD
+          quantity: 1
+        buyPrice: 200
+        slot: 11
+      13:
+        type: item
+        item:
+          material: MELON
+          quantity: 1
+          damage: 0
+        buyPrice: 200
+        slot: 12
+      14:
+        type: item
+        item:
+          material: RAW_CHICKEN
+          quantity: 1
+        buyPrice: 100
+        slot: 13
+      15:
+        type: item
+        item:
+          material: COOKED_CHICKEN
+          quantity: 1
+        buyPrice: 200
+        slot: 14
+      16:
+        type: item
+        item:
+          material: PORK
+          quantity: 1
+        buyPrice: 100
+        slot: 15
+      17:
+        type: item
+        item:
+          material: GRILLED_PORK
+          quantity: 1
+        buyPrice: 200
+        slot: 16
+      18:
+        type: item
+        item:
+          material: RAW_FISH
+          quantity: 1
+        buyPrice: 100
+        slot: 17
+      19:
+        type: item
+        item:
+          material: COOKED_FISH
+          quantity: 1
+          damage: 0
+        buyPrice: 200
+        slot: 18
+      20:
+        type: item
+        item:
+          material: COOKED_FISH
+          quantity: 1
+          damage: 1
+        buyPrice: 200
+        slot: 19
+      21:
+        type: item
+        item:
+          material: APPLE
+          quantity: 1
+          damage: 0
+        buyPrice: 100
+        slot: 20
+      22:
+        type: item
+        item:
+          material: GOLDEN_APPLE
+          quantity: 1
+          damage: 0
+        buyPrice: 600
+        slot: 21
+      23:
+        type: item
+        item:
+          material: GOLDEN_APPLE
+          quantity: 1
+          damage: 1
+        buyPrice: 23000
+        slot: 22
+  ores:
+    name: "&c&lMadenler"
+    size: 54
+    buttons:
+      goBack:
+        slot: 49
+      previousPage:
+        slot: 48
+      nextPage:
+        slot: 50
+    items:
+      1:
+        type: item
+        item:
+          material: EMERALD
+          quantity: 1
+        buyPrice: 850
+        sellPrice: 656
+        slot: 11
+      2:
+        type: item
+        item:
+          material: EMERALD_BLOCK
+          quantity: 1
+        buyPrice: 6000
+        sellPrice: 5900
+        slot: 2
+      3:
+        type: item
+        item:
+          material: DIAMOND
+          quantity: 1
+        buyPrice: 600
+        sellPrice: 500
+        slot: 13
+      4:
+        type: item
+        item:
+          material: DIAMOND_BLOCK
+          quantity: 1
+        buyPrice: 4800
+        sellPrice: 4500
+        slot: 4
+      5:
+        type: item
+        item:
+          material: IRON_INGOT
+          quantity: 1
+        buyPrice: 300
+        sellPrice: 250
+        slot: 15
+      6:
+        type: item
+        item:
+          material: IRON_BLOCK
+          quantity: 1
+        buyPrice: 2600
+        sellPrice: 2250
+        slot: 6
+      7:
+        type: item
+        item:
+          material: GOLD_INGOT
+          quantity: 1
+        buyPrice: 400
+        sellPrice: 281
+        slot: 38
+      8:
+        type: item
+        item:
+          material: GOLD_BLOCK
+          quantity:
+        buyPrice: 3400
+        sellPrice: 3150
+        slot: 29
+      9:
+        type: item
+        item:
+          material: INK_SACK
+          quantity: 1
+          damage: 4
+        buyPrice: 1562
+        slot: 40
+      11:
+        type: item
+        item:
+          material: COAL
+          quantity: 1
+        buyPrice: 90
+        slot: 42
+      12:
+        type: item
+        item:
+          material: COAL_BLOCK
+          quantity: 1
+        buyPrice: 100
+        slot: 33
+      13:
+        type: item
+        item:
+          material: QUARTZ
+          quantity:
+        sellPrice: 468
+        slot: 31
+  tools:
+    name: "&c&lAletler"
+    allowAllSellAllstackizes: false
+    size: 27
+    buttons:
+      goBack:
+        slot: 22
+      previousPage:
+        slot: 21
+      nextPage:
+        slot: 23
+    items:
+      1:
+        type: item
+        item:
+          material: DIAMOND_SWORD
+          quantity: 1
+        buyPrice: 3000
+        slot: 0
+        unstack: true
+      2:
+        type: item
+        item:
+          material: DIAMOND_AXE
+          quantity: 1
+        buyPrice: 2000
+        unstack: true
+        slot: 1
+      3:
+        type: item
+        item:
+          material: DIAMOND_PICKAXE
+          quantity: 1
+        buyPrice: 4000
+        unstack: true
+        slot: 2
+      4:
+        type: item
+        item:
+          material: DIAMOND_SPADE
+          quantity: 1
+        buyPrice: 2000
+        unstack: true
+        slot: 3
+      5:
+        type: item
+        item:
+          material: DIAMOND_HOE
+          quantity: 1
+        buyPrice: 1750
+        unstack: true
+        slot: 4
+      6:
+        type: item
+        item:
+          material: IRON_SWORD
+          quantity: 1
+        buyPrice: 2600
+        unstack: true
+        slot: 5
+      7:
+        type: item
+        item:
+          material: IRON_AXE
+          quantity: 1
+        buyPrice: 1600
+        unstack: true
+        slot: 6
+      8:
+        type: item
+        item:
+          material: IRON_PICKAXE
+          quantity: 1
+        buyPrice: 3500
+        unstack: true
+        slot: 7
+      9:
+        type: item
+        item:
+          material: IRON_SPADE
+          quantity: 1
+        buyPrice: 1600
+        unstack: true
+        slot: 8
+      11:
+        type: item
+        item:
+          material: SHEARS
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 10
+      12:
+        type: item
+        item:
+          material: FISHING_ROD
+          quantity: 1
+        buyPrice: 600
+        unstack: true
+        slot: 11
+      13:
+        type: item
+        item:
+          material: BOW
+          quantity: 1
+        buyPrice: 4000
+        unstack: true
+        slot: 12
+      14:
+        type: item
+        item:
+          material: ARROW
+          quantity: 1
+        buyPrice: 40
+        slot: 9
+      15:
+        type: item
+        item:
+          material: FLINT_AND_STEEl
+          quantity: 1
+        buyPrice: 2500
+        unstack: true
+        slot: 13
+      16:
+        type: item
+        item:
+          material: DIAMOND_HELMET
+          quantity: 1
+        buyPrice: 6000
+        unstack: true
+        slot: 14
+      17:
+        type: item
+        item:
+          material: DIAMOND_CHESTPLATE
+          quantity: 1
+        buyPrice: 6000
+        unstack: true
+        slot: 15
+      18:
+        type: item
+        item:
+          material: DIAMOND_LEGGINGS
+          quantity: 1
+        buyPrice: 6000
+        unstack: true
+        slot: 16
+      19:
+        type: item
+        item:
+          material: DIAMOND_BOOTS
+          quantity: 1
+        buyPrice: 6000
+        unstack: true
+        slot: 17
+  farming:
+    name: "&c&lTarım"
+    size: 27
+    buttons:
+      goBack:
+        slot: 22
+      previousPage:
+        slot: 21
+      nextPage:
+        slot: 23
+    items:
+      1:
+        type: item
+        item:
+          material: PUMPKIN 
+          quantity: 1
+        buyPrice: 60
+        sellPrice: 40
+        slot: 0
+      2:
+        type: item
+        item:
+          material: CACTUS
+          quantity: 1
+        buyPrice: 3000
+        sellPrice: 200
+        slot: 1
+      3:
+        type: item
+        item:
+          material: SUGAR_CANE
+          quantity: 1
+        buyPrice: 2000
+        sellPrice: 90
+        slot: 2
+      4:
+        type: item
+        item:
+          material: WATER_LILY
+          quantity: 1
+        buyPrice: 4000
+        slot: 3
+      5:
+        type: item
+        item:
+          material: WHEAT
+          quantity: 1
+        buyPrice: 2500
+        sellPrice: 100
+        slot: 4
+      6:
+        type: item
+        item:
+          material: CARROT_ITEM
+          quantity: 1
+        buyPrice: 2000
+        sellPrice: 100
+        slot: 5
+      7:
+        type: item
+        item:
+          material: POTATO_ITEM
+          quantity: 1
+        buyPrice: 2000
+        sellPrice: 100
+        slot: 6
+      8:
+        type: item
+        item:
+          material: RED_MUSHROOM
+          quantity: 1
+        buyPrice: 2000
+        sellPrice: 100
+        slot: 7
+      9:
+        type: item
+        item:
+          material: BROWN_MUSHROOM
+          quantity: 1
+        buyPrice: 2000
+        sellPrice: 100
+        slot: 8
+      10:
+        type: item
+        item:
+          material: MELON_SEEDS
+          quantity: 1
+        buyPrice: 3000
+        slot: 9
+      11:
+        type: item
+        item:
+          material: PUMPKIN_SEEDS
+          quantity: 1
+        buyPrice: 3000
+        slot: 10
+      12:
+        type: item
+        item:
+          material: SEEDS
+          quantity: 1
+        buyPrice: 2500
+        slot: 11
+      13:
+        type: item
+        item:
+          material: NETHER_STALK
+          quantity: 8
+        buyPrice: 4000
+        sellPrice: 400
+        slot: 12
+      14:
+        type: item
+        item:
+          material: SUGAR
+          quantity: 1
+        buyPrice: 8
+        slot: 13
+      15:
+        type: item
+        item:
+          material: INK_SACK
+          quantity: 1
+          damage: 3
+        buyPrice: 2500
+        sellPrice: 100
+        slot: 14
+  misc:
+    name: "&c&lAraç - Gereçler"
+    size: 27
+    buttons:
+      goBack:
+        slot: 22
+      previousPage:
+        slot: 21
+      nextPage:
+        slot: 23
+    items:
+      1:
+        type: item
+        item:
+          material: DIAMOND_BARDING
+          quantity: 1
+        buyPrice: 20000
+        slot: 0
+      2:
+        type: item
+        item:
+          material: LEASH
+          quantity: 1
+        buyPrice: 5000
+        slot: 1
+      3:
+        type: item
+        item:
+          material: NAME_TAG
+          quantity: 1
+        buyPrice: 12500
+        slot: 2
+      4:
+        type: item
+        item:
+          material: NOTE_BLOCK
+          quantity: 1
+        buyPrice: 500
+        slot: 3
+      5:
+        type: item
+        item:
+          material: IRON_BARDING
+          quantity: 1
+        buyPrice: 15000
+        slot: 4
+      6:
+        type: item
+        item:
+          material: WORKBENCH           
+          quantity: 1
+        buyPrice: 200
+        slot: 5
+      7:
+        type: item
+        item:
+          material: BOOKSHELF
+          quantity: 1
+        buyPrice: 300
+        slot: 6
+      8:
+        type: item
+        item:
+          material: FURNACE
+          quantity: 1
+        buyPrice: 200
+        slot: 7
+      9:
+        type: item
+        item:
+          material: WATER_BUCKET
+          quantity: 1
+        buyPrice: 10000000000
+        slot: 8
+      10:
+        type: item
+        item:
+          material: LAVA_BUCKET
+          quantity: 1
+        buyPrice: 10000000000
+        slot: 9
+      11:
+        type: item
+        item:
+          material: CHEST
+          quantity: 1
+        buyPrice: 300
+        sellPrice: 200
+        slot: 10
+      12:
+        type: item
+        item:
+          material: TRAPPED_CHEST
+          quantity: 1
+        buyPrice: 400
+        slot: 11
+      13:
+        type: item
+        item:
+          material: SIGN
+          quantity: 1
+        buyPrice: 10
+        slot: 12
+      15:
+        type: item
+        item:
+          material: SADDLE
+          quantity: 1
+        buyPrice: 1000000
+        page: 1
+        slot: 14
+  raiding:
+    name: "&c&lBaskın Eşyaları"
+    size: 36
+    buttons:
+      goBack:
+        slot: 31
+      previousPage:
+        slot: 30
+      nextPage:
+        slot: 32
+    items:
+      1:
+        type: item
+        item:
+          material: PISTON_BASE
+          quantity: 1
+        buyPrice: 500
+        slot: 0
+      2:
+        type: item
+        item:
+          material: PISTON_STICKY_BASE
+          quantity: 1
+        buyPrice: 600
+        slot: 1
+      3:
+        type: item
+        item:
+          material: WOOD_PLATE
+          quantity: 1
+        buyPrice: 50
+        slot: 2
+      4:
+        type: item
+        item:
+          material: STONE_PLATE
+          quantity: 1
+        buyPrice: 70
+        slot: 3
+      5:
+        type: item
+        item:
+          material: HOPPER
+          quantity: 1
+        buyPrice: 150
+        slot: 4
+      6:
+        type: item
+        item:
+          material: FENCE_GATE
+          quantity: 1
+        buyPrice: 70
+        slot: 5
+      7:
+        type: item
+        item:
+          material: TRAP_DOOR
+          quantity: 1
+        buyPrice: 70
+        slot: 6
+      9:
+        type: item
+        item:
+          material: DISPENSER
+          quantity: 1
+        buyPrice: 300
+        slot: 8
+      10:
+        type: item
+        item:
+          material: DROPPER
+          quantity: 1
+        buyPrice: 300
+        slot: 9
+      11:
+        type: item
+        item:
+          material: REDSTONE_LAMP_OFF
+          quantity: 1
+        buyPrice: 200
+        slot: 10
+      13:
+        type: item
+        item:
+          material: STONE_BUTTON
+          quantity: 1
+        buyPrice: 95
+        slot: 12
+      14:
+        type: item
+        item:
+          material: LEVER
+          quantity: 1
+        buyPrice: 95
+        slot: 13
+      17:
+        type: item
+        item:
+          material: DIODE
+          quantity: 1
+        buyPrice: 300
+        slot: 16
+      18:
+        type: item
+        item:
+          material: REDSTONE_COMPARATOR
+          quantity: 1
+        buyPrice: 300
+        slot: 17
+      19:
+        type: item
+        item:
+          material: REDSTONE
+          quantity: 1
+        buyPrice: 200
+        slot: 18
+      20:
+        type: item
+        item:
+          material: REDSTONE_BLOCK
+          quantity: 1
+        buyPrice: 1800
+        slot: 15
+      21:
+        type: item
+        item:
+          material: REDSTONE_TORCH_ON
+          quantity: 1
+        buyPrice: 80
+        slot: 14
+      22:
+        type: item
+        item:
+          material: LADDER
+          quantity: 1
+        buyPrice: 110
+        slot: 11
+  mobdrops:  
+    name: "&c&lMob Eşyaları"
+    size: 27
+    buttons:
+      goBack:
+        slot: 22
+      previousPage:
+        slot: 21
+      nextPage:
+        slot: 23
+    items:
+      1:
+        type: item
+        item:
+          material: SLIME_BALL
+          quantity: 1
+        buyPrice: 500
+        slot: 0
+      2:
+        type: item
+        item:
+          material: MAGMA_CREAM
+          quantity: 1
+        buyPrice: 500
+        slot: 1
+      3:
+        type: item
+        item:
+          material: GHAST_TEAR
+          quantity: 1
+        buyPrice: 500
+        slot: 2
+      4:
+        type: item
+        item:
+          material: ENDER_PEARL
+          quantity: 1
+        buyPrice: 80000
+        slot: 3
+      6:
+        type: item
+        item:
+          material: FEATHER
+          quantity: 1
+        buyPrice: 500
+        slot: 5
+      8:
+        type: item
+        item:
+          material: ROTTEN_FLESH
+          quantity: 1
+        buyPrice: 500
+        slot: 7
+      9:
+        type: item
+        item:
+          material: FERMENTED_SPIDER_EYE
+          quantity: 1
+        buyPrice: 500
+        slot: 8
+      10:
+        type: item
+        item:
+          material: SPIDER_EYE
+          quantity: 1
+        buyPrice: 500
+        slot: 9
+      11:
+        type: item
+        item:
+          material: BLAZE_ROD
+          quantity: 1
+        buyPrice: 500
+        slot: 10
+      12:
+        type: item
+        item:
+          material: STRING
+          quantity: 1
+        buyPrice: 600
+        slot: 11
+      13:
+        type: item
+        item:
+          material: BONE
+          quantity: 1
+        buyPrice: 700
+        slot: 12
+      15:
+        type: item
+        item:
+          material: LEATHER
+          quantity: 1
+        buyPrice: 400
+        slot: 13
+  coloredblocks:
+    name: "&c&lRenkli Bloklar"
+    size: 54
+    buttons:
+      goBack:
+        slot: 49
+      previousPage:
+        slot: 48
+      nextPage: 50
+    items:
+      1:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 1
+        buyPrice: 200
+        slot: 0
+      2:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 2
+        buyPrice: 200
+        slot: 1
+      3:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 3
+        buyPrice: 200
+        slot: 2
+      4:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 4
+        buyPrice: 200
+        slot: 3
+      5:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 5
+        buyPrice: 200
+        slot: 4
+      6:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 6
+        buyPrice: 200
+        slot: 5
+      7:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 7
+        buyPrice: 200
+        slot: 6
+      8:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 8
+        buyPrice: 200
+        slot: 7
+      9:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 10
+        buyPrice: 200
+        slot: 8
+      10:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 11
+        buyPrice: 200
+        slot: 9
+      11:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 12
+        buyPrice: 200
+        slot: 10
+      12:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 13
+        buyPrice: 200
+        slot: 11
+      13:
+        type: item
+        item:
+          material: WOOL
+          damage: 14
+        buyPrice: 200
+        slot: 12
+      14:
+        type: item
+        item:
+          material: WOOL
+          quantity: 1
+          damage: 15
+        buyPrice: 200
+        slot: 13
+      15:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 1
+        buyPrice: 200
+        slot: 14
+      16:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 2
+        buyPrice: 200
+        slot: 15
+      17:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 3
+        buyPrice: 200
+        slot: 16
+      18:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 4
+        buyPrice: 200
+        slot: 17
+      19:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 5
+        buyPrice: 200
+        slot: 18
+      20:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 6
+        buyPrice: 200
+        slot: 19
+      21:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 7
+        buyPrice: 200
+        slot: 20
+      22:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 8
+        buyPrice: 200
+        slot: 21
+      23:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 9
+        buyPrice: 200
+        slot: 22
+      24:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 10
+        buyPrice: 200
+        slot: 23
+      25:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 11
+        buyPrice: 200
+        slot: 24
+      26:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 12
+        buyPrice: 200
+        slot: 25
+      27:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 13
+        buyPrice: 200
+        slot: 26
+      28:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 14
+        buyPrice: 200
+        slot: 27
+      29:
+        type: item
+        item:
+          material: STAINED_GLASS
+          quantity: 1
+          damage: 15
+        buyPrice: 200
+        slot: 28
+      30:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 0
+        buyPrice: 400
+        slot: 29
+      31:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 1
+        buyPrice: 400
+        slot: 30
+      32:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 2
+        buyPrice: 400
+        slot: 31
+      33:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 3
+        buyPrice: 400
+        slot: 32
+      34:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 4
+        buyPrice: 400
+        slot: 33
+      35:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 5
+        buyPrice: 400
+        slot: 34
+      36:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 6
+        buyPrice: 400
+        slot: 35
+      37:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 7
+        buyPrice: 400
+        slot: 36
+      38:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 8
+        buyPrice: 400
+        slot: 37
+      39:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 9
+        buyPrice: 400
+        slot: 38
+      40:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 10
+        buyPrice: 400
+        slot: 39
+      41:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 11
+        buyPrice: 400
+        slot: 40
+      42:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 12
+        buyPrice: 400
+        slot: 41
+      43:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 13
+        buyPrice: 400
+        slot: 42
+      44:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 14
+        buyPrice: 400
+        slot: 43
+      45:
+        type: item
+        item:
+          material: STAINED_CLAY
+          quantity: 1
+          damage: 15
+        buyPrice: 400
+        slot: 44
+  potions:
+    name: "&c&lİksirler"
+    size: 45
+    buttons:
+      goBack:
+        slot: 40
+      previousPage:
+        slot: 39
+      nextPage: 41
+    items:
+      1:
+        type: item
+        item:
+          material: POTION
+          quantity: 1
+          damage: 8233
+        buyPrice: 35000
+        slot: 28
+      2:
+        type: item
+        item:
+          material: POTION
+          quantity: 1
+          damage: 8265
+        buyPrice: 35000
+        slot: 10
+      3:
+        type: item
+        item:
+          material: POTION
+          quantity: 1
+          damage: 8258
+        buyPrice: 35000
+        slot: 11
+      4:
+        type: item
+        item:
+          material: POTION
+          quantity: 1
+          damage: 8226
+        buyPrice: 35000
+        slot: 29
+      5:
+        type: item
+        item:
+          material: POTION
+          quantity: 1
+          damage: 8257
+        buyPrice: 35000
+        slot: 12
+      6:
+        type: item
+        item:
+          material: POTION
+          quantity: 1
+          damage: 8225
+        buyPrice: 35000
+        slot: 30
+      7:
+        type: item
+        item:
+          material: POTION
+          quantity: 1
+          damage: 8259
+        buyPrice: 35000
+        slot: 14
+      8:
+        type: item
+        item:
+          material: POTION
+          quantity: 1
+          damage: 8227
+        buyPrice: 35000
+        slot: 32
+      11:
+        type: item
+        item:
+          material: POTION
+          quantity: 1
+          damage: 16421
+        buyPrice:  35000
+        slot: 16
+      12:
+        type: item
+        item:
+          material: POTION
+          quantity: 1
+          damage: 16453
+        buyPrice: 35000
+        slot: 34

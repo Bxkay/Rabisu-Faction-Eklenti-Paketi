@@ -1,0 +1,65 @@
+Settings:
+  Spawn-Chance: 25
+  Use-Chance: true
+  Placed-Block: '54'
+  Bulk-Prizes:
+    Toggle: false
+    Random: true
+    Max-Bulk: 3
+  Hologram-Toggle: true
+  Hologram-Height: 1.5
+  Hologram:
+    - '&aPara Sandığı'
+  Firework-Toggle: true
+  Firework-Colors:
+    - 'Gray'
+    - 'Black'
+    - 'Yellow'
+  Signal-Flare:
+    Toggle: true
+    Time: '25s'
+    Colors:
+      - 'Gray'
+      - 'Black'
+      - 'Yellow'
+###################################
+#             Items: Options
+# Item:<ID:MD> - You can choose the item with its id and meta data.
+# Amount:<Number> - Choose how many of the item you get.
+# Name:<Name> - The display name that goes on the item.
+# Lore:<Line 1>,<Line 2>,<Line 3>,<Line 4> - The lore that will go under the enchantments. Split lines with a ','
+# Glowing:<True/False> - Will make the item have a glowing effect without having an enchantment on the item. (Only supports 1.8 - 1.11)
+# Unbreakable-Item:<True/False> - Will add the Unbreaking NBT tag to the item to allow custom textured items to be gained through the envoys.
+# <Enchantment>:<Level> - Choose the enchantment you want to add to the item. You can use the in-game names of the enchantment if you want. Replace the spaces in the name with "_".
+###################################
+Prizes:
+  '1':
+    Chance: 15
+    Messages:
+      - '&5Envoy &8» &7Para sandığından &f250K &7kazandın.'
+    Commands:
+      - 'eco give %Player% 250000'
+  '2':
+    Chance: 10
+    Messages:
+      - '&5Envoy &8» &7Para sandığından &f500K &7kazandın.'
+    Commands:
+      - 'eco give %Player% 500000'
+  '3':
+    Chance: 7
+    Messages:
+      - '&5Envoy &8» &7Para sandığından &f1M &7kazandın.'
+    Commands:
+      - 'eco give %Player% 1000000'
+  '4':
+    Chance: 5
+    Messages:
+      - '&5Envoy &8» &7Para sandığından &f3M &7kazandın.'
+    Commands:
+      - 'eco give %Player% 3000000'
+  '5':
+    Chance: 3
+    Messages:
+      - '&5Envoy &8» &7Para sandığından &f5M &7kazandın.'
+    Commands:
+      - 'eco give %Player% 5000000'

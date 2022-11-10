@@ -1,0 +1,173 @@
+# 
+# Variables: %player% %koth% %time% %prefix% %cords% %uptime% %faction% %maxtime%
+# Koth: command: %player% %koth% %faction%
+# executeAfter = seconds or -1 to disable
+# advertish-time: -1 to disable
+# top format: %player %uptime%
+# size-players: amount of players shown in leaderboard
+# Drop items: Drop items if inventory is full
+# Display at: Seconds for display name, require HidePlayerCamping in true, -1 to disable
+# Hiden text: Hiden text instead of player name, require HidePlayerCamping in true
+# AlreadyStartedError: if is set in false allow to start more type of koth at once
+# ExecuteScheduleIfKothIsStarted: if is set in false schedule dont start koth if is already started (require AlreadyStartedError in true)
+Messages:
+  Prefix: '&a&lKoth &8|'
+  Koth:
+    StartedCamping:
+      enabled: true
+      txt: '%prefix% &d%player%, &e%koth% &7kothunu almaya başladı &8(&b%time%&8)
+        &7(&9%faction%&7)'
+    Camping:
+      enabled: true
+      txt: '%prefix% &d%player%, &e%koth% &7kothunu kontrol ediyor &8(&b%time%&8)'
+    Camped:
+      enabled: true
+      txt: '%prefix% &d%player%, &e%koth% &7isimli kothu ele geçirdi &8(&aGeçen Süre:&r
+        %uptime%&8)'
+    LostControl:
+      enabled: true
+      txt: '%prefix% &d%player%, &e%koth% &7isimli kothun kontrolünü kaybetti &8(&b%time%&8)'
+    StartedKoth:
+      enabled: true
+      txt: '%prefix% &e%koth% &7isimli koth başladı! &8(&a/warp koth)'
+    StoppedKoth:
+      enabled: true
+      txt: '%prefix% &e%koth% &7isimli koth durduruldu! &8(&aGeçen Süre:&r %uptime%&8)'
+    timeUp:
+      enabled: true
+      txt: '%prefix% &r%koth%&c Time up!'
+  Config:
+    kothCreated:
+      enabled: true
+      txt: '%prefix% &7Koth &a%koth%&7 created'
+    AlreadyKoth:
+      enabled: true
+      txt: '%prefix% &cKoth already exists'
+    AlreadyStarted:
+      enabled: true
+      txt: '%prefix% &cKoth already started'
+    BadUse:
+      enabled: true
+      txt: '%prefix% &7Usage:&r %args%'
+    p1:
+      enabled: true
+      txt: '%prefix% &aPoint 1&7 established for %koth%'
+    p2:
+      enabled: true
+      txt: '%prefix% &aPoint 2&7 established for %koth%'
+    NoExists:
+      enabled: true
+      txt: '%prefix% &7Koth &a%koth%&7 no exists!'
+    Removed:
+      enabled: true
+      txt: '%prefix% &cKoth &7%koth%&c removed!'
+    NoEnabled:
+      enabled: true
+      txt: '%prefix% &7%koth%&c is not enabled!, use sp!enable <koth>'
+    Started:
+      enabled: true
+      txt: '%prefix% &aKoth &7%koth%&a started!'
+    NoActiveKoths:
+      enabled: true
+      txt: '%prefix% &cFor the moment there aren''t enabled koths!'
+    NoSearch:
+      enabled: true
+      txt: '%prefix%&c it was not found a koth called &7%koth%&c enabled!'
+    Enabled:
+      enabled: true
+      txt: '%prefix%&a Koth &7%koth%&a enabled!'
+    NoExistsEnabled:
+      enabled: true
+      txt: '%prefix%&c Koth &7%koth%&c no exits or are not ready for enable, remember
+        set all points /koth help'
+    InspectorMode:
+      enabled: true
+      txt: '%prefix%&a Now you are in inspector mode!, use your &eInspect Axe&a for
+        establish points 1 and 2'
+    ExitInspectorMode:
+      enabled: true
+      txt: '%prefix%&c You leave of inspector mode'
+    OpenInventory:
+      enabled: true
+      txt: '%prefix%&a Inventory openned'
+    SetItemsInventory:
+      enabled: true
+      txt: '%prefix%&a Reward established!'
+    SetTime:
+      enabled: true
+      txt: '%prefix%&a Time established!'
+    WorldError:
+      enabled: true
+      txt: '%prefix% &cWorld no exists!'
+    scheduleCreated:
+      enabled: true
+      txt: '%prefix% &aSchedule created!'
+    scheduleRemoved:
+      enabled: true
+      txt: '%prefix% &cSchedule removed!'
+    scheduleNoExists:
+      enabled: true
+      txt: '%prefix% &7Schedule no exists!'
+General:
+  timeZone: host
+  FactionsCompatibility:
+    FactionsUIID: true
+    SaberFactions: true
+    SimpleClans: true
+  AlreadyStartedError: true
+  ExecuteScheduleIfKothIsStarted: false
+  HidePlayerCamping: false
+  DisplayAt: 10
+  HiddenText: Someone
+  DropItems: true
+  DiscordWebHook:
+    enabled: false
+    url: https://discord.com/api/weebhooks
+    content: '@everyone'
+    embed:
+      enabled: true
+      title: Koth info
+      description: '%koth% started | time: %time% | max time: %maxtime% | cords: %cords%'
+      footer:
+        text: iKoth example embed
+  StartItem:
+    enabled: true
+    item:
+      id: NETHER_STAR
+      name: '&1&lKoth &3&lStarter &7(Right Click)'
+      lore:
+      - '&8Koth:&r %koth% %time% %maxtime%'
+    right-click: true
+    left-click: false
+    give-message: '%prefix% &7%player% &aHas give you &eKoth Start Item!'
+    playersrequire-message: '%prefix% &cRequire &e%req% &c more players online to
+      start koth'
+    broadcast-message: '%prefix% &aPlayer &7%player% &aHas started koth &7%koth%!'
+    require-players: 1
+  TOP:
+    enabled: false
+    before-format:
+    - '&6&m--------------------------'
+    format: '&7%player% &r:&8 %uptime%'
+    WinnerFormat: '&e%player% &r:&8 %uptime%'
+    after-format:
+    - '&6&m--------------------------'
+    hide-names: false
+    hide-winner: false
+    size-players: 5
+Koths:
+  PvP:
+    enabled: true
+    world: Haritalar
+    options:
+      reset: true
+    rewards: []
+    command:
+    - 'crazycrates give p koth 3 %player%'
+    advertish-time: 30
+    factions-rewards:
+      enabled: false
+      RewardPerMember: false
+      CommandPerMember: false
+    p1: 9997/54/-2022
+    p2: 10003/58/-2016

@@ -1,0 +1,16 @@
+name: Binbaşı
+permissions:
+- multiverse.*:
+    value: false
+- weight.8
+- essentials.kit.binbaşı
+- essentials.repair
+- essentials.feed
+- essentials.sethome.multiple.binbasi
+- playervaults.amount.3
+- playervaults.size.6
+parents:
+- yetkiler
+prefixes:
+- '&5Binbaşı':
+    priority: 1

@@ -1,0 +1,16 @@
+name: Kolağası
+permissions:
+- multiverse.*:
+    value: false
+- weight.7
+- essentials.kit.kolagasi
+- essentials.repair
+- essentials.feed
+- essentials.sethome.multiple.kolagasi
+- playervaults.amount.2
+- playervaults.size.6
+parents:
+- yetkiler
+prefixes:
+- '&dKolAğası':
+    priority: 1

@@ -1,0 +1,31 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 30
+  surface: ''
+  maxZ: 11929
+  maxY: 99
+  maxX: 2497
+  ignoreLadders: false
+  fillMode: false
+  world: Haritalar
+  minY: 50
+  resetWarnings: []
+  minX: 2476
+  composition:
+    '57:0': 0.1
+    '22:0': 0.1
+    '21:0': 0.1
+    '129:0': 0.1
+    '41:0': 0.1
+    '42:0': 0.1
+    '15:0': 0.1
+    '133:0': 0.1
+    '14:0': 0.1
+    '56:0': 0.1
+  name: ferik
+  resetClock: 25
+  minZ: 11908
+  isSilent: false
+  tpY: -1
+  tpX: 0
+  tpZ: 0

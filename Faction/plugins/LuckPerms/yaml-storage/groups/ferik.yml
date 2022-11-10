@@ -1,0 +1,17 @@
+name: Ferik
+permissions:
+- multiverse.*:
+    value: false
+- weight.9
+- essentials.kit.ferik
+- essentials.repair
+- essentials.repair.all
+- essentials.feed
+- essentials.sethome.multiple.ferik
+- playervaults.amount.3
+- playervaults.size.6
+parents:
+- yetkiler
+prefixes:
+- '&cFerik':
+    priority: 1

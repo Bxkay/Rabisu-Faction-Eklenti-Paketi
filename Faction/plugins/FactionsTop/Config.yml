@@ -1,0 +1,28 @@
+Options:
+  include-itemworth-in-total-worth: true
+  include-bank-in-total-worth: false
+  mysql-save-interval-in-seconds: 300
+  Resynchronization-Interval-in-Seconds:
+    RichestMember: 60
+    ServerTotal: 60
+  ftop-command-name: top
+  calculate-blockstates-only: false
+  automatic-block-update: true
+  sort-ftop-by-points: false
+  commands-to-run-on-calculation:
+  - null
+  commands-to-run-after-calculation:
+  - null
+  reduce-value-by-faction-strikes: false
+  ftop-line-left-click-command: /f show %factionname%
+  fvalue-line-left-click-command: /f show %factionname%
+  broadcast-when-starting-calculation: false
+  broadcast-when-stopping-calculation: false
+  factions-per-page: 10
+  chunks-calculated-per-second: 40
+  ftop-command-delay: 5
+  ftop-recalculation-delay-in-seconds: 1800
+  include-block-value-in-total-worth: true
+  include-spawner-value-in-total-worth: false
+  include-player-balance-in-total-worth: false
+  prevent-ftop-usage-while-calculating: true

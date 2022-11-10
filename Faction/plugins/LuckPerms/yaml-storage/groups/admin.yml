@@ -1,0 +1,23 @@
+name: Admin
+permissions:
+- multiverse.*:
+    value: false
+- weight.19
+- punishmanager.command.punish
+- punishmanager.command.ban
+- punishmanager.command.tempban
+- punishmanager.command.ipban
+- punishmanager.command.mute
+- punishmanager.command.tempmute
+- punishmanager.command.kick
+- punishmanager.command.unban
+- punishmanager.command.unmute
+- punishmanager.command.unpunish
+- punishmanager.command.unpunish
+- punishmanager.command.changereason
+- punishmanager.command.punishmanager.gui
+parents:
+- yetkiler
+prefixes:
+- '&cAdmin':
+    priority: 1

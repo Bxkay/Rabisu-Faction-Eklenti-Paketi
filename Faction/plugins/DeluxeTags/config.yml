@@ -1,0 +1,238 @@
+# DeluxeTags version: 1.8.2-Release Main Configuration
+# 
+# Create your tags using the following format:
+# 
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+# 
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
+# 
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+# 
+# Placeholders for your essentials/chat handling formats config:
+# 
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+force_tags: false
+check_updates: true
+legacy_hex: false
+papi_chat: true
+format_chat:
+  enabled: false
+  format: '{deluxetags_tag} %1$s &7»&r %2$s'
+load_tag_on_join: true
+gui:
+  name: '&9Mevcut Taglar&7: &f&l{deluxetags_amount}'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '{deluxetags_tag}'
+    lore:
+    - '&8&m--[--------------------]--'
+    - '&7Tag satın alarak bize destek olmak ister misiniz?'
+    - '&7Tag Satın almak için &e@ &ewww.rabisu.com &7'
+    - ''
+    - '{deluxetags_tag} &7oyunda isminizin'
+    - '&7yanında göstererek sizi cool göstericek.'
+    - '{deluxetags_description}'
+    - '&8&m--[--------------------]--'
+  divider_item:
+    material: STAINED_GLASS_PANE
+    data: 15
+    displayname: '&f&lBağış &9{player}'
+    lore:
+    - '&7Avantajlar ve harika taglar'
+    - '&7kazanmak için sunucuya bağış yapın.'
+    - '&7Tag satın almak için &b/site&7.'
+  has_tag_item:
+    material: EMERALD_BLOCK
+    data: 0
+    displayname: '{deluxetags_tag}'
+    lore:
+    - '&8&m--[--------------------]--'
+    - '&7Tagları satın alarak bize destek olmak ister misiniz?'
+    - '&7Tag Satın almak için &e@ &ewww.rabisu.com &7'
+    - ''
+    - '&cMevcut tagınızı kaldırmak için ve'
+    - '&cBaşka bir tagla değiştirmek için buraya tıklayın.'
+    - '&cMağazadan satın alınabilir.'
+    - '&8&m--[--------------------]--'
+  no_tag_item:
+    material: REDSTONE_BLOCK
+    data: 0
+    displayname: '&cBir tagınız yok!'
+    lore:
+    - '&7Birini seçmek için yukarıdaki bir etikete tıklayın!'
+  exit_item:
+    material: BARRIER
+    data: 0
+    displayname: '&4Çıkmak için tıkla'
+    lore:
+    - '&7tag menüsünden çıkış yapın'
+  next_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Next page: %page%'
+    lore:
+    - '&7Move to the next page'
+  previous_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Previous page: %page%'
+    lore:
+    - '&7Move to the previous page'
+deluxe_chat: false
+deluxetags:
+  rabisu:
+    order: 1
+    tag: '&f&k.&6&lRab&e&lisu&f&k.'
+    description: '&7Bu tagı mağazamızdan satın alın: &e/site'
+    permission: deluxetags.tag.rabisu
+  booster:
+    order: 2
+    tag: '&5&k.&d&lBooster&5&k.'
+    description: '&f'
+  besttr:
+    order: 3
+    tag: '&7&k.&l&cBest&fTR&7&k.'
+    description: '&f'
+  best:
+    order: 4
+    tag: '&1&k.&9&n&lBEST&1&k.'
+    description: '&f'
+  beyazkalp:
+    order: 5
+    tag: '&f&l❤'
+    description: '&f'
+  pembekalp:
+    order: 6
+    tag: '&d&l❤'
+    description: '&f'
+  kirmizikalp:
+    order: 7
+    tag: '&4&l❤'
+    description: '&f'
+  dolar:
+    order: 8
+    tag: '&2&l$$$'
+    description: '&f'
+  bir:
+    order: 9
+    tag: '&7&l#1'
+    description: '&f'
+  l:
+    order: 10
+    tag: '&4&l&n&oL'
+    description: '&f'
+  viking:
+    order: 11
+    tag: '&6&l&oVIKING'
+    description: '&f'
+  ghost:
+    order: 12
+    tag: '&F&lGHOST'
+    description: '&f'
+  goat:
+    order: 13
+    tag: '&2&l&n&oGO&f&l&n&oAT'
+    description: '&f'
+  rich:
+    order: 14
+    tag: '&2&l&oRICH'
+    description: '&f'
+  toxic:
+    order: 15
+    tag: '&2&l&oToxic'
+    description: '&f'
+  kral:
+    order: 16
+    tag: '&e&lK&6&LR&5&LA&D&LL'
+    description: '&f'
+  kar:
+    order: 17
+    tag: '&b❆'
+    description: '&f'
+  hac:
+    order: 18
+    tag: '&0✞✞✞'
+    description: '&f'
+  tik:
+    order: 19
+    tag: '&a✓'
+    description: '&f'
+  carpi:
+    order: 20
+    tag: '&c✗'
+    description: '&f'
+  NIKE:
+    order: 21
+    tag: '&7&LNI&F&LKE'
+    description: '&f'
+  Bedel:
+    order: 22
+    tag: '&a&lB&2&lE&a&lD&2&lE&A&LL'
+    description: '&f'
+  BIG:
+    order: 23
+    tag: '&5&lBIG.'
+    description: '&f'
+  God:
+    order: 24
+    tag: '&b&lG&3&lO&b&lD'
+    description: '&f'
+  CC:
+    order: 25
+    tag: '&5&lC&d&lC'
+    description: '&f'
+  tiktok:
+    order: 26
+    tag: '&b&lTik&3&lTok'
+    description: '&f'
+  '999':
+    order: 27
+    tag: '&0&l999 ♱'
+    description: '&f'
+  KareKafa:
+    order: 28
+    tag: '&6&lKare&e&lKafa'
+    description: '&f'
+  zirve:
+    order: 29
+    tag: '&d&lZir&5&lve'
+    description: '&f'
+  XXL:
+    order: 30
+    tag: '&4&LXXL'
+    description: '&f'
+  Dazy:
+    order: 31
+    tag: '&c&lD-azy'
+    description: '&f'
+  london:
+    order: 32
+    tag: '&5&lL&D&LO&5&LN&D&LO&5&LN'
+    description: '&f'
+  10/10:
+    order: 33
+    tag: '&6&l10&7/&e&l10'
+    description: '&f'
+  Sugar:
+    order: 34
+    tag: '&f&lSugar'
+    description: '&f'
+  snap:
+    order: 35
+    tag: '&e&lSnap&7&lChat'
+    description: '&f'
+  lelepons:
+    order: 36
+    tag: '&4&lLele&c&lPons'
+    description: '&f'

@@ -1,0 +1,30 @@
+menu_title: '&8&nKurallar'
+open_command:
+- kurallar
+- kural
+- rules
+inventory_type: HOPPER
+items:
+  '1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYwOWFjNjEyNzE5MTI5NjIyMzg1MmNmNTQzZmU5YmQwYjUwNzJjNWFiOGFjMzc4MzI1Yjg0NjI1NjY5ZWFlOCJ9fX0====
+    slot: 2
+    display_name: '&eKurallar'
+    lore:
+    - '&8Sunucumuzun kuralları;'
+    - ''
+    - '&e&l⌯ &7Küfür, hakaret, aşağılayıcı sözde bulunmak &eyasaktır.'
+    - '&e&l⌯ &7Kötü örnek oluşturucu mesajlar &eyasaktır.'
+    - '&e&l⌯ &7Spam yapmak &eyasaktır.'
+    - '&e&l⌯ &7Din, dil, ırk ayrımı yapmak &eyasaktır'
+    - '&e&l⌯ &7Siyaset/Din hakkında konuşmak &eyasaktır.'
+    - '&e&l⌯ &7Cinsel içerikli konuşmak &eyasaktır.'
+    - '&e&l⌯ &7Sunucu ismi vermek &eyasaktır.'
+    - '&e&l⌯ &7Sunucu reklamı yapmak &eyasaktır.'
+    - '&e&l⌯ &7Gerçek para ile eşya satışı &eyasaktır.'
+    - ''
+    - '&e&l⌯ &7Klanlarda mod yetkisine dayalı &ehırsızlık &7sonucu'
+    - '&e&l⌯ &7giden eşyalar &eiade edilmez.'
+    - '&e&l⌯ &7Yapılan ticaretlerde &ehırsızlık &7sonucu giden eşyalar'
+    - '&e&l⌯ &eiade edilmez'
+    - ''
+    - '&cSunucumuzda bulunan tüm oyuncular kuralları okumuş ve kabul edilmiş sayılır'

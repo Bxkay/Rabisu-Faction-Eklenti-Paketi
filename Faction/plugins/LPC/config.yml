@@ -1,0 +1,45 @@
+# LPC Configuration
+# Please read the https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta before you set up.
+#
+# Placeholders:
+# {message} - the chat message
+# {name} - the player's name
+# {displayname} - the player's display name / nickname
+# {world} - the world name of the player's current world
+# {prefix} - the player's highest priority prefix
+# {suffix} - the player's highest priority suffix
+# {prefixes} - the player's prefixes sorted by the highest priority
+# {suffixes} - the player's suffixes sorted by the highest priority
+# {username-color} - the player's or the group's username color
+# {message-color} - the player's or the group's message color
+#
+# To reload the configuration, run '/lpc reload' command. Make sure you have the 'lpc.reload' permission assigned.
+# More information can be found at https://www.spigotmc.org/resources/68965.
+chat-format: "{prefix}{name}&r: {message}"
+
+# Set the format per group.
+# Note: Option for more advanced users. Remove comments to run.
+group-formats:
+   default: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&eNefer&8] &7{name} %deluxetags_tag% &8» &7{message}"
+   onbaşı: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&6Onbaşı&8] &7{name} %deluxetags_tag% &8» &7{message}"
+   çavuş: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&aÇavuş&8] &7{name} %deluxetags_tag% &8» &7{message}"
+   başçavuş: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&2Başçavuş&8] &7{name} %deluxetags_tag% &8» &7{message}"
+   mülazım: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&bMülazım&8] &7{name} %deluxetags_tag% &8» &7{message}"
+   yüzbaşı: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&3Yüzbaşı&8] &7{name} %deluxetags_tag% &8» &7{message}"
+   kolağası: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&dKolağası&8] &7{name} %deluxetags_tag% &8» &7{message}"
+   binbaşı: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&5Binbaşı&8] &7{name} %deluxetags_tag% &8» &7{message}"
+   ferik: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&cFerik&8] &7{name} %deluxetags_tag% &8» &7{message}"
+   müşir: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&4Müşir&8] &7{name} %deluxetags_tag% &8» &7{message}"
+###########################################################################################################################
+   youtuber: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&4You&eTuber&8] &e{name} &8» &e{message}"
+###########################################################################################################################
+   vip: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&6VIP&8] &e{name} &8» &f{message}"
+   vip+: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&6VIP&c+&8] &e{name} &8» &f{message}"
+   mvip: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&aMVIP&8] &a{name} &8» &f{message}"
+   mvip+: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&aMVIP&c+&8] &a{name} &8» &f{message}"
+###########################################################################################################################
+   yardımcı: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&aYardımcı&8] &a{name} &8» &a{message}"
+   asistan: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&eAsistan&8] &e{name} &8» &f{message}"
+   mod: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&bMod&8] &b{name} &8» &b{message}"
+   admin: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&cAdmin&8] &c{name} &8» &c{message}"
+   kurucu: "&7%factionsuuid_player_role%%factionsuuid_faction_name% &8&l┇ &8[&4Kurucu&8] &c{name} &8» &c{message}"      

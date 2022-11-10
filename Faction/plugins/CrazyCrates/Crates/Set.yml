@@ -1,0 +1,284 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&2Set Kasası'
+  Preview-Name: '&2Set Kasası'
+  StartingKeys: 0
+  InGUI: false
+  Slot: 11
+  OpeningBroadCast: false
+  BroadCast: '%Prefix% &f&l%Player% &7adlı oyuncu &bCold Kasa &7açıyor!'
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      Item: STAINED_GLASS_PANE:7
+  PhysicalKey:
+    Name: '&2Set Kasa Anahtarı'
+    Lore:
+    - ''
+    - '&7Bu kasayı &f/warp kasalar &7bölgesinde açabilirsin.'
+    - ''
+    - '&7&oKasaya sol tıklayarak kasayı inceleyebilirsin.'
+    - '&7&oKasaya sağ tıklayarak kasayı açabilirsin.'
+    - ''
+    - '&fwww.rabisu.com'
+    Item: 131
+    Glowing: true
+  Hologram:
+    Toggle: true
+    Height: 2.7
+    Message:
+    - '&2Set Kasası'
+    - ''
+    - '&7Sağ tıklayarak &faç'
+    - '&7Sol tıklayarak &fincele'
+    - ''
+    - '&f&owww.rabisu.com'
+  Prizes:
+    1:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    2:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    3:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    4:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    5:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    6:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    7:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    8:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    9:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    10:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    11:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    12:
+      DisplayName: '&bElmas Set &7&o(P10)'
+      DisplayItem: 311
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Koruma: &f10'
+      - '&8&l▪ &7Kırılmazlık: &f5'
+      - ''
+      - '&8&l▪ &7Sans: &f&o3/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 3.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - give %player% 310 1 protection:10 unbreaking:5
+      - give %player% 311 1 protection:10 unbreaking:5
+      - give %player% 312 1 protection:10 unbreaking:5
+      - give %player% 313 1 protection:10 unbreaking:5
+    13:
+      DisplayName: '&bElmas Set &7&o(P9)'
+      DisplayItem: 311
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Koruma: &f9'
+      - '&8&l▪ &7Kırılmazlık: &f5'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - give %player% 310 1 protection:9 unbreaking:5
+      - give %player% 311 1 protection:9 unbreaking:5
+      - give %player% 312 1 protection:9 unbreaking:5
+      - give %player% 313 1 protection:9 unbreaking:5
+    14:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    15:
+      DisplayName: '&bElmas Set &7&o(P8)'
+      DisplayItem: 311
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Koruma: &f8'
+      - '&8&l▪ &7Kırılmazlık: &f5'
+      - ''
+      - '&8&l▪ &7Sans: &f&o7/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 7.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - give %player% 310 1 protection:8 unbreaking:5
+      - give %player% 311 1 protection:8 unbreaking:5
+      - give %player% 312 1 protection:8 unbreaking:5
+      - give %player% 313 1 protection:8 unbreaking:5
+    16:
+      DisplayName: '&bElmas Set &7&o(P7)'
+      DisplayItem: 311
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Koruma: &f7'
+      - '&8&l▪ &7Kırılmazlık: &f5'
+      - ''
+      - '&8&l▪ &7Sans: &f&o9/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 9.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - give %player% 310 1 protection:7 unbreaking:5
+      - give %player% 311 1 protection:7 unbreaking:5
+      - give %player% 312 1 protection:7 unbreaking:5
+      - give %player% 313 1 protection:7 unbreaking:5
+    17:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    18:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    19:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    20:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    21:
+      DisplayName: '&bElmas Set &7&o(P6)'
+      DisplayItem: 311
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Koruma: &f6'
+      - '&8&l▪ &7Kırılmazlık: &f4'
+      - ''
+      - '&8&l▪ &7Sans: &f&o12/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 12.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - give %player% 310 1 protection:6 unbreaking:4
+      - give %player% 311 1 protection:6 unbreaking:4
+      - give %player% 312 1 protection:6 unbreaking:4
+      - give %player% 313 1 protection:6 unbreaking:4
+    22:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    23:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    24:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    25:
+      DisplayName: '&bElmas Set &7&o(P5)'
+      DisplayItem: 311
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Koruma: &f5'
+      - '&8&l▪ &7Kırılmazlık: &f3'
+      - ''
+      - '&8&l▪ &7Sans: &f&o15/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 15.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - give %player% 310 1 protection:5 unbreaking:3
+      - give %player% 311 1 protection:5 unbreaking:3
+      - give %player% 312 1 protection:5 unbreaking:3
+      - give %player% 313 1 protection:5 unbreaking:3
+    26:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    27:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    28:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    29:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    30:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    31:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    32:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    33:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    34:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    35:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    36:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0

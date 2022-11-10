@@ -1,0 +1,11 @@
+name: Onbaşı
+permissions:
+- multiverse.*:
+    value: false
+- weight.2
+- essentials.kit.onbaşı
+parents:
+- yetkiler
+prefixes:
+- '&6Onbaşı':
+    priority: 1

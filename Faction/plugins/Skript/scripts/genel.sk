@@ -1,0 +1,97 @@
+#Rabisu Faction Eklenti Paketi ~ berkay.#1940
+options:
+	prefix: &6Rab&eisu &8»
+	
+on damage:
+	if y-coordinate of victim is below 0:
+		cancel event
+		teleport victim to {spawn}
+		send ("{@prefix} &7Boşlukta olduğun için spawna ışınlandın") to victim
+
+on load:
+	wait 1 tick
+	execute console command "plugman enable MetinTasi"
+	
+on respawn:
+	teleport player to {spawn}	
+	
+on join:
+	wait 1 tick
+	teleport player to {spawn}
+
+on first join:
+	wait 1 tick
+	teleport player to {spawn}	
+	
+on first join:
+	execute player command "kit baslangic %arg-1%"
+				
+command /spawnayarla:
+	trigger:
+		if player is an op:
+			set {spawn} to player's location
+			send ("{@prefix} &7Başlangıç noktası belirlendi.") to player
+	
+command /spawn:
+	trigger:
+		teleport player to {spawn}
+		send ("{@prefix} &7Başlangıç noktasına ışınlandınız.") to player	
+
+command /iletişim:
+	aliases: dc, discord, site, mağaza
+	trigger:
+		send ""
+		send "{@prefix} &7Discord: <url:https://discord.gg/M4zykE5tFB>&fDiscord sunucumuza gitmek için tıkla!<reset>"
+		send "{@prefix} &7Site: <url:https://www.rabisu.com/>&fSitemizi ziyaret etmek için tıkla!<reset>"
+		send ""
+
+command /arsafly:
+	trigger:
+		if player's world is "arsalar":
+			if player's flight mode is true:
+				send ("{@prefix} &7Uçuş modu &ckapatıldı.") to player
+				set player's flight mode to false
+			else:
+				set player's flight mode to true
+				send ("{@prefix} &7Uçuş modu &aaçıldı.") to player
+
+on load:
+	wait 5 second
+	execute console command "crazycrates reload"
+	
+command /tamiret [<text>]:
+	trigger:
+		player's tool is air:
+			send "{@prefix} &fElinde eşya bulunmuyor!"
+			stop
+		player's tool isn't pickaxe or sword or shovel or axe or chestplate or boots or helmet or leggings:
+			send "{@prefix} &fBu eşya tamir edilemez!"
+			stop
+		player's tool's durability is 0:
+			send "{@prefix} &fEşyanın canı zaten full!"
+			stop   
+		if arg-1 is "el":
+			if player's held item is tool:
+				if player's balance is greater than or equal to 500000:
+					repair tool of player
+					remove 500000 from player's balance
+					send "{@prefix} &a500K ⛁ &7karşılığında eşyayı tamir ettin." to player
+				else:
+					send "{@prefix} &a500K ⛁ &7paran olmalı!"
+		if arg-1 is "inv":
+			if player's held item is tool:
+				if player's balance is greater than or equal to 2000000:
+					repair all items in player's inventory
+					remove 2000000 from player's balance
+					send "{@prefix} &a2M ⛁ &7karşılığında eşyaları tamir ettin." to player
+				else:
+					send "{@prefix} &a2M ⛁ &7paran olmalı!"
+					
+on rightclick with red dye:
+    if tool's display name is "&cPVP &7TILSIMI":
+        remove speed from the player
+        remove strength from the player
+        apply strength 2 to player for 300 second
+        apply speed 2 to player for 300 second
+        remove 1 red dye named "&cPVP &7TILSIMI" from player
+        send "&cPVP TILSIMI &7Basarıyla kullanıldı!"

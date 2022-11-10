@@ -1,0 +1,211 @@
+Crate:
+  CrateType: CSGO
+  CrateName: '&eVIP Kasası'
+  Preview-Name: '&eVIP Kasası'
+  StartingKeys: 0
+  InGUI: false
+  Slot: 11
+  OpeningBroadCast: true
+  BroadCast: '%Prefix% &f%Player% &7adlı oyuncu &eVIP Kasa &7açıyor!'
+  Preview:
+    Toggle: true
+    ChestLines: 5
+    Glass:
+      Toggle: true
+      Item: STAINED_GLASS_PANE:7
+  PhysicalKey:
+    Name: '&eVIP Kasa Anahtarı'
+    Lore:
+    - ''
+    - '&7Bu kasayı &f/warp kasalar &7bölgesinde açabilirsin.'
+    - ''
+    - '&7&oKasaya sol tıklayarak kasayı inceleyebilirsin.'
+    - '&7&oKasaya sağ tıklayarak kasayı açabilirsin.'
+    - ''
+    - '&fwww.rabisu.com'
+    Item: 131
+    Glowing: true
+  Hologram:
+    Toggle: true
+    Height: 2.7
+    Message:
+    - '&eVIP Kasası'
+    - ''
+    - '&7Sağ tıklayarak &faç'
+    - '&7Sol tıklayarak &fincele'
+    - ''
+    - '&f&owww.rabisu.com'
+  Prizes:
+    1:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    2:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    3:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    4:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    5:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    6:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    7:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    8:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    9:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    10:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    11:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    12:
+      DisplayName: '&6VIP &7&o(30 Günlük)'
+      DisplayItem: 299
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &730 Günlük &6VIP &7Rütbesi'
+      - ''
+      - '&8&l▪ &7Sans: &f&o15/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 15.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - givevip %player% vip 30
+    13:
+      DisplayName: '&6VIP&c+ &7&o(30 Günlük)'
+      DisplayItem: 303
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &730 Günlük &6VIP&c+ &7Rütbesi'
+      - ''
+      - '&8&l▪ &7Sans: &f&o12/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 12.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - givevip %player% vip+ 30
+    14:
+      DisplayName: '&aMVIP &7&o(30 Günlük)'
+      DisplayItem: 315
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &730 Günlük &aMVIP &7Rütbesi'
+      - ''
+      - '&8&l▪ &7Sans: &f&o9/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 9.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - givevip %player% mvip 30
+    15:
+      DisplayName: '&aMVIP&c+ &7&o(15 Günlük)'
+      DisplayItem: 307
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &715 Günlük &aMVIP&c+ &7Rütbesi'
+      - ''
+      - '&8&l▪ &7Sans: &f&o6/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 6.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - givevip %player% mvip+ 15
+    16:
+      DisplayName: '&aMVIP&c+ &7&o(30 Günlük)'
+      DisplayItem: 311
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &730 Günlük &aMVIP&c+ &7Rütbesi'
+      - ''
+      - '&8&l▪ &7Sans: &f&o6/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 6.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - givevip %player% mvip+ 30
+    26:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    27:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    28:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    39:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    30:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    31:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    32:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    33:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    34:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    35:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    36:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0

@@ -1,0 +1,547 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+last-created-npc-id: 26
+npc:
+  '10':
+    name: §f
+    uuid: 4165bba3-350b-4cef-a3ed-514746608f37
+    traits:
+      location:
+        world: Haritalar
+        x: '-15047.5'
+        y: '100.0'
+        z: '14979.5'
+        yaw: '269.55267333984375'
+        pitch: '1.9499789476394653'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    name: §f
+    uuid: 6f4182cf-4690-4540-93cb-03ed3b4ed059
+    traits:
+      location:
+        world: Haritalar
+        x: '-15047.5'
+        y: '100.0'
+        z: '14975.5'
+        yaw: '270.4524841308594'
+        pitch: '1.6499906778335571'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    name: §f
+    uuid: 2c243ca7-f1db-4a58-ae9e-efc1bc8a62c5
+    traits:
+      location:
+        world: Haritalar
+        x: '-15047.5'
+        y: '100.0'
+        z: '14971.5'
+        yaw: '270.0020751953125'
+        pitch: '-0.6000175476074219'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    name: §f
+    uuid: 9ca2489e-8970-438a-8a2b-71ab3cb1245b
+    traits:
+      location:
+        world: Haritalar
+        x: '-15047.5'
+        y: '100.0'
+        z: '14967.5'
+        yaw: '270.4517517089844'
+        pitch: '0.8999989032745361'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,spawned,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: §f
+    uuid: 57c98c54-ea3b-460d-ba73-87b536d73f5e
+    traits:
+      location:
+        world: Haritalar
+        x: '-15047.5'
+        y: '100.0'
+        z: '14963.5'
+        yaw: '270.1513366699219'
+        pitch: '1.1843442734971177E-5'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    name: §f
+    uuid: 0e0491ac-a550-45f1-82c8-bc1d5ab86b1b
+    traits:
+      location:
+        world: Haritalar
+        x: '-15047.5'
+        y: '100.0'
+        z: '14959.5'
+        yaw: '269.85125732421875'
+        pitch: '0.1499767005443573'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    name: §f
+    uuid: c08df929-d44a-4dcd-bb42-35bec1ded7f6
+    traits:
+      location:
+        world: Haritalar
+        x: '-14987.5'
+        y: '101.0'
+        z: '14957.5'
+        yaw: '90.15129852294922'
+        pitch: '0.4499689042568207'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,spawned,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTY2ODEwMDA0MTg2MywKICAicHJvZmlsZUlkIiA6ICI1OWM1MjhjZmMwMDA0ZDRjYTMzNDgyOGNhZWYyY2EwZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJlZmVoYW5uMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81Nzk1MWNmM2RiNDVjYmE5OWUwZTUwNmI4MWMyOGZkZGJlOTNmNWE4Y2UzZmYzNDBiOGQ4Nzk0ZjIyNmRlNWQwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
+      cached-skin-uuid-name: efehann0
+      cached-skin-uuid: 59c528cf-c000-4d4c-a334-828caef2ca0f
+      player-skin-name: efehann0
+      player-skin-signature: k62Pm9dlxQUbAMouMUsxqQQ34zSGDMVErTItjJSeHUsD7rMllcyLRNNmqO335iereeiqBxhnv43hxrJjZm+ipPcyt8a617J3X9weomHsTKxbRDa7iMC6OAXa7oGeN/T66tviaW5vox3AYRnE8VuYONcmJDQzIWN/Y8id6KYjogCrbHMyB+iP/oWagGsZBXVTDJPmZyZ/RkvzANx8bFeLy9sKpHUcVPhXBhJ0iQ6hQ30zlO7XC4qCmbK4oOM/QDgyvEfv88gQsOP52zwvGBQnX/DIVj0T0szbVzuoJTA2QE5d8PwZ+WWp+klhYY+5JO2LXflLS3+CqSDcZHTn3Fr8B1z2EGHja1M4JPrP4Vaifoj6H87kdwAf6mZcp6jD+AL1RHMTjv0RlwQienJYBkUlhLEYIHL2tOVHls8Rkd22RpYYfVUsWDeWfesZFUX65nMfzYWaaN5G5ImNWuwV5kQwhA0d47ImxFekOLiAN3PfPW2IO3YWz1HR8345BjsMdCkls9aHrLThj0G/TI6W5OaTclQEBY8alPWSKyiqo+pUaqyZcnjXJM00+WAfOZbYpof+ePomTdSwS4z2aQQUHxS9ohnlLrh7UZeGBC6DqcH0ddhQzCMh68pt/RKwtCv7EfEqAlCTtsoXRPJRC4kc/fYXLaeDiQvPmYDhAeWAhn8hZYU=
+  '3':
+    name: §f
+    uuid: 27f9a323-56ae-488d-b0df-ff4965638597
+    traits:
+      location:
+        world: Haritalar
+        x: '-14991.5'
+        y: '101.0'
+        z: '14949.5'
+        yaw: '0.15127578377723694'
+        pitch: '0.44999274611473083'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTY2ODEwMDA0MzY2OCwKICAicHJvZmlsZUlkIiA6ICI2NTY0ZTkzNWRhNTQ0MzFhODU5YzcwMDU5ZGJkYjc3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJjaW54ciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NGE1MDlhOTIxZGY0OTU3ZTM5ZjAxODNlNDcyMjhhZmI5OGQyYjdmNzg5OGMxYTFmNDg5ODNlNzIxZDYzNzZiIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: cinxr
+      cached-skin-uuid: 6564e935-da54-431a-859c-70059dbdb774
+      player-skin-name: cinxr
+      player-skin-signature: TrgPQdZue9wz/PbfgiU8wl2D57bg2CpktDFoCizXuvGgJCKMjrA4Wr4BL7fzlop+SYa+ZeuD45GavtihJPOm3yHaY31vKyM1WRKKYf3lnOhXBTQ2L1YDTlEI/jySQeIRn4fr32AEOJCYZcZvEQkmLbmSLVDqpzbNr/HkzkzRCtdp9RiI8bWGkytsXjBMap7BTh7yd9YBLSaocFS3VY6colbHn8DcsCCBCHQWPIAX9lkKDn8UVZ9MnATb9MisIdhOuFVfK4C/Q8FxPIdXj3mVgOC4Gk52zFWiXBxsMfMxgS1XI/cM3eAVdxf997+YHZAJhLln7+lQCtsRwPCQR65e9RlgFH7v7uVE3NaMT//DZifjOLjA9RtRdkkQ/ZmMHRGT7hqYCmQ54xejGeV8OdQC3N/huI/tmQhuoq2HGU99ClLjQiQqdfJe9Lbx2ve/fV2khwMp22xIUHXStPeZz+WTDLMXdjSdiGUqJ2db+rBxvX5oNnei9W+Mt/5PYHJDWHPa+RCA5T0uODeErgsUCmwngvrFJirUgXD5uOs5PgKASrfnl8IMhKqW9X1TFjntK3NZ5owamaFEjlPw9xWqEp2iMsTwO5pqat3+6q0OYpNM1eZjVbP98xTdvf0ai/p1YYGi9Ep4uEqxX6nHjWxl1YnXWarbY22bhIlNEu+LN9QnQVQ=
+  '2':
+    name: §f
+    uuid: 634f4156-62ab-4b56-b637-b628574e827f
+    traits:
+      location:
+        world: Haritalar
+        x: '-14999.5'
+        y: '101.0'
+        z: '14945.5'
+        yaw: '0.300872802734375'
+        pitch: '1.2000068426132202'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,spawned,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTY2ODEwMDA0MjAyNiwKICAicHJvZmlsZUlkIiA6ICJiYjBhNjM2Njg1YTc0ZTk2ODUzNzQxZTM2Yjk5MTBlNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFcmhhbkVSVCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMzU0MDU3ZTYyN2YzNGVjYmJiNjIyNGRmYTIyN2I4MmI0ZGI2NzMwZDIzYWU2NTU1NzMwM2M5NDllZDBkODUiCiAgICB9CiAgfQp9
+      cached-skin-uuid-name: erhanert
+      cached-skin-uuid: bb0a6366-85a7-4e96-8537-41e36b9910e6
+      player-skin-name: erhanert
+      player-skin-signature: VhY5ZeYzFEYPVaefqCGAm8wtXMFAQfKYmUQ/IlQFb9otuRNDIf0dfBzAwPIpv9P58EYUOjfe89EtIaL426XlIh8jqp+Y6h/iBirox6Jcg1ssY10EwECyGSIA8KU+4WPU03FI7Zg8YflBWcMSYQn+XWrFoU4OE/CYUvR7nqXRThu/txrzNXnqkiXYjO2zXtjQV5qKDtPvE065ZfOPAa/rZxc3sYA2pvsaHzTUQXnNLHexqhmdgb0/jCA0MxTO7jpggNvoE+tI1aOEcUsCQfmWRgQ6koA8H8hghEa+5UvBq0Vh0vm/Uwi55AQX5cS74r76cibuzlhWlrUa+BS306AG/h2kVRXfsDHcG06rNPX4/TuiqDm4UNv3JRgOcvn6XfSjQGWi9dbnoPNg5Ov1rIj/QUP/zlwrE37FxaHuMfc3tBgbzADyXRjPTjhlfZbTFncbmnKXpqDLvAFEgR16VswtnqPrV0bkBm6cSAaRM38VFgdHGOXWGK+ip0iHWnuCXuehj9ooPkTP/5btlgCkuYL0UHvfIpo/uA5vzE1/3dQp8U0KLP6l5E7dTm1qxRBj79MJnjYYXuCji4Npm6gx+EoankfTHz/sJGmIHHdIni3i0gbhqY1vjRNSTxow7UQvB1A480N9ntVnkKsC8SHXNuk+HkI8tmlQAWSUJkqzl4dXezM=
+  '1':
+    name: §f
+    uuid: e011aadc-276e-4fc8-abe9-ee656ae0a37e
+    traits:
+      location:
+        world: Haritalar
+        x: '-15007.5'
+        y: '101.0'
+        z: '14949.5'
+        yaw: '359.8507385253906'
+        pitch: '1.5000048875808716'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTY2ODEwMDA0MjczMCwKICAicHJvZmlsZUlkIiA6ICIwYjczMDFmMzVlYzA0MjZkODhkMmYxMTE1ZmY0MWI0MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCeGtheSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZGY5YTQwZDkwMDQxMjk1NTE1YWI3M2YxZTY4NTI0NjNiODkzMGQ0NWY5MDJlMzJjZDM3MmRjZjIxNDAyMGRhIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: bxkay
+      cached-skin-uuid: 0b7301f3-5ec0-426d-88d2-f1115ff41b40
+      player-skin-name: bxkay
+      player-skin-signature: rkIUsgHLd43WlcDELJzSdHQ26psemjDHh8cVB6ZPPZK/ush5kFNUeAMxwpQlSbWci6JSlVSmMF33BkPdQHadAlm6qUO/mUUccAtxnZPMaDzSg0pIh5eEFmLK75fs5NxT+wx6thvJyLHBORx1V451i/Jvkg7Zpmf4B9dTB7IMAd5W4Okqhg40VggcgZPzIL7tbr9E0oaQgFfNt7rL+3wlnCwDtgb1PAbvMEj6I9TfwsJ7PU7NQ5zUaNooX00YyaVRP4Bd91ARKllu4ZxG66XE27mIbmJAG6n1wBrpnJYbv4FZrJP7xnHyH+RgVQaFpAVXqPNJeqJkemA18ypNcRQal+jdNSqJykUl75k8tPyq7NP63in99WGOOhr6XwULeDVl5V1aka7UqHxnN0EvmeOgh4gGJCpqLEZrVJqegThKBpW5jUD9DE2ZAK+zfF3cciE3ONaRXSYyZIcPUqbkCfHB/tv5v+CkaY+0+vOXk3vHm2Hrx6viO+NOAGWBF7v4qfmSw42zYzx/EqG4Kq+9LaY7x6dY46ttf7KnKVM+uu2H72GBNWM5W6CorfS15qlN69fU56sjZ/HTRKz/F7fQaqKSRzRBGPjp5yYLl9Th+nOF5u66YTEaNKu+b/v6bez+9jTp6GbFOxS4R8pUuZzbKPliPdPDQMejeHiaWOZHxi5HmO4=
+  '0':
+    name: §f
+    uuid: af05fdb9-2656-466a-b937-a80965301c22
+    traits:
+      location:
+        world: Haritalar
+        x: '-15011.5'
+        y: '101.0'
+        z: '14957.5'
+        yaw: '270.0008239746094'
+        pitch: '1.1999785900115967'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,spawned,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTY2ODEwMDA0MjkyNywKICAicHJvZmlsZUlkIiA6ICI0YzdiNTE2MmQzNTc0YWI0YTE5M2YyZDY0ODFhNWMwOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJub21tZWhWMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYjQwMzNjNDE2MjQ0NDc3MDZjYjRkYjA1ODg2OGJmMTI5NmY2ZDY0OTY4OWZiY2QyOGVjYzk4Y2Q1NmQxMDBhIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: nommehv2
+      cached-skin-uuid: 4c7b5162-d357-4ab4-a193-f2d6481a5c09
+      player-skin-name: nommehv2
+      player-skin-signature: Xm8Mkn4NfdvOog/o5usopurOOfuG2oDfxXhD/M+7r9ioiq1Bi33dEaGpcBCO3Beu0XMbTxwPVi+G1Gjubl4xwEqTJJ2D7CXaZkftNYalnSO2wxKzgN06bGBYcrFyXqjUNsKOBYUpKKMZRuCg4BnQ/sfwu+ZIkTOLm8eldKsqzfBYIqAFlXg5Gks5d9x20lTjDwMhh4ndwYakCoAhvijrgeqeVqIcb65+fqU4DA7+5YBmw2TeCwidFqULEvRjyBGMADh3a3yqULET/UgmNz/fRWZOla1hfSz5FOHQaXcY/Q4wlIotQG/f7A909zVRrfxz103VA/C75+O/neYQKScw8sAvMA2lbMW2wYyUxm7eRbEGDxZglHFAeQ51g1qiROtSn0IjW25H3uSW+ZCSho/MHYIjuP7v56H29SQhBDLtBODjze/RGwFhPc5BUhCtu47p/Q9y5ZcgXCOwUF6ts6TJ8EBb2PeijdfCHM0qLxRMBnYYD0uZXekyv87BZh/LOm+AAcScp3N7uUbgz2rpa1D3U/clbB32TryuT/0mh8anFK+h7FFX0oaPPZPtMwUfC7l20hgpBzKb4CD5OUanVd0nJVD0fWqCuRZkn5ZEAcHIVaBkpyeucWzC9rx3ZD7Np89Y3+BXM7xtqGU9LuAfvvdsqfZBYGaMCew0Q0WZS1Bdmmc=
+  '18':
+    name: §f
+    uuid: 5dfd1c71-f932-441a-a679-0cfe3265a919
+    traits:
+      inventory: {}
+      spawned: true
+      location:
+        world: Haritalar
+        x: '-15021.5'
+        y: '100.0'
+        z: '14991.5'
+        yaw: '269.90948486328125'
+        pitch: '0.450000524520874'
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    name: §f
+    uuid: a0501fbe-4923-4bc5-9be9-9e59c6ec0e13
+    traits:
+      inventory: {}
+      spawned: true
+      location:
+        world: Haritalar
+        x: '-15021.5'
+        y: '100.0'
+        z: '14981.5'
+        yaw: '269.9092102050781'
+        pitch: '0.45001015067100525'
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    name: §f
+    uuid: 333f2a42-1e9e-4901-92ca-829a00063898
+    traits:
+      inventory: {}
+      spawned: true
+      location:
+        world: Haritalar
+        x: '-15024.5'
+        y: '100.0'
+        z: '14986.5'
+        yaw: '269.60943603515625'
+        pitch: '0.44998979568481445'
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,spawned,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '21':
+    name: §f
+    uuid: d64d193a-e48a-4ec5-abd7-8f0780d21aa0
+    traits:
+      inventory: {}
+      spawned: true
+      location:
+        world: Haritalar
+        x: '-14977.5'
+        y: '100.0'
+        z: '14981.5'
+        yaw: '90.00977325439453'
+        pitch: '-1.0854006177396514E-5'
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '20':
+    name: §f
+    uuid: 741a647c-12ab-42bd-947c-52b412e7ab94
+    traits:
+      inventory: {}
+      spawned: true
+      location:
+        world: Haritalar
+        x: '-14977.5'
+        y: '100.0'
+        z: '14991.5'
+        yaw: '90.0097427368164'
+        pitch: '-0.14998088777065277'
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '19':
+    name: §f
+    uuid: 90403955-709b-401f-8a73-53014325b332
+    traits:
+      inventory: {}
+      spawned: true
+      location:
+        world: Haritalar
+        x: '-14974.5'
+        y: '100.0'
+        z: '14986.5'
+        yaw: '90.00975036621094'
+        pitch: '1.7970800172406598E-6'
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,spawned,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '22':
+    name: §f
+    uuid: 27fb6a71-5647-4d7f-b77f-1421decf774c
+    traits:
+      location:
+        world: Haritalar
+        x: '9865.498872733384'
+        y: '42.0'
+        z: '9882.300000011921'
+        yaw: '-6.702005630359054E-4'
+        pitch: '-0.1500169336795807'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,spawned,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '24':
+    name: §f
+    uuid: b64b1ba7-4e1e-4943-b137-600a58392ed0
+    traits:
+      inventory: {}
+      location:
+        world: Haritalar
+        x: '10000.5'
+        y: '63.0'
+        z: '-1957.5'
+        yaw: '359.8526611328125'
+        pitch: '-0.15002943575382233'
+      spawned: true
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '23':
+    name: §f
+    uuid: 1eb044f0-a80a-4360-80b9-d600adf8d799
+    traits:
+      inventory: {}
+      location:
+        world: Haritalar
+        x: '15000.499173627672'
+        y: '73.0'
+        z: '-5020.699999988079'
+        yaw: '-0.15128113329410553'
+        pitch: '1.0499857664108276'
+      spawned: true
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,spawned,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '25':
+    name: §f
+    uuid: 34ec7fd7-f089-4d72-96d4-b0a6aabae6b3
+    traits:
+      inventory: {}
+      spawned: true
+      location:
+        world: Haritalar
+        x: '-6587.5'
+        y: '42.0'
+        z: '2707.5'
+        yaw: '0.001745337271131575'
+        pitch: '-2.8500025272369385'
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+    traitnames: location,type,inventory,spawned,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '26':
+    name: §f
+    uuid: 4eb025db-df26-4225-b289-1953e1cc82fc
+    traits:
+      location:
+        world: orman
+        x: '206.4770735550371'
+        y: '69.0'
+        z: '-155.6960656605661'
+        yaw: '-0.1492396593093872'
+        pitch: '0.4499700963497162'
+      inventory: {}
+      owner:
+        owner: Bxkay
+        uuid: ce76cc14-89ff-3b05-9cc1-9b0ef26eeac7
+      spawned: true
+    traitnames: location,type,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

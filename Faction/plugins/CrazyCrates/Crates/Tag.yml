@@ -1,0 +1,686 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&dTag Kasası'
+  Preview-Name: '&dTag Kasası'
+  StartingKeys: 0
+  InGUI: false
+  Slot: 11
+  OpeningBroadCast: false
+  BroadCast: '%Prefix% &f&l%Player% &7adlı oyuncu &dTag Kasa &7açıyor!'
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      Item: STAINED_GLASS_PANE:7
+  PhysicalKey:
+    Name: '&dTag Kasa Anahtarı'
+    Lore:
+    - ''
+    - '&7Bu kasayı &f/warp kasalar &7bölgesinde açabilirsin.'
+    - ''
+    - '&7&oKasaya sol tıklayarak kasayı inceleyebilirsin.'
+    - '&7&oKasaya sağ tıklayarak kasayı açabilirsin.'
+    - ''
+    - '&fwww.rabisu.com'
+    Item: 131
+    Glowing: true
+  Hologram:
+    Toggle: true
+    Height: 2.7
+    Message:
+    - '&dTag Kasası'
+    - ''
+    - '&7Sağ tıklayarak &faç'
+    - '&7Sol tıklayarak &fincele'
+    - ''
+    - '&f&owww.rabisu.com'
+  Prizes:
+    1:
+      DisplayName: '&f&k.&6&lRab&e&lisu&f&k. &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &f&k.&6&lRab&e&lisu&f&k. &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.rabisu
+    2:
+      DisplayName: '&5&k.&d&lBooster&5&k. &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &5&k.&d&lBooster&5&k. &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 0.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.booster
+    3:
+      DisplayName: '&7&k.&l&cBest&fTR&7&k. &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &7&k.&l&cBest&fTR&7&k. &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.besttr
+    4:
+      DisplayName: '&1&k.&9&n&lBEST&1&k. &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &1&k.&9&n&lBEST&1&k. &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.best
+    5:
+      DisplayName: '&f&l❤ &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &f&l❤ &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.beyazkalp
+    6:
+      DisplayName: '&d&l❤ &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &d&l❤ &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.pembekalp
+    7:
+      DisplayName: '&4&l❤ &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &4&l❤ &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.kirmizikalp
+    8:
+      DisplayName: '&2&l$$$ &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &2&l$$$ &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.dolar
+    9:
+      DisplayName: '&7&l#1 &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &7&l#1 &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.bir
+    10:
+      DisplayName: '&4&l&n&oL &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &4&l&n&oL &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.l
+    11:
+      DisplayName: '&6&l&oVIKING &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &6&l&oVIKING &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.viking
+    12:
+      DisplayName: '&F&lGHOST &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &F&lGHOST &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.ghost
+    13:
+      DisplayName: '&2&l&n&oGO&f&l&n&oAT &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &2&l&n&oGO&f&l&n&oAT &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.goat
+    14:
+      DisplayName: '&2&l&oRICH &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &2&l&oRICH &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.rich
+    15:
+      DisplayName: '&2&l&oToxic &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &2&l&oToxic &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.toxic
+    16:
+      DisplayName: '&e&lK&6&LR&5&LA&D&LL &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &e&lK&6&LR&5&LA&D&LL &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.kral
+    17:
+      DisplayName: '&b❆ &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &b❆ &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.kar
+    18:
+      DisplayName: '&0✞✞✞ &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &0✞✞✞ &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.hac
+    19:
+      DisplayName: '&a✓ &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &a✓ &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.tik
+    20:
+      DisplayName: '&c✗ &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &c✗ &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 0.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.carpi
+    21:
+      DisplayName: '&7&LNI&F&LKE &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &7&LNI&F&LKE &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.NIKE
+    22:
+      DisplayName: '&a&lB&2&lE&a&lD&2&lE&A&LL &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &a&lB&2&lE&a&lD&2&lE&A&LL &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.Bedel
+    23:
+      DisplayName: '&5&lBIG. &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &5&lBIG. &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.BIG
+    24:
+      DisplayName: '&b&lG&3&lO&b&lD &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &b&lG&3&lO&b&lD &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.God
+    25:
+      DisplayName: '&5&lC&d&lC &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &5&lC&d&lC &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.CC
+    26:
+      DisplayName: '&b&lTik&3&lTok &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &b&lTik&3&lTok &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.tiktok
+    27:
+      DisplayName: '&0&l999 ♱ &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &0&l999 ♱ &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.999
+    28:
+      DisplayName: '&6&lKare&e&lKafa &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &6&lKare&e&lKafa &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.karekafa
+    29:
+      DisplayName: '&d&lZir&5&lve &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &d&lZir&5&lve &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.zirve
+    30:
+      DisplayName: '&4&LXXL &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &4&LXXL &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.XXL
+    31:
+      DisplayName: '&c&lD-azy &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &c&lD-azy &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.d-azy
+    32:
+      DisplayName: '&5&lL&D&LO&5&LN&D&LO&5&LN &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &5&lL&D&LO&5&LN&D&LO&5&LN &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.london
+    33:
+      DisplayName: '&6&l10&7/&e&l10 &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &6&l10&7/&e&l10 &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.10/10
+    34:
+      DisplayName: '&f&lSugar &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &f&lSugar &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.sugar
+    35:
+      DisplayName: '&e&lSnap&7&lChat &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &e&lSnap&7&lChat &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.snap
+    36:
+      DisplayName: '&4&lLele&c&lPons &7&oTagı'
+      DisplayItem: 421
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Sınırsız kullanım &4&lLele&c&lPons &7Tagı'
+      - '&8&l▪ &7Kullanmak için &f/tags'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.herakles.network'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - lp user %player% permission set deluxetags.tag.lelepons

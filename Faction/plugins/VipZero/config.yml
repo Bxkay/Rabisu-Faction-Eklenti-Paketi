@@ -1,0 +1,56 @@
+MySQL:
+  use: false
+  Host: localhost
+  Port: 3306
+  Username: test
+  Password: '123'
+  Database: minecraft
+language: en
+server_name: '&6Rab&eisu &8» '
+check_for_updates: false
+case_sensitive_for_flatfile: false
+key_length: 10
+one_vip_change: false
+usekey_global: false
+rvip_unlisted: true
+use_vault_for_permissions: true
+check_time: 10
+pagseguro:
+  use: false
+  email: suporte@lojamodelo.com.br
+  token: 95112EE828D94278BD394E91C4388F20
+  mode: 1
+  mysql_log: false
+paypal:
+  use: false
+  username: username
+  password: password
+  signature: signature
+  mode: 1
+  mysql_log: false
+logging:
+  usekey: false
+vip_groups:
+- VIP
+- VIP+
+- MVIP
+- MVIP+
+default_group: default
+vip_items:
+- VIP,0,cmd,lp user @player parent addtemp vip 30d
+- VIP,0,cmd,broadcast &2@player &7adlı oyuncu mağazadan &6&lVIP &7satın aldı!
+- VIP,0,cmd,crazycrates give p ödül 1 @player
+- VIP+,0,cmd,lp user @player parent addtemp vip+ 30d
+- VIP+,0,cmd,broadcast &2@player &7adlı oyuncu mağazadan &6&lVIP&c&l+ &7satın aldı!
+- VIP+,0,cmd,crazycrates give p ödül 1 @player
+- MVIP,0,cmd,lp user @player parent addtemp mvip 30d
+- MVIP,0,cmd,broadcast &2@player &7adlı oyuncu mağazadan &a&lMVIP &7satın aldı!
+- MVIP,0,cmd,crazycrates give p ödül 1 @player
+- MVIP+,0,cmd,lp user @player parent addtemp mvip+ 30d
+- MVIP+,0,cmd,broadcast &2@player &7adlı oyuncu mağazadan &a&lMVIP&c&l+ &7satın aldı!
+- MVIP+,0,cmd,crazycrates give p ödül 1 @player
+vips:
+  Bxkay:
+    inicio: 10/11/2022
+    usando: MVIP+
+    MVIP+: 18

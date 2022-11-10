@@ -1,0 +1,22 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 30
+  surface: ''
+  maxZ: 2703
+  maxY: 40
+  maxX: -6569
+  ignoreLadders: false
+  fillMode: true
+  world: Haritalar
+  minY: 26
+  resetWarnings: []
+  minX: -6606
+  composition:
+    '48:0': 1.0
+  name: Edit
+  resetClock: 4
+  minZ: 2666
+  isSilent: true
+  tpY: -1
+  tpX: 0
+  tpZ: 0

@@ -1,0 +1,24 @@
+kitmenu:
+menu_title: '&8Sunucu Kitleri'
+open_command:
+- kit
+size: 9
+items:
+  '3':
+    material: hdb-40461
+    slot: 3
+    display_name: '&eVIP Kitleri'
+    lore: ''
+    left_click_commands:
+    - '[player] kitvip'
+    right_click_commands:
+    - '[player] kitvip'
+  '5':
+    material: hdb-43680
+    slot: 5
+    display_name: '&eRütbe Kitleri'
+    lore: ''
+    left_click_commands:
+    - '[player] kitrütbe'
+    right_click_commands:
+    - '[player] kitrütbe'

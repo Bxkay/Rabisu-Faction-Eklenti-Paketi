@@ -1,0 +1,33 @@
+'1':
+  x: -15024.5
+  y: 105.0
+  z: 14986.5
+  world: Haritalar
+  ftop: 1
+  disabled: false
+  header-material: AIR
+  header-material-data: 0
+  footer-material: AIR
+  footer-material-data: 0
+'2':
+  x: -15021.5
+  y: 105.0
+  z: 14991.5
+  world: Haritalar
+  ftop: 2
+  disabled: false
+  header-material: AIR
+  header-material-data: 0
+  footer-material: AIR
+  footer-material-data: 0
+'3':
+  x: -15021.5
+  y: 105.0
+  z: 14981.5
+  world: Haritalar
+  ftop: 3
+  disabled: false
+  header-material: AIR
+  header-material-data: 0
+  footer-material: AIR
+  footer-material-data: 0

@@ -1,0 +1,11 @@
+name: BaşÇavuş
+permissions:
+- multiverse.*:
+    value: false
+- weight.4
+- essentials.kit.başçavuş
+parents:
+- yetkiler
+prefixes:
+- '&2BaşÇavuş':
+    priority: 1

@@ -1,0 +1,53 @@
+menu_title: '&7Ayarlar'
+open_command: 
+- ayarlar
+size: 45
+items:
+  '1':
+    material: hdb-18524
+    slot: 20
+    display_name: '&6Işınlanma'
+    lore:
+    - ''
+    - '&8▪ &7Bu seçeneği aktif ettiğiniz takdirde'
+    - '&8▪ &7oyuncular size &6ışınlanma &7isteği'
+    - '&8▪ &7yollayamicaktır'
+    - ''
+    left_click_commands:
+    - '[player] tptoggle'
+    - '[close]'
+    right_click_commands:
+    - '[console] tptoggle'
+    - '[close]'
+  '2':
+    material: hdb-8232
+    slot: 22
+    display_name: '&aÖzel Mesaj'
+    lore:
+    - ''
+    - '&8▪ &7Bu seçeneği aktif ettiğiniz takdirde'
+    - '&8▪ &7oyuncular size &aözel mesaj'
+    - '&8▪ &7yollayamicaktır'
+    - ''
+    left_click_commands:
+    - '[player] msgtoggle'
+    - '[close]'
+    right_click_commands:
+    - '[console] msgtoggle'
+    - '[close]'
+  '3':
+    material: hdb-8357
+    slot: 24
+    display_name: '&bBakiye'
+    lore:
+    - ''
+    - '&8▪ &7Bu seçeneği aktif ettiğiniz takdirde'
+    - '&8▪ &7oyuncular size &bPara'
+    - '&8▪ &7yollayamicaktır'
+    - ''
+    left_click_commands:
+    - '[player] paytoggle'
+    - '[close]'
+    right_click_commands:
+    - '[console] paytoggle'
+    - '[close]'

@@ -1,0 +1,44 @@
+menu_title: '&8Tamir'
+open_command:
+- tamirci
+- tamir
+size: 27
+items:
+  '1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI0MjVhYTNkOTQ2MThhODdkYWM5Yzk0ZjM3N2FmNmNhNDk4NGMwNzU3OTY3NGZhZDkxN2Y2MDJiN2JmMjM1In19fQ=====
+    slot: 12
+    display_name: '&6Tekli Tamir'
+    lore:
+    - ''
+    - '&7Elinizde ki 1 adet eşyayı'
+    - '&7tamir eder.'
+    - ''
+    - '&7Fiyat &8⇢ &a500K ⛁'
+    - ''
+    - '&6⋄ &eTamir etmek için &6tıkla'
+    left_click_commands:
+    - '[player] tamiret el'
+    - '[close]'
+    
+    right_click_commands:
+    - '[player] tamiret el'
+    - '[close]'
+
+  '2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI0MjVhYTNkOTQ2MThhODdkYWM5Yzk0ZjM3N2FmNmNhNDk4NGMwNzU3OTY3NGZhZDkxN2Y2MDJiN2JmMjM1In19fQ=====
+    slot: 14
+    display_name: '&6Çoklu Tamir'
+    lore:
+    - ''
+    - '&7Envanterinizde ki tüm'
+    - '&7eşyaları tamir eder.'
+    - ''
+    - '&7Fiyat &8⇢ &a2M ⛁'
+    - ''
+    - '&6⋄ &eTamir etmek için &6tıkla'
+    left_click_commands:
+    - '[player] tamiret inv'
+    - '[close]'
+    right_click_commands:
+    - '[player] tamiret inv'
+    - '[close]'

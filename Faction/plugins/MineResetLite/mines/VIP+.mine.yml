@@ -1,0 +1,23 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 30
+  surface: ''
+  maxZ: 11903
+  maxY: 99
+  maxX: 2497
+  ignoreLadders: false
+  fillMode: false
+  world: Haritalar
+  minY: 50
+  resetWarnings: []
+  minX: 2476
+  composition:
+    '41:0': 0.4
+    '14:0': 0.6
+  name: VIP+
+  resetClock: 15
+  minZ: 11882
+  isSilent: false
+  tpY: -1
+  tpX: 0
+  tpZ: 0

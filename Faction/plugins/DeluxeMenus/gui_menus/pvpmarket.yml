@@ -1,0 +1,224 @@
+    menu_title: '&8PvPMarket'
+    open_command:
+    - pvpmarket
+    update_interval: 1
+    size: 45
+    items:
+      '1':
+        material: 310
+        slot: 20
+        display_name: '&8▸ &6Elmas Kask &8【&aKoruma IX&8】 &8◂'
+        lore:
+        - ''
+        - '&eSet Özellikleri'
+        - ''
+        - ' &8▪ &7Koruma: &fIX'
+        - ' &8▪ &7Kırılmazlık: &fV'
+        - ' '
+        - '&7Ücret: &a500.000 TL'
+        - ' '
+        - '&7&o(Satın almak için tıkla)'
+        left_click_commands:
+        - '[console] give %player_name% diamond_helmet 1 protection:9 unbreaking:5'
+        - '[console] eco take %player_name% 500000'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] give %player_name% diamond_helmet 1 protection:9 unbreaking:5'
+        - '[console] eco take %player_name% 500000'
+        - '[refresh]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 500000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'   
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 500000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'     
+          - '[close]'
+      '2':
+        material: 311
+        slot: 21
+        display_name: '&8▸ &6Elmas Chestplate &8【&aKoruma IX&8】 &8◂'
+        lore:
+        - ''
+        - '&eSet Özellikleri'
+        - ''
+        - ' &8▪ &7Koruma: &fIX'
+        - ' &8▪ &7Kırılmazlık: &fV'
+        - ' '
+        - '&7Ücret: &a500.000 TL'
+        - ' '
+        - '&7&o(Satın almak için tıkla)'
+        left_click_commands:
+        - '[console] give %player_name% diamond_chestplate 1 protection:9 unbreaking:5'
+        - '[console] eco take %player_name% 500000'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] give %player_name% diamond_chestplate 1 protection:9 unbreaking:5'
+        - '[console] eco take %player_name% 500000'
+        - '[refresh]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 500000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'   
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 500000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'     
+          - '[close]'
+      '3':
+        material: 312
+        slot: 23
+        display_name: '&8▸ &6Elmas Pantolon &8【&aKoruma IX&8】 &8◂'
+        lore:
+        - ''
+        - '&eSet Özellikleri'
+        - ''
+        - ' &8▪ &7Koruma: &fIX'
+        - ' &8▪ &7Kırılmazlık: &fV'
+        - ' '
+        - '&7Ücret: &a500.000 TL'
+        - ' '
+        - '&7&o(Satın almak için tıkla)'
+        left_click_commands:
+        - '[console] give %player_name% diamond_leggings 1 protection:9 unbreaking:5'
+        - '[console] eco take %player_name% 500000'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] give %player_name% diamond_leggings 1 protection:9 unbreaking:5'
+        - '[console] eco take %player_name% 500000'
+        - '[refresh]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 500000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'   
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 500000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'     
+          - '[close]'
+      '4':
+        material: 313
+        slot: 24
+        display_name: '&8▸ &6Elmas Bot &8【&aKoruma IX&8】 &8◂'
+        lore:
+        - ''
+        - '&eSet Özellikleri'
+        - ''
+        - ' &8▪ &7Koruma: &fIX'
+        - ' &8▪ &7Kırılmazlık: &fV'
+        - ' '
+        - '&7Ücret: &a500.000 TL'
+        - ' '
+        - '&7&o(Satın almak için tıkla)'
+        left_click_commands:
+        - '[console] give %player_name% diamond_boots 1 protection:9 unbreaking:5'
+        - '[console] eco take %player_name% 500000'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] give %player_name% diamond_boots 1 protection:9 unbreaking:5'
+        - '[console] eco take %player_name% 500000'
+        - '[refresh]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 500000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'   
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 500000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'     
+          - '[close]'
+      '5':
+        material: 276
+        slot: 13
+        display_name: '&8▸ &6Elmas Kılıç &8【&aKeskinlik IX&8】 &8◂'
+        lore:
+        - ''
+        - '&eKılıç Özellikleri'
+        - ''
+        - ' &8▪ &7Keskinlik: &fIX'
+        - ' &8▪ &7Kırılmazlık: &fIV'
+        - ' &8▪ &7Alevden Çehre: &fII'
+        - ' '
+        - '&7Ücret: &a500.000 TL'
+        - ' '
+        - '&7&o(Satın almak için tıkla)'
+        left_click_commands:
+        - '[console] give %player_name% diamond_sword 1 sharpness:9 unbreaking:4 fire_aspect:2'
+        - '[console] eco take %player_name% 500000'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] give %player_name% diamond_sword 1 sharpness:9 unbreaking:4 fire_aspect:2'
+        - '[console] eco take %player_name% 500000'
+        - '[refresh]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 500000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'   
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 500000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'     
+          - '[close]'
+      '6':
+        material: 322
+        data: 1
+        slot: 31
+        display_name: '&8▸ &6Altın Elma &8【&a16x&8】 &8◂'
+        lore:
+        - ''
+        - '&7Ücret: &a500.000 TL'
+        - ' '
+        - '&7&o(Satın almak için tıkla)'
+        left_click_commands:
+        - '[console] give %player_name% 322:1 16'
+        - '[console] eco take %player_name% 368000'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] give %player_name% 322:1 16'
+        - '[console] eco take %player_name% 368000'
+        - '[refresh]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 368000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'   
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 368000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'     
+          - '[close]'
+          
+      '7':
+        material: 351
+        data: 1
+        slot: 22
+        display_name: '&8▸ &6PvP Tılsımı &8【&a16x&8】 &8◂'
+        lore:
+        - ''
+        - '&7Ücret: &a500.000 TL'
+        - ' '
+        - '&7&o(Satın almak için tıkla)'
+        left_click_commands:
+        - '[console] give %player_name% 351:1 16 name:&cPVP_&7TILSIMI'
+        - '[console] eco take %player_name% 480000'
+        - '[refresh]'
+        right_click_commands:
+        - '[console] give %player_name% 351:1 16 name:&cPVP_&7TILSIMI'
+        - '[console] eco take %player_name% 480000'
+        - '[refresh]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 480000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'   
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 480000'
+          deny_commands:
+          - '[message] &6Rab&eisu » &fSatın almak için yeterli paran bulunmuyor.'     
+          - '[close]'

@@ -1,0 +1,37 @@
+Locations:
+  '1':
+    Crate: Tag
+    World: Haritalar
+    X: -15055
+    Y: 101
+    Z: 14910
+  '2':
+    Crate: Para
+    World: Haritalar
+    X: -15054
+    Y: 101
+    Z: 14916
+  '3':
+    Crate: Set
+    World: Haritalar
+    X: -15051
+    Y: 101
+    Z: 14921
+  '4':
+    Crate: VIP
+    World: Haritalar
+    X: -15047
+    Y: 101
+    Z: 14902
+  '5':
+    Crate: Ödül
+    World: Haritalar
+    X: -15036
+    Y: 101
+    Z: 14906
+  '6':
+    Crate: Koth
+    World: Haritalar
+    X: -15041
+    Y: 101
+    Z: 14903

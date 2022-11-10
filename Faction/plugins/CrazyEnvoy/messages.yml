@@ -1,0 +1,64 @@
+Messages:
+  No-Permission: '%prefix%&cBu komutu kullanma izniniz yok.'
+  Players-Only: '%prefix%&cOnly Bu komutu yalnızca oyuncular kullanabilir.'
+  Not-Online: '%prefix%&cBu oyuncu şu anda çevrimiçi değil.'
+  Not-A-Number: '%prefix%&cBu bir sayı değil.'
+  Reloaded: '%prefix%&7Tüm dosyaları yeni yüklediniz.'
+  Already-Started: '%prefix%&cHalihazırda envoy var. Lütfen yeni bir tane başlatmak
+    için bitmesini bekleyin.'
+  Force-Start: '%prefix%&7Envoy az önce başladı. /spawn'
+  Not-Started: '%prefix%&cŞu anda herhangi bir envoy etkinliği yok.'
+  Force-Ended: '%prefix%&cAz önce envoy sona erdi.'
+  Warning: '%prefix% &6%time%&7 sonra &7Envoy eventi başlayacak.'
+  Started: '%prefix%&7Envoy Başladı &6%amount% &7Kasa spawnlandı /spawn'
+  Left: '%prefix%&6%player% &7Bir kasa açtı &6%amount% &7adet kasa kaldı'
+  Ended: '%prefix%&cEnvoy etkinliği sona erdi. Oynadığınız için teşekkürler ve lütfen
+    bir sonraki oyun için tekrar gelin.'
+  Not-Enough-Players: '%prefix%&7Envoy etkinliğini başlatmak için yeterli oyuncu çevrimiçi
+    değil. &6%amount% &7oyuncu çevrimiçi'
+  Enter-Editor-Mode: '%prefix%&7Şimdi editör modundasınız.'
+  Leave-Editor-Mode: '%prefix%&7Artık editör modundan çıktınız.'
+  Kicked-From-Editor-Mode: '%prefix%&cÜzgünüm ama bir Envoy aktif. Lütfen durdurun
+    ya da bitene kadar bekleyin.'
+  Add-Location: '%prefix%&7Bir spawn yeri eklediniz.'
+  Remove-Location: '%prefix%&cBir spawn konumunu yeni sildiniz.'
+  Time-Left: '%prefix%&7Envoyun baslamasına &6%time%&7 kaldı.'
+  Time-Till-Event: '%prefix%&7Bir sonraki envoy &6%time%&7 dakika sonra başlayacak'
+  Used-Flare: '%prefix%&7Az önce bir parlama ile bir Envoy etkinliği başlattınız.'
+  Cant-Use-Flares: '%prefix%&cİşaret fişeklerini kullanma izniniz yok.'
+  Give-Flare: '%prefix%&7Yeni verdin &6%player% %amount% &7işaret fişeği'
+  Given-Flare: '%prefix%&7Sana verildi &6%amount% &7işaret fişeği'
+  New-Center: '%prefix%&7Rastgele envoy kasaları için yeni bir merkez belirlediniz.'
+  Not-In-World-Guard-Region: '%prefix%&cBir parlama kullanmak için WarZoneda olmalısınız.'
+  Start-Ignoring-Messages: '%prefix%&7Artık toplama mesajlarını görmezden geliyorsunuz.'
+  Stop-Ignoring-Messages: '%prefix%&7Artık tüm toplama mesajlarını görüyorsunuz.'
+  Cooldown-Left: '%prefix%&7Başka bir kasa açmak için &6%time% &7Süre beklemelisiniz.'
+  Drops-Available: '%prefix%&7Mevcut envoy listesi.'
+  Drops-Possibilities: '%prefix%&7Konum listesi envoyda doğabilir.'
+  Drops-Page: '%prefix%&7Use /crazyenvoy drops [page] to see more.'
+  Drops-Format: '&6%id% &f▸ &c%world%, &a%x%, %y%, %z%'
+  No-Spawn-Locations-Found: '%prefix%&cHiçbir spawn yeri bulunamadı ve bu nedenle
+    etkinlik iptal edildi ve bekleme süresi sıfırlandı.'
+  Hologram-Placeholders:
+    On-Going: Devam Ediyor
+    Not-Running: Devam Etmiyor.
+  Help:
+  - '&6/envoy help &7- Shows the envoy help menu.'
+  - '&6/envoy reload &7- Reloads all the config files.'
+  - '&6/envoy time &7- Shows the time till the envoy starts or ends.'
+  - '&6/envoy drops [page] &7- Shows all current crate locations.'
+  - '&6/envoy ignore &7- Shuts up the envoy collecting message.'
+  - '&6/envoy flare [amount] [player] &7- Give a player a flare to call an envoy event.'
+  - '&6/envoy edit &7- Edit the crate locations with bedrock.'
+  - '&6/envoy start &7- Force starts the envoy.'
+  - '&6/envoy stop &7- Force stops the envoy.'
+  - '&6/envoy center &7- Set the center of the random crate drops.'
+  No-Permission-Claim: '%prefix%&cYou do not have permission to claim that envoy.'
+  Editor-Clear-Locations: '%prefix%&7You have cleared all the editor spawn locations.'
+  Editor-Clear-Failure: '%prefix%&7You must be in Editor mode to clear the spawn locations.'
+  Command-Not-Found: '%prefix%&cPlease do /envoy help for more information.'
+  Time-Placeholders:
+    Day: d
+    Hour: h
+    Minute: m
+    Second: s

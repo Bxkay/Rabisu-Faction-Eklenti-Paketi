@@ -1,0 +1,18 @@
+name: Müşir
+permissions:
+- multiverse.*:
+    value: false
+- weight.10
+- essentials.kit.müşir
+- essentials.repair
+- essentials.repair.all
+- esssentials.fly
+- essentials.feed
+- essentials.sethome.multiple.musir
+- playervaults.amount.4
+- playervaults.size.6
+parents:
+- yetkiler
+prefixes:
+- '&4Müşir':
+    priority: 1

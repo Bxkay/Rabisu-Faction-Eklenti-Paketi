@@ -1,0 +1,37 @@
+investments:
+  investment1:
+    timeToStay: 1800
+    toInvest: 100000
+    reward: 200000
+    executed-commands: []
+    type: Money
+  investment2:
+    timeToStay: 3600
+    toInvest: 250000
+    reward: 500000
+    executed-commands: []
+    type: Money
+  investment3:
+    timeToStay: 7200
+    toInvest: 500000
+    reward: 1000000
+    executed-commands: []
+    type: Money
+  investment4:
+    timeToStay: 21600
+    toInvest: 1000000
+    reward: 2000000
+    executed-commands: []
+    type: Money
+  investment5:
+    timeToStay: 43200
+    toInvest: 5000000
+    reward: 10000000
+    executed-commands: []
+    type: Money
+  investment6:
+    timeToStay: 86400
+    toInvest: 10000000
+    reward: 20000000
+    executed-commands: []
+    type: Money

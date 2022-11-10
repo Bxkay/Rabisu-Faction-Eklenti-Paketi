@@ -1,0 +1,70 @@
+##########################################
+#Ayarları yaparken config bozulursa
+#Konsolda hata alırsınız                  
+#Pls dikkat edin
+##########################################
+Ayarlar:
+#Mesajların önündeki Prefix Tagı
+  Prefix: '&cMetinTaşı &8»'
+#Metinin canı
+  Can: 300
+#Birisi Metine vurunca alttaki saniye boyunca başka birisi aynı metine vuramaz
+  ÇalmaKoruması: 15
+#Metinin kırılan Bloğu
+  Blok: OBSIDIAN
+#Tekrar doğma süresi (dakika olarak)
+  TekrarDoğmaSüresi: 20
+#Kırılan blok yere mi düşşsün yoksa yok mu olsun (true yaparsanız yere düşer)
+  BlokYereDüşsün: false
+#Metin kesinde herkese mesaj gitsin mi
+  MetinKesinceMesaj: true
+#Üstteki seçenek true ise atılacak olan mesaj
+  Mesaj: '&7Metin Taşı &c%player% &7tarafından kırıldı!'
+#Metin taşının en üstündeki yazı
+  MetinYazi: '&cMetin Taşı'
+#
+#Biri metin taşını kesince kullanılcak komutlar
+Komutlar:
+  - 'crazycrates give p Ödül 1 %player%'
+#Esyalar bölümü burdan düşecek tüm eşyaları ayarlayabilirsiniz.
+Esyalar:
+  kafalik:
+    Material: DIAMOND_HELMET
+    İsim: '&cMetin Taşı Kask'
+    Şans: 100
+    DüşürünceMesajAtsın: false
+    Mesaj: '&b%player% &aMetin Taşından &cEfsanevi Kask &adüşürdü!'
+    İtemYereDüşsün: true
+    Enchants:
+    - PROTECTION_ENVIRONMENTAL:7
+    - DURABILITY:5
+  chestplate:
+    Material: DIAMOND_CHESTPLATE
+    İsim: '&cMetin Taşı Göğüslük'
+    Şans: 100
+    DüşürünceMesajAtsın: false
+    Mesaj: '&b%player% &aMetin Taşından &cEfsanevi Kask &adüşürdü!'
+    İtemYereDüşsün: true
+    Enchants:
+    - PROTECTION_ENVIRONMENTAL:7
+    - DURABILITY:5
+  pantolon:
+    Material: DIAMOND_LEGGINGS
+    İsim: '&cMetin Taşı Pantolon'
+    Şans: 100
+    DüşürünceMesajAtsın: false
+    Mesaj: '&b%player% &aMetin Taşından &cEfsanevi Kask &adüşürdü!'
+    İtemYereDüşsün: true
+    Enchants:
+    - PROTECTION_ENVIRONMENTAL:7
+    - DURABILITY:5
+  bot:
+    Material: DIAMOND_BOOTS
+    İsim: '&cMetin Taşı Bot'
+    Şans: 100
+    DüşürünceMesajAtsın: false
+    Mesaj: '&b%player% &aMetin Taşından &cEfsanevi Kask &adüşürdü!'
+    İtemYereDüşsün: true
+    Enchants:
+    - PROTECTION_ENVIRONMENTAL:7
+    - DURABILITY:5

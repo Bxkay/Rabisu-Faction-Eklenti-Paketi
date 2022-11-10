@@ -1,0 +1,15 @@
+name: Yardımcı
+permissions:
+- multiverse.*:
+    value: false
+- weight.16
+- punishmanager.command.mute
+- punishmanager.command.tempmute
+- punishmanager.command.unmute
+- punishmanager.command.changereason
+parents:
+- yetkiler
+- vip
+prefixes:
+- '&aYardımcı':
+    priority: 1

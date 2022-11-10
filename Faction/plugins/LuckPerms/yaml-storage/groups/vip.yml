@@ -1,0 +1,20 @@
+name: VIP
+permissions:
+- multiverse.*:
+    value: false
+- weight.12
+- essentials.kit.vip
+- essentials.feed
+- essentials.repair
+- essentials.repair.all
+- essentials.heal
+- essentials.hat
+- plots.plot.2
+- playervaults.amount.2
+- playervaults.size.6
+- essentials.sethome.multiple.vip
+parents:
+- yetkiler
+prefixes:
+- '&6VIP':
+    priority: 1

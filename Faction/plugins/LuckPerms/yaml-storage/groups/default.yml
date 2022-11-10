@@ -1,0 +1,11 @@
+name: default
+permissions:
+- multiverse.*:
+    value: false
+- weight.1
+- essentials.kit.nefer    
+parents:
+- yetkiler
+prefixes:
+- '&eNefer':
+    priority: 1

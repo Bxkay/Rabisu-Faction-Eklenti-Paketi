@@ -1,0 +1,139 @@
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Forums: http://www.spigotmc.org/
+
+config-version: 8
+settings:
+  save-user-cache-on-stop-only: true
+  bungeecord: false
+  late-bind: false
+  sample-count: 12
+  player-shuffle: 0
+  filter-creative-items: true
+  user-cache-size: 999999
+  int-cache-limit: 1024
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-threshold: 100.0
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: 6
+  attribute:
+    maxHealth:
+      max: 20480.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+  debug: false
+timings:
+  enabled: false
+  verbose: true
+  server-name-privacy: true
+  hidden-config-entries:
+  - database
+  - settings.bungeecord-addresses
+  history-interval: 300
+  history-length: 3600
+commands:
+  tab-complete: -1
+  log: false
+  spam-exclusions: []
+  silent-commandblock-console: false
+  replace-commands: []
+messages:
+  whitelist: '&6Rab&eisu &8▶ &7Sunucuda bakım yapılıyor!'
+  unknown-command: '&6Rab&eisu &8▶ &7Sunucuda geçerli olmayan bir komut girdin!'
+  server-full: '&6Rab&eisu &8▶ &7Sunucu tamamen dolu!'
+  outdated-client: '&6Rab&eisu &8▶ &7Uygunsuz sürüm ile giriş yapıyorsun. Uyumlu sürüm:
+    1.8x/1.17x'
+  outdated-server: '&6Rab&eisu &8▶ &7Uygunsuz sürüm ile giriş yapıyorsun. Uyumlu sürüm:
+    1.8x/1.17x'
+  restart: '&6Rab&eisu &8▶ &7Sunucu yeniden başlatılıyor!'
+stats:
+  disable-saving: false
+  forced-stats: {}
+world-settings:
+  default:
+    verbose: true
+    mob-spawn-range: 6
+    anti-xray:
+      enabled: false
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
+    nerf-spawner-mobs: true
+    growth:
+      cactus-modifier: 300
+      cane-modifier: 300
+      melon-modifier: 300
+      mushroom-modifier: 300
+      pumpkin-modifier: 300
+      sapling-modifier: 300
+      wheat-modifier: 300
+      netherwart-modifier: 300
+    entity-activation-range:
+      animals: 6
+      monsters: 6
+      misc: 4
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 49
+      misc: 32
+      other: 48
+    ticks-per:
+      hopper-transfer: 400
+      hopper-check: 400
+    hopper-amount: 320
+    random-light-updates: true
+    save-structure-info: false
+    max-bulk-chunks: 5
+    max-entity-collisions: 2
+    dragon-death-sound-radius: 0
+    seed-village: 10387312
+    seed-feature: 14357617
+    hunger:
+      walk-exhaustion: 0.1
+      sprint-exhaustion: 0.2
+      combat-exhaustion: 0.3
+      regen-exhaustion: 3.0
+    max-tnt-per-tick: 999999
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    arrow-despawn-rate: 300
+    item-despawn-rate: 2400
+    merge-radius:
+      item: 8.0
+      exp: 6.0
+    enable-zombie-pigmen-portal-spawns: false
+    wither-spawn-sound-radius: 0
+    view-distance: 4
+    hanging-tick-frequency: 100
+    zombie-aggressive-towards-villager: false
+    chunks-per-tick: 320
+    clear-tick-list: false

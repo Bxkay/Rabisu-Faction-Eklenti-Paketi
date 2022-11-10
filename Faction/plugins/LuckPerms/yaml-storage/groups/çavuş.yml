@@ -1,0 +1,11 @@
+name: Çavuş
+permissions:
+- multiverse.*:
+    value: false
+- weight.3
+- essentials.kit.çavuş
+parents:
+- yetkiler
+prefixes:
+- '&aÇavuş':
+    priority: 1

@@ -1,0 +1,97 @@
+﻿#Rabisu Faction Eklenti Paketi ~ berkay.#1940
+
+options:
+	prefix: &6Rab&eisu &8»
+	yetkinyok: &7Bu komut için yetkin bulunmamaktadır.
+	
+on join:
+	if {coin::%player%} is not set:
+		set {coin::%player%} to 0
+
+on break mossy cobblestone:
+	if player has 64 mossy cobblestone in inventory:
+		remove 64 mossy cobblestone from player    
+		set action bar of player to ("{@prefix} &764 adet yosunlu taş &f32 coine &7dönüştürüldü.")
+		add 32 to {coin::%player%} 
+
+command /coingonder [<player>] [<int>]:
+    trigger:
+        if arg 1 is set:
+            if arg 1 is player:
+                message "{@prefix} &7Kendine coin gönderemezsin!"
+            else:
+                if arg 2 is set:
+                    if {coin::%player%} is bigger than or equal to arg-2:
+                        if arg-2 is bigger than or equal to 1:
+                            remove arg-2 from {coin::%player%}
+                            add arg-2 to {coin::%arg-1%}
+                            send "{@prefix} &f%player% &7sana &e%arg-2% &7Coin &7gönderdi!" to arg-1
+                            execute console command "tm msg %arg-1% &fŞu anki Coinin &e%{coin::%arg-1%}%"
+                            execute console command "tm msg %player% &fŞu anki Coinin &e%{coin::%player%}%"
+                            send "{@prefix} &f%arg-1% &7adlı oyuncuya &e%arg-2% &7Coin başarıyla gönderildi!" to player
+                        else:
+                            message "{@prefix} &7En az &e1 Coin &7gönderebilirsin!"
+                    else:
+                        message "{@prefix} &7Yetersiz Coin &c!"
+                else:
+                    message "{@prefix} &7Kullanım: &e/coingonder <Oyuncu> <CoinMiktarı>"
+        else:
+            message "{@prefix} &7Kullanım: &e/coingonder <Oyuncu> <CoinMiktarı>"
+	
+command /coin [<text>] [<player>] [<int>]:
+	permission: coin.admin
+	permission message: {@prefix} &7Dogru kullanım : &e/coinbilgi
+	trigger:
+		if arg 1 is set:
+			if arg 1 is "ver":
+				if arg 2 is set:
+					if arg 3 is set:
+						add arg 3 to {coin::%arg 2%}
+						send "{@prefix} &e%arg 2% &7adli oyuncuya &a%arg 3%&7 coin verildi&c!" to player
+					else: 
+						send "{@prefix} &7Yanlış komut: &e/coin" to player
+				else: 
+					send "{@prefix} &7Yanlış komut: &e/coin" to player
+			else:
+				if arg 1 is "sil":
+					if arg 2 is set:
+						if arg 3 is set:
+							remove arg 3 from {coin::%arg 2%}	
+							send "{@prefix} &e%arg 2% &7adli oyuncudan &a%arg 3%&7 coin silindi!" to player
+						else: 
+							send "{@prefix} &7Yanlış komut: &e/coin" to player
+					else:
+						send "{@prefix} &7Yeterli Coin'e Sahip Degilsin"
+				else:
+					if arg 1 is "sifirla":
+						if arg 2 is set:
+							set {coin::%arg 2%} to 0
+							send "{@prefix} &e%arg 2% &7adli oyuncunun coini sifirlandi!" to player	
+						else: 
+							send "{@prefix} &7Yanlış komut: &e/coin" to player
+					else:
+						if arg 1 is "bak":
+							if arg 2 is set:
+								send "{@prefix} &e%arg 2%&7'nin coini&8 » &a%{coin::%arg 2%}%" to player
+							else:
+								send "{@prefix} &7Yanlış komut: &e/coin" to player
+		else:
+			send "&8&m+--------------&8[&6 Mağaza Sistem &8]&8&m--------------&8+&7" to player
+			send "&8 » &e/coinim &8| &7Hesabınızdaki varolan coinyi gösterir&c." to player
+			send "&8 » &e/coinmarket &8| &7Aldığınız coinleri harcayabileceğiniz yerdir&c." to player
+			send "&8 » &e/coingonder &7(&aOyuncu&7) &7(&aMiktar&7) &8| &7Oyuncuya coin gonderir&c." to player
+			send "&8&m+--------------&8[&6 Mağaza Sistem &8]&8&m--------------&8+&7" to player
+			
+command /coinim:
+	trigger:	
+		send "{@prefix} &7Hesabınızda &a%{coin::%player%}% &7coin var&c!"
+		
+#Mağaza
+		
+command /madenciset:
+    trigger:
+        if {coin::%player%} is bigger than or equal to 30000:
+            execute console command "ea give %player% madenci s"
+            remove 30000 from {coin::%player%}
+        else:
+            send "&c&lHATA &7 &7Yetersiz Coin!"

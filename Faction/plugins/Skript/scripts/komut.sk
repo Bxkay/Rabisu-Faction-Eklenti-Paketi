@@ -1,0 +1,13 @@
+#Rabisu Faction Eklenti Paketi ~ berkay.#1940
+
+command /market:
+	trigger:
+		execute player command "shop"
+		
+command /vakitnakittir:
+	trigger:
+		execute player command "investment"	
+
+command /yatırım iptal:
+	trigger:
+		execute player command "investment stop"

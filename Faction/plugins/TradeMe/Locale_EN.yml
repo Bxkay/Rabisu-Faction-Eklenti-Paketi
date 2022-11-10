@@ -1,0 +1,310 @@
+# Set line to empty one like '' so it will not be displayed
+info:
+  prefix: '&eTakas'
+  NoPermission: '&cBunu yapmaya yetkiniz yok!'
+  NoTargetpermission: '&4Target doesn''t have permission for this!'
+  Ingame: '&cYou can use this only in game!'
+  NoInformation: '&cCant find any information!'
+  FromConsole: '&cYou can use this only from console!'
+  NotOnline: '&cThe player is not online!'
+  NoPlayer: '&cCan''t find player with this name!'
+  NoCommand: '&cThere is no command by this name!'
+  UseInteger: '&4Please use numbers!'
+  UseBoolean: '&4Please use True or False!'
+  NoLessThan: '&4Number can''t be less than [amount]!'
+  NoMoreThan: '&4Value can''t be more than [amount]'
+  Spliter: '&3--------------------------------------------------'
+  fliperSimbols: '&3----------'
+  prevPage: '&2----<< &bPrev '
+  prevPageGui: '&bPrevious page '
+  prevPageClean: '&bPrev '
+  prevPageOff: '&2----<< &7Prev '
+  prevPageHover: '&7<<<'
+  nextPage: '&b Next &2>>----'
+  nextPageGui: '&bNext Page'
+  nextPageClean: '&b Next'
+  nextPageOff: '&7 Next &2>>----'
+  nextPageHover: '&7>>>'
+  pageCount: '&2[current]&7/&2[total]'
+  pageCountHover: '&2[totalEntries]'
+  # Use [playerDisplayName] to show lpayers custom name in gui title
+  # If you want to show original name, then use [playerName]
+  guiTradeTitle: '[playerDisplayName]'
+error:
+  CantChat: '&cTakas sırasında sohbet edemezsin'
+  CantSendCommands: '&cTakas yaparken komut kullanamazsın!'
+NoRequests: '&eBekleyen takas talebiniz bulunamadı!'
+CanceledTrade: '&e[playername] &7Takası iptal etti!'
+YouCanceledTrade: '&eTakası iptal ettin!'
+BlockedWorldSender: '&cBu dünyada ticaret yapamazsın!'
+BlockedWorldTarget: '&cBu dünya kara listeye alındı!'
+DifferentGameMode: '&eFarklı oyun modundaki bir oyuncu ile takas yapamazsın!'
+BetweenWorlds: '&eDünyalar arası ticaret olmaz!'
+ToFar: '&eOyuncu senden çok uzakta, En fazla &b[distance] &3blok uzakta olabilir'
+StillInCombat: '&e[player] &7Savaş sırasında lütfen [time] saniye bekleyin'
+InvIsOpen: '&b[player] &eEnvanteri açıldı lütfen kapanmasını bekleyin'
+CantTradeDifGroup: '&cFarklı rütbelerdeki oyuncular ile takas yapamazsın'
+MiddleMouse: '&2Modlar arasında gezinmek için orta tuş u kullanın'
+CantTradeOverBungge: '&cCant trade with this player over bungee network'
+CantTradeOverServers: '&cCan''t trade between these 2 servers: [server1] - > [server2]'
+NotOnline: '&e[playername]&7 aktif değil!'
+Vanished: '&e[playername]&7 aktif değil!'
+yourSelf: '&eKendin ile ticaret yapamazsın!'
+NotAccepting: '&e[playername] &7Takas isteğini reddeti!'
+BlacklistedItem: '&eBu item kara listede!'
+AlreadyTrading: '&e[playername]&7 şuanda başkası ile takas yapıyor!'
+PendingRequest: '&3Aktif bir takas isteğiniz var lütfen &b[time] &3saniye bekle.'
+AlreadyRequested: '&3Başkası ona takas teklifi yapmış lütfen &b[time] &3saniye bekleyin'
+Successful: '&bTakas başarılı!'
+Failed: '&cTakas başarısız!'
+Taxes:
+  Mein: ' Taxes:'
+  BothEnabled: ' &'
+  Fixed: ' [amount]'
+  Percentage: ' [amount]% ([takenamount])'
+  Left: (&4 [amount] &3)
+Button:
+  Decline:
+    Name: '&eReddetmek için tıklayın'
+    Lore: []
+  Accept:
+    Name: '&eKabul etmek için tıklayın'
+    Lore: []
+  Accepted:
+    Name: '&eTakası kabul etti'
+    Lore: []
+  Waiting:
+    Name: '&eTeklifinizi halen kabul etmedi'
+    Lore: []
+Item:
+  Got: ''
+  YourInvFull: '&eEnvanterinizde yeterli boş alan yok'
+  TargetInvFull: '&e[player] &7Envanterinde yeterli boş alan yok'
+Regions:
+  WorldGuard:
+    YouCanttrade: '&2You can''t trade in this region!'
+    PlayerCanttrade: '&2[playername] can''t trade in this region!'
+  Residence:
+    YouCanttrade: '&2You can''t trade in this residence!'
+    PlayerCanttrade: '&2[playername] can''t trade in this residence!'
+TradeModes:
+  Exp:
+    Button:
+      Name: '&2Exp increment by &b[amount]'
+      Lore:
+      - '&3Left click to add'
+      - '&3Right click to take'
+      - '&3Hold shift to increase 10 times'
+      - '&3Maximum available: &b[balance]'
+      - '&3Current exp offer: &b[offer] [taxes]'
+      - '&3You will be left with &b[sourcelevel] &3levels and &b[sourceexp] &3exp'
+      - '&3Target player will be at &b[targetlevel] &3and have &b[targetexp] &3exp'
+    OfferedButton:
+      Lore:
+      - '&3Curent exp offer: &b[amount] [taxes]'
+      - '&3[player] will be left with &b[sourcelevel] &3levels and &b[sourceexp] &3exp'
+      - '&3You will be at &b[targetlevel] &3and have &b[targetexp] &3exp'
+      Name: '&2[player]''s exp offer'
+    log: '&3[amount] &7Exp'
+    ChangedOffer: '&b[playername] &3has changed their exp offer to: &b[amount]'
+    ToggleButton:
+      Name: '&2Toggle to exp offer'
+      Lore:
+      - '&3Curent exp offer: &b[amount] [taxes]'
+      - '&3You will be left with &b[sourcelevel] &3levels and &b[sourceexp] &3exp'
+      - '&3Target player will be at &b[targetlevel] &3and have &b[targetexp] &3exp'
+    Error: '&3[playername] doesn''t have enough exp!'
+    Limit: '&3You dont have enough exp! Amount was set to maximum you can trade: &b[amount]'
+    Got: '&3You have received &b[amount] &3exp'
+    ChangedOfferTitle: '&8Offered &0[amount] &8exp'
+  Money:
+    Button:
+      Name: '&2Money increment by &b[amount]'
+      Lore:
+      - '&3Left click to add'
+      - '&3Right click to take'
+      - '&3Hold shift to increase 10 times'
+      - '&3Maximum available: &b[balance]'
+      - '&3Current money offer: &b[offer] [taxes]'
+    log: '&3[amount] &7Money'
+    Error: '&3[playername] doesn''t have enough money!'
+    Got: '&3You have received &b[amount] &3money'
+    OfferedButton:
+      Name: '&2[player]''s money offer'
+      Lore:
+      - '&3Curent money offer: &b[amount] [taxes]'
+    InLoanTarget: '&3Your offered money amount is to low to get &b[playername] &3out
+      of loan! offer atleast &b[amount]'
+    ChangedOfferTitle: '&8Offered &0[amount] &8money'
+    ChangedOffer: '&b[playername] &3has changed their money offer to: &b[amount]'
+    ToggleButton:
+      Name: '&2Toggle to money offer'
+      Lore:
+      - '&3Curent money offer: &b[amount] [taxes]'
+    InLoanYou: '&b[playername] &3offered money amount is to low to get you out of
+      loan!'
+    hardLimit: '&b[playername] &3cant have more than 10,000,000,000,000 money!'
+    Limit: '&3You dont have enough money! Amount was set to maximum you can trade:
+      &b[amount]'
+    CantWidraw: '&cCan''t widraw money from player! ([playername])'
+  Jobs:
+    Button:
+      Name: '&2Jobs Exp increment by &6[amount]'
+      Lore:
+      - '&eLeft click to add'
+      - '&eRight click to take'
+      - '&eHold shift to increase 10 times'
+      - '&eMaximum available: &6[balance]'
+      - '&eCurrent Jobs exp offer: &6[offer] [taxes]'
+      - '&eYou will be left with &6[sourcelevel] &elevels and &6[sourceexp] &eexp'
+      - '&eTarget player will be at &6[targetlevel] &eand have &6[targetexp] &eexp'
+    GotList: '[job] &e-> &6[amount] Exp&e, &6'
+    log: '&7Jobs'
+    Got: '&eYou have got Jobs exp for: &6[list]'
+    OfferedButton:
+      Name: '&2[player]''s jobs exp offer'
+      Lore:
+      - '&eTotal Jobs exp offer:'
+      - '[list]'
+    ChangedOfferTitle: '&8Jobs: &0[amount] &8-> &0[jobName]'
+    TargetLimit: '&ePlayer cant get over level &6[level]&e! Amount was set to maximum
+      he may receive: &6[amount]'
+    ChangedOffer: '&6[playername] &ehas changed their Jobs exp offer to: &6[amount]
+      &e for &6[jobName]'
+    ToggleButton:
+      Name: '&2Toggle to Jobs exp offer'
+      Lore:
+      - '&eCurrent job: &6[jobname]'
+      - '&eClick again to switch to another'
+      - '&eCurent job exp offer: &6[amount]'
+      - ''
+      - '&eTotal Jobs offer'
+      - '[list]'
+    logList: '&e[name] -> &6[amount] exp'
+    Limit: '&eYou dont have enough exp! Amount was set to maximum you can trade: &6[amount]'
+  JobsPoints:
+    Button:
+      Name: '&2JP increment by &6[amount]'
+      Lore:
+      - '&eLeft click to add'
+      - '&eRight click to take'
+      - '&eHold shift to increase 10 times'
+      - '&eMaximum available: &6[balance]'
+      - '&eCurrent JP offer: &6[offer] [taxes]'
+      - '&eYou will be left with &6[sourcepoints] &epoints'
+      - '&eTarget player will be at &6[targetpoints] &epoints'
+    OfferedButton:
+      Lore:
+      - '&eCurent JP offer: &6[amount] [taxes]'
+      - '&e[player] will be left with &6[sourcepoints] &epoints'
+      - '&eYou will be at &6[targetpoints] &epoints'
+      Name: '&2[player]''s JP offer'
+    log: '&e[amount] &7Jobs points'
+    ChangedOffer: '&6[playername] &ehas changed their Jobs points offer to: &6[amount]'
+    ToggleButton:
+      Name: '&2Toggle to Jobs Points offer'
+      Lore:
+      - '&eCurent JP offer: &6[amount] [taxes]'
+      - '&eYou will be left with &6[sourcepoints] &epoints'
+      - '&eTarget player will be at &6[targetpoints] &epoints'
+    Error: '&e[playername] doesn''t have enough Jobs Points!'
+    Limit: '&eYou dont have enough Jobs points! Amount was set to maximum you can
+      trade: &6[amount]'
+    Got: '&eYou have received &6[amount] &eJobs points'
+    ChangedOfferTitle: '&8Offered &0[amount] &8Jobs points'
+command:
+  help:
+    output:
+      CommandColor: '&2'
+      VariableColor: '&b'
+      title: '&3-------&3 ======= &bTakas &3======= &3-------'
+      usage: '&3Usage: %usage%'
+      cmdInfoFormat: '[command] &f- &3[description]'
+      cmdFormat: '&b/[command]&f[arguments]'
+      helpPageDescription: '&3* [description]'
+      explanation: '&3 * [explanation]'
+  nocmd:
+    help:
+      info: '&3Shows all available commands'
+      args: ''
+  accept:
+    help:
+      info: '&2Teklif Kabul'
+      args: '&3(-s)'
+    info:
+      ClickToAccept: '&bKabul etmek için tıkla!'
+  deny:
+    help:
+      info: '&2Takas teklifini reddet'
+      args: '[playername]'
+      simbol: ' &c[x]'
+    info:
+      ClickToDeny: '&cReddetmek için tıkla!'
+      simbol: '&c[x]'
+      deny: '&3Takas talebi reddedildi!'
+      DenyForSender: '&3Takas teklifinizi reddetti!'
+  block:
+    help:
+      info: '&2Oyuncu Engelle'
+      args: '[playerName]'
+    info:
+      RemovedFromBlockList: '&b[playername] &3Takas engel listenizden kaldırıldı!'
+      AddedToBlockList: '&b[playername] &3Takas engel listenize eklendi!'
+      Blocked: '&b[playername] &3has you in their block list!'
+  toggle:
+    help:
+      info: '&2Takas Kapat'
+      args: ''
+    info:
+      ToggledOn: '&3Artık takas tekliflerini kabul ediyorsunuz!'
+      ToggledOff: '&3Artık herhangi bir işlem teklifini kabul etmiyorsunuz!'
+  offer:
+    help:
+      info: '&2Takas teklifi gönder'
+      args: '[playername] &3(-s)'
+    info:
+      gotOffer: "&b[playername] &3Senin ile takas yapmak istiyor. \n"
+      accept: '   &a[Kabul ET]   '
+      deny: '   &c[Reddet]   '
+      MadeOffer: '&b[playername]&3. takas teklifi gönderildi, kabul etmek için &b[time]&3
+        saniyesi var'
+      ClickToAccept: '&bTeklifi kabul etmek için tıklayın!'
+  set:
+    help:
+      info: '&2Change config setings'
+      args: '[path] [variable]'
+    info:
+      ConfigUpdate: '&3Config file updated for &b[path] &3with &b[variable]&3!'
+  reload:
+    help:
+      info: '&3ee şey config i ve dil dosyalarını yeniledim hadi bb'
+      args: ''
+    info:
+      response: '&3config falan yeniden yüklendi byee'
+  log:
+    help:
+      info: '&2Oyuncuların takas günlüklerini kontrol edin'
+      args: '[username]'
+    info:
+      tradelog: '&3[number]. &b[player1] &3--> &b[player2] &3on &b[date]'
+      dateformat: dd/MM/yyyy HH:mm:ss
+      deletedentries: '&b[amount] &3entries was deleted from database!'
+      noentries: '&3There is no entries by this time range!'
+      noplayerlogentries: '&3There is no log entries!'
+      offered: '&3&n[playername] &boffered!'
+  force:
+    help:
+      info: '&2Force a trade between 2 players'
+      args: '[playername] [playername] &3(-s)'
+  purge:
+    help:
+      info: '&2Clears database to specific point'
+      args: '[TimeInMinutes]'
+  logitems:
+    help:
+      info: '&2Check yor own or players traded items'
+      args: (username)
+    info:
+      offered: '&3&n[playerName] &btraded!'
+      item: '&3[&r[itemName] &3x &b[amount]&3] '
+      noItem: '&3There was no items traded'

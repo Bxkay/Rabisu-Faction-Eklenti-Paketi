@@ -1,0 +1,288 @@
+menu_title: '&8Işınlanma Noktaları'
+open_command:
+- warp
+- warps
+size: 54
+items:
+  'viphammadde':
+    material: hdb-106
+    slot: 11
+    display_name: '&e&lVIP Hammadde Bölgesi'
+    lore:
+      - ''
+      - '&7VIP satın alarak özel'
+      - '&7hammaddende kasılabilirsin..'
+      - ''
+      - '&fSavaş&8: &c✘'
+      - ''
+      - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp viphammadde'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp viphammadde'
+    - '[close]'
+  'rutbehammadde':
+    material: hdb-110
+    slot: 13
+    display_name: '&e&lRütbe Hammadde Bölgesi'
+    lore:
+      - ''
+      - '&7Rütbe atlayarak özel'
+      - '&7hammaddende kasılabilirsin..'
+      - ''
+      - '&fSavaş&8: &c✘'
+      - ''
+      - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp rütbehammadde'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp rütbehammadde'
+    - '[close]'
+  'parkur':
+    material: hdb-49685
+    slot: 15
+    display_name: '&e&lParkur Bölgesi'
+    lore:
+      - ''
+      - '&7Parkuru tamamlayarak'
+      - '&7ödül kazanabilirsin'
+      - ''
+      - '&fSavaş&8: &c✘'
+      - ''
+      - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp parkur'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp parkur'
+    - '[close]'
+  'koth':
+    material: hdb-51930
+    slot: 19
+    display_name: '&e&lKoTH Bölgesi'
+    lore:
+      - ''
+      - '&7KoTH alanında durarak'
+      - '&7değerli ödüllerin sahibi olabilirsin.'
+      - ''
+      - '&fSavaş&8: &a✔'
+      - ''
+      - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp koth'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp koth'
+    - '[close]'
+  'arsa':
+    material: hdb-25842
+    slot: 21
+    display_name: '&e&lArsalar Bölgesi'
+    lore:
+      - ''
+      - '&7Arsa satın alarak'
+      - '&7dilediğin gibi kullanabilirsin.'
+      - ''
+      - '&fSavaş&8: &c✘'
+      - ''
+      - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp arsalar'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp arsalar'
+    - '[close]'
+  'orman':
+    material: hdb-18243
+    slot: 23
+    display_name: '&e&lOrman Bölgesi'
+    lore:
+      - ''
+      - '&7Issız bir ormanda klan evini'
+      - '&7inşa edebilir, rakiplerinle kapışabilirsin.'
+      - ''
+      - '&fSavaş&8: &a✔'
+      - ''
+      - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp orman'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp orman'
+    - '[close]'
+  'metin':
+    material: hdb-18454
+    slot: 25
+    display_name: '&e&lMetin Bölgesi'
+    lore:
+      - ''
+      - '&7Bu bölgede metintaşlarını'
+      - '&7kazarak eşya kasabilirsin.'
+      - ''
+      - '&fSavaş&8: &c✘'
+      - ''
+      - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp metintasi'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp metintasi'
+    - '[close]'
+  'edit':
+    material: hdb-1111
+    slot: 29
+    display_name: '&e&lEdit Bölgesi'
+    lore:
+      - ''
+      - '&7Bu bölgede yosuntaşı kırarak'
+      - '&7kazandığın coinlerle eşya'
+      - '&7satın alabilirsin.'
+      - ''
+      - '&fSavaş&8: &c✘'
+      - ''
+      - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp edit'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp edit'
+    - '[close]'
+  'lapis':
+    material: 'hdb-48939'
+    slot: 31
+    display_name: '&e&lLapis Bölgesi'
+    lore:
+    - ''
+    - '&7Bu bölgedeki lapis kırarak'
+    - '&7para, xp, kasa anahtarı kazanabilirsin.'
+    - ''
+    - '&fSavaş&8: &c✘'
+    - ''
+    - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp lapis'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp lapis'
+    - '[close]'
+  'kasalar':
+    material: hdb-1193
+    slot: 33
+    display_name: '&e&lKasalar Bölgesi'
+    lore:
+    - ''
+    - '&7Çeşitli yollarla kazandığın'
+    - '&7anahtarları bu bölgede açabilirsin.'
+    - ''
+    - '&fSavaş&8: &c✘'
+    - ''
+    - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp kasa'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp kasa'
+    - '[close]'
+  'arena':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNhNTIzYjA0MjI0MTg3NTYxYjQ0YzJiNzNlMTY0YjVjN2EyNDI5N2M0YTNmZjg2ZTg2ZTk4ZmM0MjU1NDU4YSJ9fX0====='
+    slot: 37
+    display_name: '&e&lArena Bölgesi'
+    lore:
+    - ''
+    - '&7Bu bölgede rakiplerinle pvp'
+    - '&7atarak gücünü gösterebilirsin.'
+    - ''
+    - '&fSavaş: &a✔'
+    - ''
+    - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp arena'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp arena'
+    - '[close]'
+  'pvpmaden':
+    material: hdb-22114
+    slot: 39
+    display_name: '&e&lPvPMaden Bölgesi'
+    lore:
+    - ''
+    - '&7Değerli madenlerin bulunduğu'
+    - '&7bu bölgede daha hızlı kasılabilirsin.'
+    - ''
+    - '&fSavaş: &a✔'
+    - ''
+    - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp pvpmaden'
+    right_click_commands:
+    - '[player] warp pvpmaden'
+  'vakitnakittir':
+    material: hdb-40476
+    slot: 41
+    display_name: '&e&lVakitNakittir Bölgesi'
+    lore:
+      - ''
+      - '&7Bu bölgede AFK kalarak'
+      - '&7para kazanabilirsin.'
+      - ''
+      - '&fSavaş: &c✘'
+      - ''
+      - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp vakitnakittir'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp vakitnakittir'
+    - '[close]'
+  'sıralama':
+    material: hdb-51040
+    slot: 43
+    display_name: '&e&lSıralama Bölgesi'
+    lore:
+      - ''
+      - '&7Bu bölgede en iyi oyuncular'
+      - '&7sıralamasına bakabilirsin..'
+      - ''
+      - '&fSavaş&8: &c✘'
+      - ''
+      - '&7&o(( Bölgeye ışınlanmak için tıkla! ))'
+    left_click_commands:
+    - '[player] warp sıralama'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp sıralama'
+    - '[close]'
+  'cam':
+    material: 160
+    data: 15
+    slots: 
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    display_name: '&8'

@@ -1,0 +1,98 @@
+vipkitt:
+menu_title: '&8&nVIP Kitleri'
+open_command:
+- kitvip
+size: 45
+items:
+  '1':
+    material: hdb-29481
+    slot: 20
+    display_name: '&8&l「 &6&lVIP &8&l」'
+    lore:
+    - ''
+    - '&c&lBilgilendirme:'
+    - ' &7↻ &7Kit Süresi: &f3 Gün'
+    - ' &7↻ &7VIP Sırası: &f#1'
+    - ''
+    - '&c&lKit Özellikleri:'
+    - ' &6⋆ &7Elmas Set: &fKoruma IX'
+    - ' &6⋆ &7Elmas Kılıç: &fKeskinlik IX'
+    - ' &6⋆ &7Elmas Alet: &fVerimlilik IX'
+    - ' &6⋆ &716 Ençli Altın Elma'
+    - ''
+    - '&7&o(( &7VIP rütbesinin kitini almak için tıklayın &7&O))'
+    left_click_commands:
+    - '[close]'
+    - '[player] kit vip'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit vip'
+  '2':
+    material: hdb-41721
+    slot: 21
+    display_name: '&8&l「 &6&lVIP&c&l+ &8&l」'
+    lore:
+    - ''
+    - '&c&lBilgilendirme:'
+    - ' &7↻ &7Kit Süresi: &f3 Gün'
+    - ' &7↻ &7VIP Sırası: &f#2'
+    - ''
+    - '&c&lKit Özellikleri:'
+    - ' &6⋆ &7Elmas Set: &fKoruma X'
+    - ' &6⋆ &7Elmas Kılıç: &fKeskinlik X'
+    - ' &6⋆ &7Elmas Alet: &fVerimlilik X'
+    - ' &6⋆ &732 Ençli Altın Elma'
+    - ''
+    - '&7&o(( &7VIP+ rütbesinin kitini almak için tıklayın &7&O))'
+    left_click_commands:
+    - '[close]'
+    - '[player] kit vip+'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit vip+'
+  '3':
+    material: hdb-25059
+    slot: 23
+    display_name: '&8&l「 &a&lMVIP &8&l」'
+    lore:
+    - ''
+    - '&c&lBilgilendirme:'
+    - ' &7↻ &7Kit Süresi: &f3 Gün'
+    - ' &7↻ &7VIP Sırası: &f#3'
+    - ''
+    - '&c&lKit Özellikleri:'
+    - ' &6⋆ &7Elmas Set: &fKoruma XI'
+    - ' &6⋆ &7Elmas Kılıç: &fKeskinlik XI'
+    - ' &6⋆ &7Elmas Alet: &fVerimlilik XI'
+    - ' &6⋆ &748 Ençli Altın Elma'
+    - ''
+    - '&7&o(( &7MVIP rütbesinin kitini almak için tıklayın &7&O))'
+    left_click_commands:
+    - '[close]'
+    - '[player] kit mvip'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit mvip'
+  '4':
+    material: hdb-48792
+    slot: 24
+    display_name: '&8&l「 &a&lMVIP&c&l+ &8&l」'
+    lore:
+    - ''
+    - '&c&lBilgilendirme:'
+    - ' &7↻ &7Kit Süresi: &f3 Gün'
+    - ' &7↻ &7VIP Sırası: &f#4'
+    - ''
+    - '&c&lKit Özellikleri:'
+    - ' &6⋆ &7Elmas Set: &fKoruma XII'
+    - ' &6⋆ &7Elmas Kılıç: &fKeskinlik XII'
+    - ' &6⋆ &7Elmas Alet: &fVerimlilik XII'
+    - ' &6⋆ &764 Ençli Altın Elma'
+    - ''
+    - '&7&o(( &7MVIP+ rütbesinin kitini almak için tıklayın &7&O))'
+    left_click_commands:
+    - '[close]'
+    - '[player] kit mvip+'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit mvip+'

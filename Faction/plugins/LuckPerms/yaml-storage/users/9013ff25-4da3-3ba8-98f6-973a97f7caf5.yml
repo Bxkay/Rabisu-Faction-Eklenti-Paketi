@@ -1,0 +1,10 @@
+uuid: 9013ff25-4da3-3ba8-98f6-973a97f7caf5
+name: cinxr
+primary-group: kurucu
+permissions:
+- deluxetags.tag.best
+parents:
+- kurucu
+meta:
+- prefix:
+    value: t

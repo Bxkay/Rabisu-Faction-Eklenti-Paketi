@@ -1,0 +1,104 @@
+    menu_title: '&8LevelMarket'
+    open_command:
+    - levelmarket
+    - xpmarket
+    update_interval: 1
+    size: 54
+    items:
+      'level':
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQyNDBkNzkyZjE4MWZjNGYyMTk3YTVjOTE2NmMwOWE4ZDkzMGUwMzZjZWRlOWRiZjU5NGRkYjNjNGZiNjgwYSJ9fX0='
+        slot: 49
+        display_name: '&8▸ &d&lLEVELIN: &f%player_level% &8◂'
+        left_click_commands:
+        - '[refresh]'
+        right_click_commands:
+        - '[refresh]'
+      '1':
+        material: 276
+        slot: 20
+        display_name: '&8▸ &c&lKILICLAR &8◂'
+        lore:
+        - ''
+        - '&7Kılıç Market menüsünü açmak için tıkla'
+        left_click_commands:
+        - '[close]'
+        - '[openguimenu] levelkılıc'
+        right_click_commands:
+        - '[close]'
+        - '[openguimenu] levelkılıc'
+      '2':
+        material: 261
+        slot: 21
+        display_name: '&8▸ &4&lYAYLAR &8◂'
+        lore:
+        - ''
+        - '&7Yay Market menüsünü açmak için tıkla'
+        left_click_commands:
+        - '[close]'
+        - '[openguimenu] levelyay'
+        right_click_commands:
+        - '[close]'
+        - '[openguimenu] levelyay'
+      '3':
+        material: 278
+        slot: 23
+        display_name: '&8▸ &a&lKAZMALAR &8◂'
+        lore:
+        - ''
+        - '&7Kazma Market menüsünü açmak için tıkla'
+        left_click_commands:
+        - '[close]'
+        - '[openguimenu] levelkazma'
+        right_click_commands:
+        - '[close]'
+        - '[openguimenu] levelkazma'
+      '4':
+        material: 310
+        slot: 24
+        display_name: '&8▸ &2&lZIRHLAR &8◂'
+        lore:
+        - ''
+        - '&7Zırh Market menüsünü açmak için tıkla'
+        left_click_commands:
+        - '[close]'
+        - '[openguimenu] levelset'
+        right_click_commands:
+        - '[close]'
+        - '[openguimenu] levelset'
+      cam:
+        material: 160
+        data: 15
+        slots: 
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 26
+        - 18
+        - 17
+        - 35
+        - 27
+        - 36
+        - 37
+        - 38 #
+        - 39
+        - 40
+        - 41
+        - 44
+        - 42
+        - 43
+        - 45
+        - 53
+        - 48 #
+        - 47
+        - 46
+        - 51
+        - 52
+        - 50
+        display_name: '&8'

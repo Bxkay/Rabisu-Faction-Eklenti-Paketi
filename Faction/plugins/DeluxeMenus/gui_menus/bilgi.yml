@@ -1,0 +1,63 @@
+menu_title: '&8Sunucu Bilgi'
+open_command:
+- bilgi
+- menu
+- help
+- null: null
+size: 27
+items:
+  '1':
+    material: BED
+    slot: 10
+    display_name: '&bYönetim Komutları'
+    lore:
+    - '&b'
+    - '&b&l * &7/ayarlar &7- Oyun içi ayarlarınızı kişileştirir'
+    - '&b&l * &7/ignore <isim> &7- Oyuncu engeller'
+    - '&b&l * &7/msgtoggle &7- Mesaj isteklerini kapatır'
+    - '&b&l * &7/tpatoggle &7- Işınlanma isteklerini kapatır'
+    - ''
+    - '&7(( &7&oMenüyü kapatmak için tıklayın&7 ))'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '2':
+    material: DIAMOND_CHESTPLATE
+    slot: 13
+    display_name: '&dKlan Komutları'
+    lore:
+    - '&7Şu şekilde listelenmiştir: Komut - Açıklama'
+    - '&b'
+    - '&d&l * &7/f invite &7- Klanınza oyuncu davet eder'
+    - '&d&l * &7/f claim &7- Sahipsiz bir arazi sahipletir'
+    - '&d&l * &7/f who &7- Klan bilgilerini gösterir'
+    - '&d&l * &7/f open &7- Klana herkese açık yapar'
+    - '&d&l * &7/f leave &7- Klandan ayrılmana yarar'
+    - '&d&l * &7/f c &7- Klan sohbetini açar'
+    - '&d&l * &7/f tac &7- Ally sohbetini kapatır'
+    - '&d&l * &7/f home &7- Klan evine ışınlar'
+    - '&d&l * &7/f create &7- Klan kurmanıza yarar'
+    - ''
+    - '&7(( &7&oMenüyü kapatmak için tıklayın&7 ))'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '3':
+    material: MAP
+    slot: 16
+    display_name: '&aGenel Komutlar'
+    lore:
+    - '&7Şu şekilde listelenmiştir: Komut - Açıklama'
+    - '&b'
+    - '&a&l * &7/f top &7- Klan sıralamasını listeler'
+    - '&a&l * &7/warp &7- Sunucudaki haritaları gezmenize yarar'
+    - '&a&l * &7/ah &7- İhale menüsünü açar'
+    - '&a&l * &7/trade &7- Güvenli takas yapmanızı sağlar'
+    - ''
+    - '&7(( &7&oMenüyü kapatmak için tıklayın&7 ))'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'

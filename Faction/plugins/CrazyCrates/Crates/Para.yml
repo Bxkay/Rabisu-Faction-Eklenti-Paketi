@@ -1,0 +1,263 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&aPara Kasası'
+  Preview-Name: '&aPara Kasası'
+  StartingKeys: 0
+  InGUI: false
+  Slot: 11
+  OpeningBroadCast: false
+  BroadCast: '%Prefix% &f&l%Player% &7adlı oyuncu &bCold Kasa &7açıyor!'
+  Preview:
+    Toggle: true
+    ChestLines: 5
+    Glass:
+      Toggle: true
+      Item: STAINED_GLASS_PANE:7
+  PhysicalKey:
+    Name: '&aPara Kasa Anahtarı'
+    Lore:
+    - ''
+    - '&7Bu kasayı &f/warp kasalar &7bölgesinde açabilirsin.'
+    - ''
+    - '&7&oKasaya sol tıklayarak kasayı inceleyebilirsin.'
+    - '&7&oKasaya sağ tıklayarak kasayı açabilirsin.'
+    - ''
+    - '&fwww.rabisu.com'
+    Item: 131
+    Glowing: true
+  Hologram:
+    Toggle: true
+    Height: 2.7
+    Message:
+    - '&aPara Kasası'
+    - ''
+    - '&7Sağ tıklayarak &faç'
+    - '&7Sol tıklayarak &fincele'
+    - ''
+    - '&f&owww.rabisu.com'
+  Prizes:
+    1:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    2:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    3:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    4:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    5:
+      DisplayName: '&aOyun Parası &7&o(10M)'
+      DisplayItem: 339
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f10M &7Oyun Parası'
+      - ''
+      - '&8&l▪ &7Sans: &f&o1/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 1.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - eco give %player% 10000000
+    6:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    7:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    8:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    9:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    10:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    11:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    12:
+      DisplayName: '&aOyun Parası &7&o(7.5M)'
+      DisplayItem: 339
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f7.5M &7Oyun Parası'
+      - ''
+      - '&8&l▪ &7Sans: &f&o3/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 3.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - eco give %player% 7500000
+    13:
+      DisplayName: '&aOyun Parası &7&o(5M)'
+      DisplayItem: 339
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f5M &7Oyun Parası'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - eco give %player% 5000000
+    14:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    15:
+      DisplayName: '&aOyun Parası &7&o(2.5M)'
+      DisplayItem: 339
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f2.5M &7Oyun Parası'
+      - ''
+      - '&8&l▪ &7Sans: &f&o7/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 7.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - eco give %player% 2500000
+    16:
+      DisplayName: '&aOyun Parası &7&o(1M)'
+      DisplayItem: 339
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f1M &7Oyun Parası'
+      - ''
+      - '&8&l▪ &7Sans: &f&o9/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - eco give %player% 1000000
+    17:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    18:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    19:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    20:
+      DisplayName: '&aOyun Parası &7&o(750K)'
+      DisplayItem: 339
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f750K &7Oyun Parası'
+      - ''
+      - '&8&l▪ &7Sans: &f&o11/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 11.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - eco give %player% 750000
+    21:
+      DisplayName: '&aOyun Parası &7&o(500K)'
+      DisplayItem: 339
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f500K &7Oyun Parası'
+      - ''
+      - '&8&l▪ &7Sans: &f&o13/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 13.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - eco give %player% 500000
+    22:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    23:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    24:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    25:
+      DisplayName: '&aOyun Parası &7&o(250K)'
+      DisplayItem: 339
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f250K &7Oyun Parası'
+      - ''
+      - '&8&l▪ &7Sans: &f&o15/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 15.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - eco give %player% 250000
+    26:
+      DisplayName: '&aOyun Parası &7&o(100K)'
+      DisplayItem: 339
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f100K &7Oyun Parası'
+      - ''
+      - '&8&l▪ &7Sans: &f&o17/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 17.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - eco give %player% 100000
+    27:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0

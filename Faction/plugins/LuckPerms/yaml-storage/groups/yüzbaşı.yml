@@ -1,0 +1,15 @@
+name: Yüzbaşı
+permissions:
+- multiverse.*:
+    value: false
+- weight.6
+- essentials.kit.yüzbaşı
+- essentials.feed
+- essentials.sethome.multiple.yuzbasi
+- playervaults.amount.2
+- playervaults.size.6
+parents:
+- yetkiler
+prefixes:
+- '&3Yüzbaşı':
+    priority: 1

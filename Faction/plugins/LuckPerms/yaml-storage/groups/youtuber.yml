@@ -1,0 +1,11 @@
+name: YouTuber
+permissions:
+- multiverse.*:
+    value: false
+- weight.11
+parents:
+- yetkiler
+- vip
+prefixes:
+- '&4You&eTuber':
+    priority: 1

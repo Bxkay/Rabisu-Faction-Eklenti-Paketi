@@ -1,0 +1,26 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 30
+  surface: ''
+  maxZ: 9849
+  maxY: 28
+  maxX: 9879
+  ignoreLadders: false
+  fillMode: false
+  world: Haritalar
+  minY: 10
+  resetWarnings: []
+  minX: 9851
+  composition:
+    '57:0': 0.2
+    '22:0': 0.2
+    '41:0': 0.2
+    '42:0': 0.2
+    '133:0': 0.2
+  name: pvpmaden
+  resetClock: 27
+  minZ: 9821
+  isSilent: false
+  tpY: -1
+  tpX: 0
+  tpZ: 0

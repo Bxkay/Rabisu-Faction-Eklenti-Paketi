@@ -1,0 +1,535 @@
+menu_title: '&8Etiket Menüsü'
+open_command: 
+- etiket
+- tag
+- tags
+size: 54
+items:
+      '1':
+        material: NAME_TAG
+        slot: 9
+        display_name: '&8[ &f&k.&6&lRab&e&lisu&f&k. &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_rabisu%'
+        - ''
+        left_click_commands:
+        - '[player] tags select rabisu'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select rabisu'
+        - '[close]'
+      '2':
+        material: NAME_TAG
+        slot: 10
+        display_name: '&8[ &5&k.&d&lBooster&5&k. &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_booster%'
+        - ''
+        left_click_commands:
+        - '[player] tags select booster'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select booster'
+        - '[close]'
+      '3':
+        material: NAME_TAG
+        slot: 11
+        display_name: '&8[ &7&k.&l&cBest&fTR&7&k. &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_besttr%'
+        - ''
+        left_click_commands:
+        - '[player] tags select besttr'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select besttr'
+        - '[close]'
+      '4':
+        material: NAME_TAG
+        slot: 12
+        display_name: '&8[ &1&k.&9&n&lBEST&1&k. &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_best%'
+        - ''
+        left_click_commands:
+        - '[player] tags select best'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select best'
+        - '[close]'
+      '5':
+        material: NAME_TAG
+        slot: 13
+        display_name: '&8[ &f&l❤ &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_beyazkalp%'
+        - ''
+        left_click_commands:
+        - '[player] tags select beyazkalp'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select beyazkalp'
+        - '[close]'
+      '6':
+        material: NAME_TAG
+        slot: 14
+        display_name: '&8[ &d&l❤ &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_pembekalp%'
+        - ''
+        left_click_commands:
+        - '[player] tags select pembekalp'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select pembekalp'
+        - '[close]'
+      '7':
+        material: NAME_TAG
+        slot: 15
+        display_name: '&8[ &4&l❤ &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_kirmizikalp%'
+        - ''
+        left_click_commands:
+        - '[player] tags select kirmizikalp'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select kirmizikalp'
+        - '[close]'
+      '8':
+        material: NAME_TAG
+        slot: 16
+        display_name: '&8[ &2&l$$$ &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_dolar%'
+        - ''
+        left_click_commands:
+        - '[player] tags select dolar'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select dolar'
+        - '[close]'
+      '9':
+        material: NAME_TAG
+        slot: 17
+        display_name: '&8[ &7&l#1 &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_bir%'
+        - ''
+        left_click_commands:
+        - '[player] tags select bir'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select bir'
+        - '[close]'
+      '10':
+        material: NAME_TAG
+        slot: 18
+        display_name: '&8[ &4&l&n&oL &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_l%'
+        - ''
+        left_click_commands:
+        - '[player] tags select l'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select l'
+        - '[close]'
+      '11':
+        material: NAME_TAG
+        slot: 19
+        display_name: '&8[ &6&l&oVIKING &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_viking%'
+        - ''
+        left_click_commands:
+        - '[player] tags select viking'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select viking'
+        - '[close]'
+      '12':
+        material: NAME_TAG
+        slot: 20
+        display_name: '&8[ &F&lGHOST &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_ghost%'
+        - ''
+        left_click_commands:
+        - '[player] tags select ghost'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select ghost'
+        - '[close]'
+      '13':
+        material: NAME_TAG
+        slot: 21
+        display_name: '&8[ &2&l&n&oGO&f&l&n&oAT &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_goat%'
+        - ''
+        left_click_commands:
+        - '[player] tags select goat'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select goat'
+        - '[close]'
+      '14':
+        material: NAME_TAG
+        slot: 22
+        display_name: '&8[ &2&l&oRICH &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_rich%'
+        - ''
+        left_click_commands:
+        - '[player] tags select rich'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select rich'
+        - '[close]'
+      '15':
+        material: NAME_TAG
+        slot: 23
+        display_name: '&8[ &2&l&oToxic &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_toxic%'
+        - ''
+        left_click_commands:
+        - '[player] tags select toxic'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select toxic'
+        - '[close]'
+      '16':
+        material: NAME_TAG
+        slot: 24
+        display_name: '&8[ &e&lK&6&LR&5&LA&D&LL &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_kral%'
+        - ''
+        left_click_commands:
+        - '[player] tags select kral'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select kral'
+        - '[close]'
+      '17':
+        material: NAME_TAG
+        slot: 25
+        display_name: '&8[ &0✞✞✞ &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_hac%'
+        - ''
+        left_click_commands:
+        - '[player] tags select hac'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select hac'
+        - '[close]'
+      '18':
+        material: NAME_TAG
+        slot: 26
+        display_name: '&8[ &b❆ &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_kar%'
+        - ''
+        left_click_commands:
+        - '[player] tags select kar'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select kar'
+        - '[close]'
+      '19':
+        material: NAME_TAG
+        slot: 27
+        display_name: '&8[ &a✓ &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_tik%'
+        - ''
+        left_click_commands:
+        - '[player] tags select tik'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select tik'
+        - '[close]'
+      '20':
+        material: NAME_TAG
+        slot: 28
+        display_name: '&8[ &7&LNI&F&LKE &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_NIKE%'
+        - ''
+        left_click_commands:
+        - '[player] tags select NIKE'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select NIKE'
+        - '[close]'
+      '21':
+        material: NAME_TAG
+        slot: 29
+        display_name: '&8[ &c✗ &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_carpi%'
+        - ''
+        left_click_commands:
+        - '[player] tags select carpi'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select carpi'
+        - '[close]'
+      '22':
+        material: NAME_TAG
+        slot: 30
+        display_name: '&8[ &a&lB&2&lE&a&lD&2&lE&A&LL &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_Bedel%'
+        - ''
+        left_click_commands:
+        - '[player] tags select bedel'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select bedel'
+        - '[close]'
+      '23':
+        material: NAME_TAG
+        slot: 31
+        display_name: '&8[ &5&lBIG. &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_BIG%'
+        - ''
+        left_click_commands:
+        - '[player] tags select BIG'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select BIG'
+        - '[close]'
+      '24':
+        material: NAME_TAG
+        slot: 32
+        display_name: '&8[ &b&lG&3&lO&b&lD &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_God%'
+        - ''
+        left_click_commands:
+        - '[player] tags select God'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select God'
+        - '[close]'
+      '25':
+        material: NAME_TAG
+        slot: 33
+        display_name: '&8[ &5&lC&d&lC &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_CC%'
+        - ''
+        left_click_commands:
+        - '[player] tags select CC'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select CC'
+        - '[close]'
+      '26':
+        material: NAME_TAG
+        slot: 34
+        display_name: '&8[ &b&lTik&3&lTok &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_tiktok%'
+        - ''
+        left_click_commands:
+        - '[player] tags select tiktok'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select tiktok'
+        - '[close]'
+      '27':
+        material: NAME_TAG
+        slot: 35
+        display_name: '&8[ &0&l999 &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_999%'
+        - ''
+        left_click_commands:
+        - '[player] tags select 999'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select 999'
+        - '[close]'
+      '28':
+        material: NAME_TAG
+        slot: 36
+        display_name: '&8[ &6&lKare&e&lKafa &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_KareKafa%'
+        - ''
+        left_click_commands:
+        - '[player] tags select KareKafa'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select KareKafa'
+        - '[close]'
+      '29':
+        material: NAME_TAG
+        slot: 37
+        display_name: '&8[ &d&lZir&5&lve &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_zirve%'
+        - ''
+        left_click_commands:
+        - '[player] tags select zirve'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select zirve'
+        - '[close]'
+      '30':
+        material: NAME_TAG
+        slot: 38
+        display_name: '&8[ &4&LXXL &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_XXL%'
+        - ''
+        left_click_commands:
+        - '[player] tags select XXL'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select XXL'
+        - '[close]'
+      '31':
+        material: NAME_TAG
+        slot: 39
+        display_name: '&8[ &c&lD-azy &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_Dazy%'
+        - ''
+        left_click_commands:
+        - '[player] tags select Dazy'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select Dazy'
+        - '[close]'
+      '32':
+        material: NAME_TAG
+        slot: 40
+        display_name: '&8[ &5&lL&D&LO&5&LN&D&LO&5&LN &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_london%'
+        - ''
+        left_click_commands:
+        - '[player] tags select london'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select london'
+        - '[close]'
+      '33':
+        material: NAME_TAG
+        slot: 41
+        display_name: '&8[ &6&l10&7/&e&l10 &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_10/10%'
+        - ''
+        left_click_commands:
+        - '[player] tags select 10/10'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select 10/10'
+        - '[close]'
+      '34':
+        material: NAME_TAG
+        slot: 42
+        display_name: '&8[ &f&lSugar &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_Sugar%'
+        - ''
+        left_click_commands:
+        - '[player] tags select Sugar'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select Sugar'
+        - '[close]'
+      '35':
+        material: NAME_TAG
+        slot: 43
+        display_name: '&8[ &e&lSnap&7&lChat &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_snap%'
+        - ''
+        left_click_commands:
+        - '[player] tags select snap'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select snap'
+        - '[close]'
+      '36':
+        material: NAME_TAG
+        slot: 44
+        display_name: '&8[ &4&lLele&c&lPons &f&oTag &8]'
+        lore:
+        - ''
+        - ' &8▪ &7Durum: %deluxetags_has_tag_lelepons%'
+        - ''
+        left_click_commands:
+        - '[player] tags select lelepons'
+        - '[close]'
+        right_click_commands:
+        - '[player] tags select lelepons'
+        - '[close]'
+      doldur:
+        material: STAINED_GLASS_PANE
+        data: 15
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: ''

@@ -1,0 +1,172 @@
+menu_title: '&8CoinMarket &8▸ &8Setler'
+open_command: coinset
+size: 45
+items:
+  '1':
+    material: 311
+    slot: 20
+    display_name: '&8▸ &6Elmas Set &8【&aKoruma VII&8】 &8◂'
+    lore:
+    - ''
+    - '&eSet Özellikleri'
+    - ''
+    - ' &8▪ &7Koruma: &fVII'
+    - ' &8▪ &7Kırılmazlık: &fIII'
+    - ' '
+    - '&7Ücret: &a1.250 Coin'
+    left_click_commands:
+    - '[console] give %player_name% 310 1 protection:7 unbreaking:3'
+    - '[console] give %player_name% 311 1 protection:7 unbreaking:3'
+    - '[console] give %player_name% 312 1 protection:7 unbreaking:3'
+    - '[console] give %player_name% 313 1 protection:7 unbreaking:3'
+    - '[console] coin sil %player_name% 1250'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] give %player_name% 310 1 protection:7 unbreaking:3'
+    - '[console] give %player_name% 311 1 protection:7 unbreaking:3'
+    - '[console] give %player_name% 312 1 protection:7 unbreaking:3'
+    - '[console] give %player_name% 313 1 protection:7 unbreaking:3'
+    - '[console] coin sil %player_name% 1250'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%skript_coin::{player}%'
+          output: '1250'
+          deny_commands:
+          - '[close]'
+          - '[message] &6Rab&eisu &8» &cSatın almak için yeterli coinin bulunmuyor.'   
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%skript_coin::{player}%'
+          output: '1250'
+          deny_commands:
+          - '[close]'
+          - '[message] &6Rab&eisu &8» &cSatın almak için yeterli coinin bulunmuyor.'   
+  '2':
+    material: 311
+    slot: 22
+    display_name: '&8▸ &6Elmas Set &8【&aKoruma VIII&8】 &8◂'
+    lore:
+    - ''
+    - '&eSet Özellikleri'
+    - ''
+    - ' &8▪ &7Koruma: &fVIII'
+    - ' &8▪ &7Kırılmazlık: &fIV'
+    - ' '
+    - '&7Ücret: &a2.500 Coin'
+    left_click_commands:
+    - '[console] give %player_name% 310 1 protection:8 unbreaking:4'
+    - '[console] give %player_name% 311 1 protection:8 unbreaking:4'
+    - '[console] give %player_name% 312 1 protection:8 unbreaking:4'
+    - '[console] give %player_name% 313 1 protection:8 unbreaking:4'
+    - '[console] coin sil %player_name% 2500'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] give %player_name% 310 1 protection:8 unbreaking:4'
+    - '[console] give %player_name% 311 1 protection:8 unbreaking:4'
+    - '[console] give %player_name% 312 1 protection:8 unbreaking:4'
+    - '[console] give %player_name% 313 1 protection:8 unbreaking:4'
+    - '[console] coin sil %player_name% 2500'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%skript_coin::{player}%'
+          output: '2500'
+          deny_commands:
+          - '[close]'
+          - '[message] &6Rab&eisu &8» &cSatın almak için yeterli coinin bulunmuyor.'   
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%skript_coin::{player}%'
+          output: '2500'
+          deny_commands:
+          - '[close]'
+          - '[message] &6Rab&eisu &8» &cSatın almak için yeterli coinin bulunmuyor.'   
+  '3':
+    material: 311
+    slot: 24
+    display_name: '&8▸ &6Elmas Set &8【&aKoruma IX&8】 &8◂'
+    lore:
+    - ''
+    - '&eSet Özellikleri'
+    - ''
+    - ' &8▪ &7Koruma: &fIX'
+    - ' &8▪ &7Kırılmazlık: &fV'
+    - ' '
+    - '&7Ücret: &a5.000 Coin'
+    left_click_commands:
+    - '[console] give %player_name% 310 1 protection:9 unbreaking:5'
+    - '[console] give %player_name% 311 1 protection:9 unbreaking:5'
+    - '[console] give %player_name% 312 1 protection:9 unbreaking:5'
+    - '[console] give %player_name% 313 1 protection:9 unbreaking:5'
+    - '[console] coin sil %player_name% 5000'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] give %player_name% 310 1 protection:9 unbreaking:5'
+    - '[console] give %player_name% 311 1 protection:9 unbreaking:5'
+    - '[console] give %player_name% 312 1 protection:9 unbreaking:5'
+    - '[console] give %player_name% 313 1 protection:9 unbreaking:5'
+    - '[console] coin sil %player_name% 5000'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%skript_coin::{player}%'
+          output: '5000'
+          deny_commands:
+          - '[close]'
+          - '[message] &6Rab&eisu &8» &cSatın almak için yeterli coinin bulunmuyor.'   
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%skript_coin::{player}%'
+          output: '5000'
+          deny_commands:
+          - '[close]'
+          - '[message] &6Rab&eisu &8» &cSatın almak için yeterli coinin bulunmuyor.'   
+  kapat:
+    material: barrier
+    slot: 40
+    display_name: '&cGeri Dön'
+    right_click_commands:
+    - '[player] coinmarket'
+    left_click_commands:
+    - '[player] coinmarket'
+  cam:
+    material: 160
+    data: 15
+    slots: 
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 26
+        - 18
+        - 17
+        - 35
+        - 27
+        - 36
+        - 37
+        - 38
+        - 39
+        - 41
+        - 42
+        - 43
+        - 44
+    display_name: '&8'

@@ -1,0 +1,117 @@
+﻿menu_title: '&8VIP Bilgi'
+open_command:
+- vipinfo
+- vipbilgi
+- vip
+- vipler
+size: 45
+items:
+  vip:
+    material: hdb-29481
+    slot: 20
+    display_name: '&8⦓&6&lVIP&8⦔ &7%player_name%'
+    lore:
+    - ''
+    - ' &7VIP rütbesine sahip olabilmek için'
+    - ' &7sitemizden satın almalısınız.'
+    - ''
+    - ' &eRütbe Özellikleri'
+    - ' &8▪ &e/kit VIP &8- &7VIP kiti alabilme.'
+    - ' &8▪ &e/feed &8- &7Açlık doldurabilme.'
+    - ' &8▪ &e/repair &8- &7Eşyaları tamir atabilme'
+    - ' &8▪ &e/repair all &8- &7Eşyaların hepsine tamir atabilme'
+    - ' &8▪ &e/heal &8- &7Can doldurabilme'
+    - ' &8▪ &e/hat &8- &7Şapka takabilme'
+    - ' &8▪ &e/warp viphammadde &8- &7Özel hammaddeye giriş'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &e2'
+    - ' &8▪ &7Sandık sınırı: &e2'
+    - ' &8▪ &7Arsa sınırı: &e2'
+    - ''
+    - '&8► &7Satın almak için: &fwww.rabisu.com'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  vip+:
+    material: hdb-41721
+    slot: 21
+    display_name: '&8⦓&6&lVIP&c&l+&8⦔ &7%player_name%'
+    lore:
+    - ''
+    - ' &7VIP+ rütbesine sahip olabilmek için'
+    - ' &7sitemizden satın almalısınız.'
+    - ''
+    - ' &eRütbe Özellikleri'
+    - ' &8▪ &e/kit VIP+ &8- &7MVIP+ kiti alabilme.'
+    - ' &8▪ &e/feed &8- &7Açlık doldurabilme.'
+    - ' &8▪ &e/repair &8- &7Eşyaları tamir atabilme'
+    - ' &8▪ &e/repair all &8- &7Eşyaların hepsini tamir atabilme'
+    - ' &8▪ &e/heal &8- &7Can doldurabilme'
+    - ' &8▪ &e/hat &8- &7Şapka takabilme'
+    - ' &8▪ &e/warp viphammadde &8- &7Özel hammaddeye giriş'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &e4'
+    - ' &8▪ &7Sandık sınırı: &e4'
+    - ' &8▪ &7Arsa sınırı: &e4'
+    - ''
+    - '&8► &7Satın almak için: &fwww.rabisu.com'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  mvip:
+    material: hdb-25059
+    slot: 23
+    display_name: '&8⦓&a&lMVIP&8⦔ &7%player_name%'
+    lore:
+    - ''
+    - ' &7MVIP rütbesine sahip olabilmek için'
+    - ' &7sitemizden satın almalısınız.'
+    - ''
+    - ' &eRütbe Özellikleri'
+    - ' &8▪ &e/kit MVIP &8- &7MVIP kiti alabilme.'
+    - ' &8▪ &e/feed &8- &7Açlık doldurabilme.'
+    - ' &8▪ &e/repair &8- &7Eşyaları tamir atabilme'
+    - ' &8▪ &e/repair all &8- &7Eşyaların hepsini tamir atabilme'
+    - ' &8▪ &e/heal &8- &7Can doldurabilme'
+    - ' &8▪ &e/hat &8- &7Şapka takabilme'
+    - ' &8▪ &e/warp viphammadde &8- &7Özel hammaddeye giriş'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &e6'
+    - ' &8▪ &7Sandık sınırı: &e6'
+    - ' &8▪ &7Arsa sınırı: &e6'
+    - ''
+    - '&8► &7Satın almak için: &fwww.rabisu.com'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  mvip+:
+    material: hdb-48792
+    slot: 24
+    display_name: '&8⦓&a&lMVIP&c&l+&8⦔ &7%player_name%'
+    lore:
+    - ''
+    - ' &7MVIP rütbesine sahip olabilmek için'
+    - ' &7sitemizden satın almalısınız.'
+    - ''
+    - ' &eRütbe Özellikleri'
+    - ' &8▪ &e/kit MVIP+ &8- &7MVIP+ kiti alabilme.'
+    - ' &8▪ &e/feed &8- &7Açlık doldurabilme.'
+    - ' &8▪ &e/repair &8- &7Eşyaları tamir atabilme'
+    - ' &8▪ &e/repair all &8- &7Eşyaların hepsini tamir atabilme'
+    - ' &8▪ &e/heal &8- &7Can doldurabilme'
+    - ' &8▪ &e/hat &8- &7Şapka takabilme'
+    - ' &8▪ &e/warp viphammadde &8- &7Özel hammaddeye giriş'
+    - ' &8▪ &e/fly &8- &7Sınırsız Uçabilme'
+    - ''
+    - ' &8▪ &7Sethome sınırı: &e8'
+    - ' &8▪ &7Sandık sınırı: &e8'
+    - ' &8▪ &7Arsa sınırı: &e8'
+    - ''
+    - '&8► &7Satın almak için: &fwww.rabisu.com'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'

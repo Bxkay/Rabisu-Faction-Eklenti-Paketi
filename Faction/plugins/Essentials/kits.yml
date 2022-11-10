@@ -1,0 +1,218 @@
+# EssentialsX new Kit configuration.
+# EssentialsX new Kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# 
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - itemID[:DataValue/Durability] Amount [Enchantment:Level].. [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+   Baslangic:
+    delay: 259200
+    items:
+    - 276 1 sharpness:4 unbreaking:3 name:&bBaslangic_Kiti
+    - 310 1 protection:4 unbreaking:3 name:&bBaslangic_Kiti
+    - 311 1 protection:4 unbreaking:3 name:&bBaslangic_Kiti
+    - 312 1 protection:4 unbreaking:3 name:&bBaslangic_Kiti
+    - 313 1 protection:4 unbreaking:3 name:&bBaslangic_Kiti
+    - 278 1 efficiency:4 unbreaking:3 fortune:3 name:&bBaslangic_Kiti
+    - 277 1 efficiency:4 unbreaking:3 name:&bBaslangic_Kiti
+    - 279 1 efficiency:4 unbreaking:3 name:&bBaslangic_Kiti
+    - 322 8
+   Nefer:
+    delay: 259200
+    items:
+    - 276 1 sharpness:4 unbreaking:3 name:&eRütbe_Kiti
+    - 310 1 protection:4 unbreaking:3 name:&eRütbe_Kiti
+    - 311 1 protection:4 unbreaking:3 name:&eRütbe_Kiti
+    - 312 1 protection:4 unbreaking:3 name:&eRütbe_Kiti
+    - 313 1 protection:4 unbreaking:3 name:&eRütbe_Kiti
+    - 278 1 efficiency:4 unbreaking:3 fortune:3 name:&eRütbe_Kiti
+    - 277 1 efficiency:4 unbreaking:3 name:&eRütbe_Kiti
+    - 279 1 efficiency:4 unbreaking:3 name:&eRütbe_Kiti
+    - 322 8
+   Onbaşı:
+    delay: 259200
+    items:
+    - 276 1 sharpness:4 unbreaking:3 name:&eRütbe_Kiti
+    - 310 1 protection:4 unbreaking:3 name:&eRütbe_Kiti
+    - 311 1 protection:4 unbreaking:3 name:&eRütbe_Kiti
+    - 312 1 protection:4 unbreaking:3 name:&eRütbe_Kiti
+    - 313 1 protection:4 unbreaking:3 name:&eRütbe_Kiti
+    - 278 1 efficiency:4 unbreaking:3 fortune:3 name:&eRütbe_Kiti
+    - 277 1 efficiency:4 unbreaking:3 name:&eRütbe_Kiti
+    - 279 1 efficiency:4 unbreaking:3 name:&eRütbe_Kiti
+    - 322 16
+   Çavuş:
+    delay: 259200
+    items:
+    - 276 1 sharpness:5 unbreaking:3 name:&eRütbe_Kiti
+    - 310 1 protection:5 unbreaking:3 name:&eRütbe_Kiti
+    - 311 1 protection:5 unbreaking:3 name:&eRütbe_Kiti
+    - 312 1 protection:5 unbreaking:3 name:&eRütbe_Kiti
+    - 313 1 protection:5 unbreaking:3 name:&eRütbe_Kiti
+    - 278 1 efficiency:5 unbreaking:3 fortune:3 name:&eRütbe_Kiti
+    - 277 1 efficiency:5 unbreaking:3 name:&eRütbe_Kiti
+    - 279 1 efficiency:5 unbreaking:3 name:&eRütbe_Kiti
+    - 322 24
+   Başçavuş:
+    delay: 259200
+    items:
+    - 276 1 sharpness:5 unbreaking:3 name:&eRütbe_Kiti
+    - 310 1 protection:5 unbreaking:3 name:&eRütbe_Kiti
+    - 311 1 protection:5 unbreaking:3 name:&eRütbe_Kiti
+    - 312 1 protection:5 unbreaking:3 name:&eRütbe_Kiti
+    - 313 1 protection:5 unbreaking:3 name:&eRütbe_Kiti
+    - 278 1 efficiency:5 unbreaking:3 fortune:3 name:&eRütbe_Kiti
+    - 277 1 efficiency:5 unbreaking:3 name:&eRütbe_Kiti
+    - 279 1 efficiency:5 unbreaking:3 name:&eRütbe_Kiti
+    - 322 32
+   Mülazım:
+    delay: 259200
+    items:
+    - 276 1 sharpness:6 unbreaking:4 name:&eRütbe_Kiti
+    - 310 1 protection:6 unbreaking:4 name:&eRütbe_Kiti
+    - 311 1 protection:6 unbreaking:4 name:&eRütbe_Kiti
+    - 312 1 protection:6 unbreaking:4 name:&eRütbe_Kiti
+    - 313 1 protection:6 unbreaking:4 name:&eRütbe_Kiti
+    - 278 1 efficiency:6 unbreaking:4 fortune:3 name:&eRütbe_Kiti
+    - 277 1 efficiency:6 unbreaking:4 name:&eRütbe_Kiti
+    - 279 1 efficiency:6 unbreaking:4 name:&eRütbe_Kiti
+    - 322 48
+   Yüzbaşı:
+    delay: 259200
+    items:
+    - 276 1 sharpness:6 unbreaking:4 name:&eRütbe_Kiti
+    - 310 1 protection:6 unbreaking:4 name:&eRütbe_Kiti
+    - 311 1 protection:6 unbreaking:4 name:&eRütbe_Kiti
+    - 312 1 protection:6 unbreaking:4 name:&eRütbe_Kiti
+    - 313 1 protection:6 unbreaking:4 name:&eRütbe_Kiti
+    - 278 1 efficiency:6 unbreaking:4 fortune:3 name:&eRütbe_Kiti
+    - 277 1 efficiency:6 unbreaking:4 name:&eRütbe_Kiti
+    - 279 1 efficiency:6 unbreaking:4 name:&eRütbe_Kiti
+    - 322 56
+   Kolağası:
+    delay: 259200
+    items:
+    - 276 1 sharpness:7 unbreaking:4 name:&eRütbe_Kiti
+    - 310 1 protection:7 unbreaking:4 name:&eRütbe_Kiti
+    - 311 1 protection:7 unbreaking:4 name:&eRütbe_Kiti
+    - 312 1 protection:7 unbreaking:4 name:&eRütbe_Kiti
+    - 313 1 protection:7 unbreaking:4 name:&eRütbe_Kiti
+    - 278 1 efficiency:7 unbreaking:4 fortune:3 name:&eRütbe_Kiti
+    - 277 1 efficiency:7 unbreaking:4 name:&eRütbe_Kiti
+    - 279 1 efficiency:7 unbreaking:4 name:&eRütbe_Kiti
+    - 322 64
+   Binbaşı:
+    delay: 259200
+    items:
+    - 276 1 sharpness:7 unbreaking:4 name:&eRütbe_Kiti
+    - 310 1 protection:7 unbreaking:4 name:&eRütbe_Kiti
+    - 311 1 protection:7 unbreaking:4 name:&eRütbe_Kiti
+    - 312 1 protection:7 unbreaking:4 name:&eRütbe_Kiti
+    - 313 1 protection:7 unbreaking:4 name:&eRütbe_Kiti
+    - 278 1 efficiency:7 unbreaking:4 fortune:3 name:&eRütbe_Kiti
+    - 277 1 efficiency:7 unbreaking:4 name:&eRütbe_Kiti
+    - 279 1 efficiency:7 unbreaking:4 name:&eRütbe_Kiti
+    - 322:1 4
+   Ferik:
+    delay: 259200
+    items:
+    - 276 1 sharpness:8 unbreaking:4 name:&eRütbe_Kiti
+    - 310 1 protection:8 unbreaking:4 name:&eRütbe_Kiti
+    - 311 1 protection:8 unbreaking:4 name:&eRütbe_Kiti
+    - 312 1 protection:8 unbreaking:4 name:&eRütbe_Kiti
+    - 313 1 protection:8 unbreaking:4 name:&eRütbe_Kiti
+    - 278 1 efficiency:8 unbreaking:4 fortune:3 name:&eRütbe_Kiti
+    - 277 1 efficiency:8 unbreaking:4 name:&eRütbe_Kiti
+    - 279 1 efficiency:8 unbreaking:4 name:&eRütbe_Kiti
+    - 322:1 8 
+   Müşir:
+    delay: 259200
+    items:
+    - 276 1 sharpness:8 unbreaking:4 name:&eRütbe_Kiti
+    - 310 1 protection:8 unbreaking:4 name:&eRütbe_Kiti
+    - 311 1 protection:8 unbreaking:4 name:&eRütbe_Kiti
+    - 312 1 protection:8 unbreaking:4 name:&eRütbe_Kiti
+    - 313 1 protection:8 unbreaking:4 name:&eRütbe_Kiti
+    - 278 1 efficiency:8 unbreaking:4 fortune:3 name:&eRütbe_Kiti
+    - 277 1 efficiency:8 unbreaking:4 name:&eRütbe_Kiti
+    - 279 1 efficiency:8 unbreaking:4 name:&eRütbe_Kiti
+    - 322:1 16   
+   VIP:
+    delay: 259200
+    items:
+    - 276 1 sharpness:9 unbreaking:5 name:&eVIP_Kiti
+    - 310 1 protection:9 unbreaking:5 name:&eVIP_Kiti
+    - 311 1 protection:9 unbreaking:5 name:&eVIP_Kiti
+    - 312 1 protection:9 unbreaking:5 name:&eVIP_Kiti
+    - 313 1 protection:9 unbreaking:5 name:&eVIP_Kiti
+    - 278 1 efficiency:9 unbreaking:5 fortune:3 name:&eVIP_Kiti
+    - 277 1 efficiency:9 unbreaking:5 name:&eVIP_Kiti
+    - 279 1 efficiency:9 unbreaking:5 name:&eVIP_Kiti
+    - 322:1 16
+   VIP+:
+    delay: 259200
+    items:
+    - 276 1 sharpness:10 unbreaking:5 name:&eVIP_Kiti
+    - 310 1 protection:10 unbreaking:5 name:&eVIP_Kiti
+    - 311 1 protection:10 unbreaking:5 name:&eVIP_Kiti
+    - 312 1 protection:10 unbreaking:5 name:&eVIP_Kiti
+    - 313 1 protection:10 unbreaking:5 name:&eVIP_Kiti
+    - 278 1 efficiency:10 unbreaking:5 fortune:3 name:&eVIP_Kiti
+    - 277 1 efficiency:10 unbreaking:5 name:&eVIP_Kiti
+    - 279 1 efficiency:10 unbreaking:5 name:&eVIP_Kiti
+    - 322:1 32
+
+   MVIP:
+    delay: 259200
+    items:
+    - 276 1 sharpness:11 unbreaking:5 name:&eVIP_Kiti
+    - 310 1 protection:11 unbreaking:5 name:&eVIP_Kiti
+    - 311 1 protection:11 unbreaking:5 name:&eVIP_Kiti
+    - 312 1 protection:11 unbreaking:5 name:&eVIP_Kiti
+    - 313 1 protection:11 unbreaking:5 name:&eVIP_Kiti
+    - 278 1 efficiency:11 unbreaking:5 fortune:3 name:&eVIP_Kiti
+    - 277 1 efficiency:11 unbreaking:5 name:&eVIP_Kiti
+    - 279 1 efficiency:11 unbreaking:5 name:&eVIP_Kiti
+    - 322:1 48
+
+   MVIP+:
+    delay: 259200
+    items:
+    - 276 1 sharpness:12 unbreaking:5 name:&eVIP_Kiti
+    - 310 1 protection:12 unbreaking:5 name:&eVIP_Kiti
+    - 311 1 protection:12 unbreaking:5 name:&eVIP_Kiti
+    - 312 1 protection:12 unbreaking:5 name:&eVIP_Kiti
+    - 313 1 protection:12 unbreaking:5 name:&eVIP_Kiti
+    - 278 1 efficiency:12 unbreaking:5 fortune:3 name:&eVIP_Kiti
+    - 277 1 efficiency:12 unbreaking:5 name:&eVIP_Kiti
+    - 279 1 efficiency:12 unbreaking:5 name:&eVIP_Kiti
+    - 322:1 56
+   Youtuber:
+    delay: 259200
+    items:
+    - 276 1 sharpness:10 unbreaking:5 name:&eYouTuber_Kiti
+    - 310 1 protection:10 unbreaking:5 name:&eYouTuber_Kiti
+    - 311 1 protection:10 unbreaking:5 name:&eYouTuber_Kiti
+    - 312 1 protection:10 unbreaking:5 name:&eYouTuber_Kiti
+    - 313 1 protection:10 unbreaking:5 name:&eYouTuber_Kiti
+    - 278 1 efficiency:10 unbreaking:5 fortune:3 name:&eYouTuber_Kiti
+    - 277 1 efficiency:10 unbreaking:5 name:&eYouTuber_Kiti
+    - 279 1 efficiency:10 unbreaking:5 name:&eYouTuber_Kiti
+    - 322:1 48 
+   Yardımcı:
+    delay: 259200
+    items:
+    - 276 1 sharpness:8 unbreaking:5 name:&eYardımcı_Kiti
+    - 310 1 protection:8 unbreaking:5 name:&eYardımcı_Kiti
+    - 311 1 protection:8 unbreaking:5 name:&eYardımcı_Kiti
+    - 312 1 protection:8 unbreaking:5 name:&eYardımcı_Kiti
+    - 313 1 protection:8 unbreaking:5 name:&eYardımcı_Kiti
+    - 278 1 efficiency:8 unbreaking:5 fortune:3 name:&eYardımcı_Kiti
+    - 277 1 efficiency:8 unbreaking:5 name:&eYardımcı_Kiti
+    - 279 1 efficiency:8 unbreaking:5 name:&eYardımcı_Kiti
+    - 322:1 16

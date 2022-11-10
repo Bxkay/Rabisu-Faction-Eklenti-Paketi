@@ -1,0 +1,955 @@
+database:
+  #Database backend type, can be set to mysql or sqlite
+  type: sqlite
+  #MySQL database host
+  mySQLHost: localhost
+  #MySQL connection port number
+  mySQLPort: 3306
+  #MySQL database name
+  mySQLDatabase: db
+  #MySQL database user
+  mySQLUser: root
+  #MySQL user's password
+  mySQLPassword: ""
+  #MySQL table names
+  tableNames:
+    players: "players"
+
+#Type of the economy which will handle all transactions. Valid values are EXP, VAULT (requires http://dev.bukkit.org/bukkit-plugins/vault/), MYSQL_TOKENS (requires https://www.spigotmc.org/resources/mysql-tokens.7535/), TOKEN_MANAGER (requires https://www.spigotmc.org/resources/tokenmanager.8610/)
+economyType: VAULT
+#Name of the main GUI
+shopMenuName: "&nMarket"
+#Size of the main GUI, valid values are 9, 18, 27, 36, 45 and 54
+shopMenuSize: 45
+#Define whether selling all with middle mouse button is enabled
+enableSellAll: true
+#Define whether the buy GUI with option to select quantity is enabled
+enableBuyGUI: true
+#Define whether the sell GUI with option to select quantity is enabled
+enableSellGUI: true
+#Define whether sell all button in SellGUI is enabled (enableSellGUI has to be enabled too)
+enableSellGUISellAll: true
+#Define whether after closing/buying/selling the shop GUI should be opened again
+returnToShop: true
+#Define whether the quick buy/sell option should be enabled (amount selection gui will stay open until player closes it)
+quickBuySell: true
+#Define whether lines containing the %buy% placeholder should be hidden for unbuyable items
+hideBuyPriceForUnbuyable: true
+#Define whether lines containing the %sell% placeholder should be hidden for unsellable items
+hideSellPriceForUnsellable: true
+#Define whether buy and sell buttons should be inverted (false - LMB buy, RMB sell / true - LMB sell, RMB buy)
+invertBuySell: false
+#Maximum amount of enchantments players can add to an item, set to -1 for no limit
+maxEnchantments: -1
+#Choose whether players should be able to buy enchantments only 1 level higher than current (eg. player has sword with Sharpness 1, they could buy only Sharpness 2)
+limitEnchantmentLevelDiff: false
+#Define whether the amount selection double click bug fix should be enabled
+enableAmountSelectionFix: true
+#Define whether players should be able to use sell all option to sell all their items (allowAllSellAllstackizes = true) or only amount multiplied by the original stack size of the shop item (allowAllSellAllstackizes = false)
+allowAllSellAllstackizes: false
+#Define whether all prices should be rounded up, down, to the nearest whole number or not rounded (valid values are UP, DOWN, NEAREST and NONE)
+roundPrices: none
+#Define whether main menu (/shop command) should be disabled. The only way to access shops will be to use /shop <id> when you disable it.
+disableMainMenu: false
+#Choose if different messages should be sent when someone buy/sell items for TL0 (MSG_ITEM_BOUGHTFREE, MSG_ITEM_SOLDFREE, MSG_ITEM_SOLDALLFREE)
+useDifferentMessagesForFreeItems: true
+#Choose if item names should have first letters of their names capitalized, for instance nether brick would become Nether Brick
+capitalizeItemNames: true
+#Choose the type of price modifiers. (BOTH (permission modifiers have higher priority than command-ones), COMMAND, PERMISSION)
+priceModifiersType: BOTH
+#Choose if the gui shall be closed after using the Sell All feature
+closeGuiAfterSellAll: false
+#Choose if bulk buy/sell guis should be opened immediately after clicking an item (enableBuyGUI and enableSellGUI have to be enabled as well and players need the bulk buy/sell permissions)
+openBulkGuiImmediately: false
+#Choose which items stack size should be capped at 16 inside the amount selection GUI so players can't buy eg. oversized ender pearl stack
+#Format is same as for regular items in shops.yml
+itemstackizeCappedAt:
+  1:
+    material: ENDER_PEARL
+    size: 16
+  2:
+    material: SNOW_BALL
+    size: 16
+  3:
+    material: SIGN
+    size: 16
+  4:
+    material: EGG
+    size: 16
+  5:
+    material: BUCKET
+    size: 64
+  6:
+    material: POTION
+    damage: 8265
+    size: 1
+  7:
+    material: POTION
+    damage: 8258
+    size: 1
+  8:
+    material: POTION
+    damage: 8257
+    size: 1
+  9:
+    material: POTION
+    damage: 8259
+    size: 1
+  10:
+    material: POTION
+    damage: 8270
+    size: 1
+  11:
+    material: POTION
+    damage: 16421
+    size: 1
+  12:
+    material: POTION
+    damage: 8233
+    size: 1
+  13:
+    material: POTION
+    damage: 8226
+    size: 1
+  14:
+    material: POTION
+    damage: 8225
+    size: 1
+  15:
+    material: POTION
+    damage: 8227
+    size: 1
+  16:
+    material: POTION
+    damage: 8265
+    size: 1
+  17:
+    material: POTION
+    damage: 8238
+    size: 1
+  18:
+    material: POTION
+    damage: 16453
+    size: 1
+  19:
+    material: LAVA_BUCKET
+    size: 64
+  20:
+    material: DIAMOND_SWORD
+    size: 1
+  21:
+    material: DIAMOND_PICKAXE
+    size: 1
+  22:
+    material: DIAMOND_AXE
+    size: 1
+  23:
+    material: DIAMOND_SPADE
+    size: 1
+  24:
+    material: DIAMOND_HOE
+    size: 1
+  25:
+    material: IRON_SWORD
+    size: 1
+  26:
+    material: IRON_PICKAXE
+    size: 1
+  27:
+    material: IRON_AXE
+    size: 1
+  28:
+    material: IRON_SPADE
+    size: 1
+  29:
+    material: IRON_HOE
+    size: 1
+  30:
+    material: SHEARS
+    size: 1
+  31:
+    material: FISHING_ROD
+    size: 1
+  32:
+    material: BOW
+    size: 1
+  33:
+    material: FLINT_AND_STEEL
+    size: 1
+
+  #Choose what gamemodes will prevent players from accessing shops. Valid values: ADVENTURE, CREATIVE, SPECTATOR, SURVIVAL
+disableShopsInGamemodes:
+  - ADVENTURE
+  - CREATIVE
+  - SPECTATOR
+#Choose in which worlds players won't be able to access the shop. Same list format as disableShopsInGamemodes
+disableShopsInWorlds: []
+  
+#Choose whether price modifiers should be displayed in percents instead of decimals (eg. 10% instead of 0.10), remember you will still have to use the decimal way in commands
+displayPriceModifiersInPercents: true
+
+#Choose whether the world-specific permission to access shops should be omitted when player has a shop opened with /shop [player] [shop name]
+disableSudoWorldPermissionCheck: false
+
+#Choose whether the shop-specific permission to access shops should be omitted when player has a shop opened with /shop [player] [shop name]
+disableSudoShopPermissionCheck: false
+
+#Format of item lores in shops, %buy% will be replaced with the buy price and %sell% with sell price
+shopItemLoreFormat:
+  #This lore will be applied to items
+  item:
+    - "&7Satın alma fiyatı: &c%buy%TL"
+    - "&7Satma fiyatı: &a%sell%TL"
+    - "&9Orta Tuşa basarak hepsini sat"
+  #This lore will be applied to items in the buy GUI (when enableBuyGUI is set to true)
+  itemBuyGUI:
+    - "&7Satın alma fiyatı: &c%buy%TL"  
+  #This lore will be applied to items in the sell GUI (when enableSellGUI is set to true)
+  itemSellGUI:
+    - "&7Satma fiyatı: &a%sell%TL"
+  #This lore will be applied to the sell all button in the sell GUI (when enableSellGUI and enableSellGUISellAll are set to true)
+  itemSellGUISellAll:
+    - "&7Hepsini satma fiyatı: &a%sell%TL"
+  #This one to permissions
+  permission:
+    - "&7Alma fiyatı: &c%buy%TL"
+  #And this one to enchantments
+  enchantment:
+    - "&7Alma fiyatı: &c%buy%TL"
+  #And the last one to commands
+  command:
+    - "&7Alma fiyatı: &c%buy%TL"
+
+#Logging settings
+log:
+  #Define whether transactions will be logged to the console/main server log
+  toConsole: true
+  #Define whether transactions will be logged to a separate log
+  toFile: false
+  #Date format of transactions (http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
+  formatDate: "yyyy/MM/dd HH:mm:ss"
+  #Log message for bought items
+  formatBuy: "%player% bought %amount% x %item% for %price%TL from %shop% shop"
+  #Log message for sold items
+  formatSell: "%player% sold %amount% x %item% for %price%TL to %shop% shop"
+  #Log message for sold all items
+  formatSellAll: "%player% sold all %amount% x %item% for %price%TL to %shop% shop"
+
+buttons:
+  #"Go back button"
+  goBack:
+    item:
+      #Material name, full list can be found here: http://wiki.brcdev.net/Materials
+      material: NETHER_STAR 
+      #Amount of the item
+      amount: 1 
+      #(optional) Data value, for example 1 for WOOD:1 means spruce wood planks
+      damage: 0 
+      #(optional) Custom name
+      name: "&c&lKategorilere Geri Dön"
+      #(optional) Lore, can contain multiple lines
+      lore: 
+        - "&7Ana menüye dönmek için"
+        - "&7buraya tıkla"
+    #Slot in each shop's GUI
+    slot: 54
+  #"Previous page" button
+  previousPage:
+    item:
+      material: PAPER
+      quantity: 1
+      name: "&c&lÖnceki Sayfa"
+    slot: 55
+  #"Next page" button
+  nextPage:
+    item:
+      material: PAPER
+      quantity: 1
+      name: "&c&lSonraki Sayfa"
+    slot: 55
+
+#Elements of the bulk buy GUI
+amountSelectionGUIBulkBuy:
+  #Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54
+  size: 18
+  #Choose if buttons type should be replaced with the bought item's type
+  replaceButtonsType: true
+  #Buttons
+  buttons:
+    #"Buy 1 stack" button
+    buy1:
+      #When no material is specified it will be the type of the item being bought
+      item:
+        quantity: 1
+        name: "&aBuy 1 stack"
+        lore:
+          - "&7Fiyat: &c%buy%TL"
+      #Value indicated the amount of stack
+      value: 1
+      slot: 0
+    #"Buy 2 stack" button
+    buy2:
+      item:
+        quantity: 2
+        name: "&aBuy 2 stack"
+        lore:
+          - "&7Fiyat: &c%buy%TL"
+      value: 2
+      slot: 1
+    #"Buy 3 stack" button
+    buy3:
+      item:
+        quantity: 3
+        name: "&aBuy 3 stack"
+        lore:
+          - "&7Fiyat: &c%buy%TL"
+      value: 3
+      slot: 2
+    #"Buy 4 stack" button
+    buy4:
+      item:
+        quantity: 4
+        name: "&aBuy 4 stack"
+        lore:
+          - "&7Fiyat: &c%buy%TL"
+      value: 4
+      slot: 3
+    #"Buy 5 stack" button
+    buy5:
+      item:
+        quantity: 5
+        name: "&aBuy 5 stack"
+        lore:
+          - "&7Fiyat: &c%buy%TL"
+      value: 5
+      slot: 4
+    #"Buy 6 stack" button
+    buy6:
+      item:
+        quantity: 6
+        name: "&aBuy 6 stack"
+        lore:
+          - "&7Fiyat: &c%buy%TL"
+      value: 6
+      slot: 5
+    #"Buy 7 stack" button
+    buy7:
+      item:
+        quantity: 7
+        name: "&aBuy 7 stack"
+        lore:
+          - "&7Fiyat: &c%buy%TL"
+      value: 7
+      slot: 6
+    #"Buy 8 stack" button
+    buy8:
+      item:
+        quantity: 8
+        name: "&aBuy 8 stack"
+        lore:
+          - "&7Fiyat: &c%buy%TL"
+      value: 8
+      slot: 7
+    #"Buy 9 stack" button
+    buy9:
+      item:
+        quantity: 9
+        name: "&aBuy 9 stack"
+        lore:
+          - "&7Fiyat: &c%buy%TL"
+      value: 9
+      slot: 8
+    #"Cancel" button
+    cancel:
+      item:
+        material: STAINED_GLASS
+        quantity: 1
+        damage: 14
+        name: "&c&lVazgeç"
+      slot: 13
+      
+#Elements of the bulk buy GUI
+amountSelectionGUIBulkSell:
+  #Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54
+  size: 18
+  #Choose if buttons type should be replaced with the sold item's type
+  replaceButtonsType: true
+  #Buttons
+  buttons:
+    #"Sell 1 stack" button
+    sell1:
+      #When no material is specified it will be the type of the item being bought
+      item:
+        quantity: 1
+        name: "&aSat 1 stack"
+        lore:
+          - "&7Fiyat: &c%sell%TL"
+      #Value indicated the amount of stack
+      value: 1
+      slot: 0
+    #"Sell 2 stack" button
+    sell2:
+      item:
+        quantity: 2
+        name: "&aSat 2 stack"
+        lore:
+          - "&7Fiyat: &c%sell%TL"
+      value: 2
+      slot: 1
+    #"Sell 3 stack" button
+    sell3:
+      item:
+        quantity: 3
+        name: "&aSat 3 stack"
+        lore:
+          - "&7Fiyat: &c%sell%TL"
+      value: 3
+      slot: 2
+    #"Sell 4 stack" button
+    sell4:
+      item:
+        quantity: 4
+        name: "&aSat 4 stack"
+        lore:
+          - "&7Fiyat: &c%sell%TL"
+      value: 4
+      slot: 3
+    #"Sell 5 stack" button
+    sell5:
+      item:
+        quantity: 5
+        name: "&aSat 5 stack"
+        lore:
+          - "&7Fiyat: &c%sell%TL"
+      value: 5
+      slot: 4
+    #"Sell 6 stack" button
+    sell6:
+      item:
+        quantity: 6
+        name: "&aSat 6 stack"
+        lore:
+          - "&7Fiyat: &c%sell%TL"
+      value: 6
+      slot: 5
+    #"Sell 7 stack" button
+    sell7:
+      item:
+        quantity: 7
+        name: "&aSat 7 stack"
+        lore:
+          - "&7Fiyat: &c%sell%TL"
+      value: 7
+      slot: 6
+    #"Sell 8 stack" button
+    sell8:
+      item:
+        quantity: 8
+        name: "&aSat 8 stack"
+        lore:
+          - "&7Fiyat: &c%sell%TL"
+      value: 8
+      slot: 7
+    #"Sell 9 stack" button
+    sell9:
+      item:
+        quantity: 9
+        name: "&aSat 9 stack"
+        lore:
+          - "&7Fiyat: &c%sell%TL"
+      value: 9
+      slot: 8
+    #"Cancel" button
+    cancel:
+      item:
+        material: STAINED_GLASS
+        quantity: 1
+        damage: 14
+        name: "&c&lVazgeç"
+      slot: 13
+
+#Elements of the regular buy/sell GUI
+amountSelectionGUI:
+  #Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54
+  size: 54
+  #Slot of the item being bought/sold
+  itemSlot: 22
+  #Buttons
+  buttons:
+    #"Set to 1" button
+    set1:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 1
+        damage: 14
+        name: "&c&lSet to 1"
+      slot: 18
+    #"Remove 10" button
+    remove10:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 10
+        damage: 14
+        name: "&c&lRemove 10"
+      slot: 19
+    #"Remove 1" button
+    remove1:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 1
+        damage: 14
+        name: "&c&lRemove 1"
+      slot: 20
+    #"Add 1" button
+    add1:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 1
+        damage: 5
+        name: "&a&lAdd 1"
+      slot: 24
+    #"Add 10" button
+    add10:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 10
+        damage: 5
+        name: "&a&lAdd 10"
+      slot: 25
+    #"Set to 16" button
+    set16:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 16
+        damage: 5
+        name: "&a&lSet to 16"
+      slot: 26
+    #"Set to 64" button
+    set64:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 64
+        damage: 5
+        name: "&a&lSet to 64"
+      slot: 26
+    #"Confirm" button
+    confirm:
+      item:
+        material: STAINED_GLASS
+        quantity: 1
+        damage: 5
+        name: "&a&lConfirm"   
+      slot: 39
+    #"Sell all" button
+    sellAll:
+      item:
+        material: STAINED_GLASS
+        quantity: 1
+        damage: 5
+        name: "&a&lSell all"      
+      slot: 40
+    #"Buy more" button
+    buyMore:
+      item:
+        material: STAINED_GLASS
+        quantity: 64
+        damage: 5
+        name: "&a&lBuy more"      
+      slot: 49
+    #"Sell more" button
+    sellMore:
+      item:
+        material: STAINED_GLASS
+        quantity: 64
+        damage: 5
+        name: "&a&lSell more"      
+      slot: 49
+    #"Cancel" button
+    cancel:
+      item:
+        material: STAINED_GLASS
+        quantity: 1
+        damage: 14
+        name: "&c&lVazgeç"
+      slot: 41
+      
+shopMenuItems:
+  #Has to be unique, value doesn't matter
+  1:
+    item:
+      #The same rules apply for material, amount, damage and lore as for goBackButton
+      material: TNT
+      quantity: 1
+      name: "&c&lBaskın Eşyaları"
+    #Shop ID from shops.yml
+    shop: "raiding"
+    #Slot in shops menu, counting from 0 to 53
+    slot: 10
+  2: 
+    item:
+      material: WHEAT
+      quantity: 1 
+      damage: 0
+      name: "&c&lTarım"
+    shop: "farming" 
+    slot: 16
+  4:
+    item:
+      material: ROTTEN_FLESH
+      quantity: 1
+      name: "&c&lMob Eşyaları"
+    shop: "mobdrops"
+    slot: 20
+  5:
+    item:
+      material: NAME_TAG
+      quantity: 1
+      name: "&c&lAraç - Gereçler"
+    shop: "misc"
+    slot: 3
+  6:
+    item:
+      material: WOOL
+      damage: 10
+      quantity: 1
+      name: "&c&lRenkli Bloklar"
+    shop: "coloredblocks"
+    slot: 13
+  7:
+    item:
+      material: POTION
+      quantity: 1
+      damage: 8257
+      name: "&c&lİksirler"
+    shop: "potions"
+    slot: 5
+  8:
+    item:
+      material: DIAMOND_PICKAXE
+      quantity: 1
+      damage: 0
+      name: "&c&lAletler"
+    shop: "tools"
+    slot: 24
+  9:
+    item:
+      material: COOKED_BEEF
+      quantity: 1
+      name: "&c&lYemek"
+    shop: "food"
+    slot: 30
+  10:
+    item:
+      material: GRASS
+      quantity: 1
+      name: '&c&lBloklar'
+    shop: "blocks"
+    slot: 31
+  11:
+    item:
+      material: DIAMOND
+      quantity: 1
+      name: '&c&lMadenler'
+    shop: "ores"
+    slot: 32 
+  12: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 0
+  13: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 1
+  14: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 2
+  15: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 4
+  16: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 6
+  17: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 7
+  18: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 8
+  19: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 9
+  20: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 11
+  21: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 12
+  22: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 15
+  23: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 14
+  24: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 17
+  25: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 17
+  26: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 18
+  27: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 19
+  28: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 21
+  29: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 22
+  30: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 23
+  31: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 25
+  32: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 26
+  33: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 27
+  34: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 28
+  35: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 29
+  36: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 33
+  37: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 34
+  38: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 35
+  39: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 36
+  40: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 37
+  41: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 38
+  42: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 39
+  43: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 40
+  44: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 41
+  45: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 42
+  46: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 43
+  47: 
+    item:
+      material: STAINED_GLASS_PANE
+      quantity: 1 
+      damage: 0
+      name: "&6Rab&eisu"
+    shop: "" 
+    slot: 44
+    
+    
+    
+    
+    
+specialElements:
+  balance:
+    item:
+      material: GOLD_NUGGET
+      quantity: 1
+      name: "&6&lParan"
+      lore:
+        - "&7TL%balance%"

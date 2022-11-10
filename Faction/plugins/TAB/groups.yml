@@ -1,0 +1,96 @@
+Kurucu:
+  tabprefix: '&4Kurucu &c'
+  tagprefix: '&4Kurucu &c'
+Admin:
+  tabprefix: '&cAdmin &c'
+  tagprefix: '&cAdmin &c'
+Mod:
+  tabprefix: '&bMod &b'
+  tagprefix: '&bMod &b'
+Asistan:
+  tabprefix: '&eAsistan &e'
+  tagprefix: '&eAsistan &e'
+Yardımcı:
+  tabprefix: '&aYardımcı &a'
+  tagprefix: '&aYardımcı &a'
+##############################################################  
+MVIP+:
+  tabprefix: '&aMVIP&C+ &A'
+  tagprefix: '&aMVIP&C+ &A'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+MVIP:
+  tabprefix: '&aMVIP &A'
+  tagprefix: '&aMVIP &A'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+VIP+:
+  tabprefix: '&6VIP&C+ &e'
+  tagprefix: '&6VIP&C+ &e'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+VIP:
+  tabprefix: '&6VIP &e'
+  tagprefix: '&6VIP &e'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+##############################################################
+Youtuber:
+  tabprefix: '&4You&ETuber &E'
+  tagprefix: '&4You&ETuber &E'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+##############################################################
+Müşir:
+  tabprefix: '&4Müşir &7'
+  tagprefix: '&4Müşir &7'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+Ferik:
+  tabprefix: '&cFerik &7'
+  tagprefix: '&cFerik &7'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+Binbaşı:
+  tabprefix: '&5Binbaşı &7'
+  tagprefix: '&5Binbaşı &7'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+Kolağası:
+  tabprefix: '&dKolağası &7'
+  tagprefix: '&dKolağası &7'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+Yüzbaşı:
+  tabprefix: '&3Yüzbaşı &7'
+  tagprefix: '&3Yüzbaşı &7'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+Mülazım:
+  tabprefix: '&bMülazım &7'
+  tagprefix: '&bMülazım &7'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+Başçavuş:
+  tabprefix: '&2Başçavuş &7'
+  tagprefix: '&2Başçavuş &7'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+Çavuş:
+  tabprefix: '&aÇavuş &7'
+  tagprefix: '&aÇavuş &7'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+Onbaşı:
+  tabprefix: '&6Onbaşı &7'
+  tagprefix: '&6Onbaşı &7'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+default:
+  tabprefix: '&eNefer &7'
+  tagprefix: '&eNefer &7'
+  belowname: '&c⚔ &b%factionsuuid_faction_name% &c⚔'
+
+example_group:
+  header:
+  - This is an example of per-group header/footer
+  footer:
+  - applied to a group
+_DEFAULT_:
+  tabprefix: '%vault-prefix%'
+  tagprefix: '%vault-prefix%'
+  customtabname: '%essentials_nickname%'
+  customtagname: '%essentials_nickname%'
+  tabsuffix: ''
+  tagsuffix: ''
+per-world:
+  world1:
+    Owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'

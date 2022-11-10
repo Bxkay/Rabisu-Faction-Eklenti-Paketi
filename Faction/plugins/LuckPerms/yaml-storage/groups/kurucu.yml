@@ -1,0 +1,11 @@
+name: Kurucu
+permissions:
+- multiverse.*:
+    value: true
+- weight.20
+- essentials.*
+parents:
+- yetkiler
+prefixes:
+- '&4Kurucu':
+    priority: 1

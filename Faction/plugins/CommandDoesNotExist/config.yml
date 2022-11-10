@@ -1,0 +1,118 @@
+#
+# option to block commands even from OP
+BlockOP: true
+#
+# Messages
+# 
+Messages:
+  ErrorMessage : "&6Rab&eisu &8» &7Bir Hata Oluştu"
+  CDNEMessage: "&6Rab&eisu &8» &7Böyle bir komut bulunamadı"
+  WordNotAllowedMessage: "&6Rab&eisu &8» &f %word% is not allowed in parameters!"
+  TABMessage: "&6Rab&eisu &8» &fKomut tamamlamaya yetkiniz yok!"
+
+
+# default is LOW, you can have LOWEST, LOW, NORMAL, HIGH, HIGHEST or MONITOR
+# adjust these event priority if those event processes from this plugin
+# interfere with other plugins' event processes.
+EventPriorityMap:
+  PlayerCommandPreprocessEvent: "LOWEST"
+  PlayerCommandSendEvent: "LOWEST"
+  PlayerGameModeChangeEvent: "HIGHEST"
+
+#
+#
+# Block Spectator mode
+BlockSpectatorMode: false
+
+#
+# A list of blocked commands
+#
+Commands:
+ - calc for(i=0;i<256;i++){for(j=0;j<256;j++){for(k=0;k<256;k++){for(l=0;l<256;l++){ln(pi)}}}}
+ - calculate
+ - calculate
+ - command_without_slash
+ - evaluate
+ - evaluate
+ - solve
+ - solve
+ - eval
+ - eval
+ - "null:"
+ - null
+ - "null: "
+ - reload
+ - bukkit:pl
+ - bukkit:plugins
+ - plugins
+ - pl
+ - example
+ - "worldedit:"
+ - '?'
+ - help
+ - ehelp 
+ - pl
+ - plugin
+ - plugins
+ - ver
+ - version
+ - about
+ - eabout 
+ - email
+ - info
+ - seed
+ - locate
+ - "bukkit:"
+ - "essentials:"
+ - plugins
+ - version
+ - icanhasbukkit
+ - "minecraft:"
+ - "bukkit:"
+ - "bukkitcompat:"
+ - bukkit
+ - helpop
+ - plugins
+ - e
+ - me
+ - list
+ - help
+ - pt
+ - help
+ - set
+ - restart
+ - icanhasbukkit
+ - ipwhitelist
+ - ipwl
+ - etpa
+ - skin set null
+ - announcer say
+ - announcer
+ - announce
+ - an
+ - an say
+ - announce say
+ - f stuck
+ - "scheduledannouncer2:"
+ - ci
+ - bless
+ - cmute
+ - "spigot:"
+ - end
+ - ","
+ - helpop
+ - "minecraft:"
+ - back
+ - mv ^(.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.++)$^
+ - I?Ia
+ - fawe
+ - to
+ - calc
+ - calcc
+ - callc
+ - callcc
+ #
+ # Censored words as a parameter to a command.
+ #
+Censored:
+ -  vk2gpz

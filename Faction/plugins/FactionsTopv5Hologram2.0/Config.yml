@@ -1,0 +1,81 @@
+Author: CustomEnchants
+Options:
+  Hologram:
+    update-interval-in-seconds: 300
+    default-lines:
+    - '&7Sıra: &e$rank$: '
+    - '&7Lider: &e%factionstop_lookup-factionstop-leader-where-rank-equals_$rank$% '
+    - '&7Puan: &e%factionstop_lookup-factionstop-blockworth-where-rank-equals_$rank$%: '
+    lines:
+    - '&8「 &6&l%factionstop_lookup-factionstop-faction-where-rank-equals_$rank$% &8」'
+    - ''
+    - '&7Sıra: &e$rank$'
+    - '&7Lider: &e%factionstop_lookup-factionstop-leader-where-rank-equals_$rank$%'
+    - '&7Puan: &e%factionstop_lookup-factionstop-blockworth-where-rank-equals_$rank$%'
+    - ''
+    - '&f&oKlan Sıralaması ödülleri her ay düzenli '
+    - '&f&oolarak ilk &eüç &fde olan klanlara verilir.'
+    - ''
+    - '&7&owww.rabisu.com'
+  HologramTop10:
+    default-lines:
+    - '&6&L KLAN SIRALAMASI'
+    - '&6#1 '
+    - '&6#2 '
+    - '&6#3 '
+    - '&6#4 '
+    - '&6#5 '
+    - '&6#6 '
+    - '&6#7 '
+    - '&6#8 '
+    - '&6#9 '
+    - '&6#10 '
+    lines:
+    - '&6&lKLAN SIRALAMASI'
+    - ''
+    - '&6#1 &A%factionstop_ftop1% &7- &e%factionstop_ftop1-totalworth%'
+    - '&6#2 &A%factionstop_ftop2% &7- &e%factionstop_ftop2-totalworth%'
+    - '&6#3 &A%factionstop_ftop3% &7- &e%factionstop_ftop3-totalworth%'
+    - '&6#4 &A%factionstop_ftop4% &7- &e%factionstop_ftop4-totalworth%'
+    - '&6#5 &A%factionstop_ftop5% &7- &e%factionstop_ftop5-totalworth%'
+    - '&6#6 &A%factionstop_ftop6% &7- &e%factionstop_ftop6-totalworth%'
+    - '&6#7 &A%factionstop_ftop7% &7- &e%factionstop_ftop7-totalworth%'
+    - '&6#8 &A%factionstop_ftop8% &7- &e%factionstop_ftop8-totalworth%'
+    - '&6#9 &A%factionstop_ftop9% &7- &e%factionstop_ftop9-totalworth%'
+    - '&6#10 &A%factionstop_ftop10% &7- &e%factionstop_ftop10-totalworth%'
+    - ''
+    - '&c&owww.rabisu.com'
+Messages:
+  factionstophologram:
+    prefix: '&b&l(!) &bFactionsTopv5Hologram'
+    add:
+      no-permission: '%prefix% &7You don''t have permission'
+      not-enough-arguments: '%prefix% &7You did not specifiy enough arguments'
+      invalid-number: '%prefix% &7You specified a invalid number !'
+      created: '%prefix% &7You have created a ftop hologram for ftop &c%ftop%'
+    delete:
+      no-permission: '%prefix% &7You don''t have permission'
+      not-enough-arguments: '%prefix% &7You did not specifiy enough arguments'
+      invalid-number: '%prefix% &7You specified a invalid number !'
+      invalid-id: '%prefix% &7A ftophologram by that id doesen''t exist'
+      deleted: '%prefix% &7You have deleted a hologram with id &c%id%'
+    setfooteritem:
+      no-permission: '%prefix% &7You don''t have permission'
+      not-enough-arguments: '%prefix% &7You did not specifiy enough arguments'
+      invalid-number: '%prefix% &7You specified a invalid number !'
+      invalid-id: '%prefix% &7A ftophologram by that id doesen''t exist'
+      updated: '%prefix% &7You have updated the footeritem of the hologram with id
+        &c%id%'
+    setheaderitem:
+      no-permission: '%prefix% &7You don''t have permission'
+      not-enough-arguments: '%prefix% &7You did not specifiy enough arguments'
+      invalid-number: '%prefix% &7You specified a invalid number !'
+      invalid-id: '%prefix% &7A ftophologram by that id doesen''t exist'
+      updated: '%prefix% &7You have updated the headeritem of the hologram with id
+        &c%id%'
+    addtop10:
+      no-permission: '%prefix% &7You don''t have permission'
+      created: '%prefix% &7You have created a ftop top 10 hologram'
+    reload:
+      no-permission: '%prefix% &7You don''t have permission'
+      reloaded: '%prefix% &7You reloaded the configuration'

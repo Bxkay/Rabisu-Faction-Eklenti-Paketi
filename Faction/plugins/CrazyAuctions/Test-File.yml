@@ -1,0 +1,8 @@
+Test:
+  ==: org.bukkit.inventory.ItemStack
+  type: BOOK_AND_QUILL
+  meta:
+    ==: ItemMeta
+    meta-type: BOOK
+    display-name: kimsede olmayan item
+    repair-cost: 3

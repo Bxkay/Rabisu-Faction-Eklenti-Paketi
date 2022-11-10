@@ -1,0 +1,237 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&5Ödül Kasası'
+  Preview-Name: '&5Ödül Kasası'
+  StartingKeys: 0
+  InGUI: false
+  Slot: 11
+  OpeningBroadCast: false
+  BroadCast: '%Prefix% &f&l%Player% &7adlı oyuncu &5Ödül Kasa &7açıyor!'
+  Preview:
+    Toggle: true
+    ChestLines: 5
+    Glass:
+      Toggle: true
+      Item: STAINED_GLASS_PANE:7
+  PhysicalKey:
+    Name: '&5Ödül Kasa Anahtarı'
+    Lore:
+    - ''
+    - '&7Bu kasayı &f/warp kasalar &7bölgesinde açabilirsin.'
+    - ''
+    - '&7&oKasaya sol tıklayarak kasayı inceleyebilirsin.'
+    - '&7&oKasaya sağ tıklayarak kasayı açabilirsin.'
+    - ''
+    - '&fwww.rabisu.com'
+    Item: 131
+    Glowing: true
+  Hologram:
+    Toggle: true
+    Height: 2.7
+    Message:
+    - '&5Ödül Kasası'
+    - ''
+    - '&7Sağ tıklayarak &faç'
+    - '&7Sol tıklayarak &fincele'
+    - ''
+    - '&f&owww.rabisu.com'
+  Prizes:
+    1:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    2:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    3:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    4:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    5:
+      DisplayName: '&6Coin &7&o(3K)'
+      DisplayItem: 175
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f3K &7Coin'
+      - ''
+      - '&8&l▪ &7Sans: &f&o7/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 7.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - coin ver %player% 3000
+    6:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    7:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    8:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0  
+    9:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    10:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    11:
+      DisplayName: '&aPara Kasa Anahtarı &7&o(1 Adet)'
+      DisplayItem: 131
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &71 Adet &aPara Kasa Anahtarı'
+      - ''
+      - '&8&l▪ &7Sans: &f&o3/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 3.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - crazycrates give p para 1 %player%
+    12:
+      DisplayName: '&2Set Kasa Anahtarı &7&o(1 Adet)'
+      DisplayItem: 131
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &71 Adet &2Set Kasa Anahtarı'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - crazycrates give p set 1 %player%
+    13:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    14:
+      DisplayName: '&6VIP Kiti'
+      DisplayItem: 311
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &7Tek kullanımlık &6VIP &7kiti'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 1.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - kit vip %player%
+    15:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    16:
+      DisplayName: '&aOyun Parası &7&o(1M)'
+      DisplayItem: 339
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f1M &7Oyun Parası'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - eco give %player% 1000000
+    17:
+      DisplayName: '&aOyun Parası &7&o(3M)'
+      DisplayItem: 339
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f3M &7Oyun Parası'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - eco give %player% 3000000
+    19:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    20:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    21:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    22:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    24:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    23:
+      DisplayName: '&eLevel &7&o(50 Level)'
+      DisplayItem: 384
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&8&l▪ &f50 &7Level'
+      - ''
+      - '&8&l▪ &7Sans: &f&o5/100'
+      - ''
+      - '&f&owww.rabisu.com'
+      MaxRange: 100
+      Chance: 5.0
+      Glowing: false
+      HideItemFlags: true
+      Commands:
+      - xp give %player% 50l
+    25:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    26:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    27:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0
+    28:
+      DisplayName: '&r'
+      DisplayItem: 'STAINED_GLASS_PANE:7'
+      Chance: 0

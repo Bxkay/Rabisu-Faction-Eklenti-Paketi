@@ -1,0 +1,21 @@
+name: MVIP+
+permissions:
+- multiverse.*:
+    value: false
+- weight.15
+- essentials.kit.mvip+
+- essentials.feed
+- essentials.repair
+- essentials.repair.all
+- essentials.heal
+- essentials.hat
+- plots.plot.8
+- playervaults.amount.8
+- playervaults.size.6
+- essentials.sethome.multiple.mvip+
+- essentials.fly
+parents:
+- yetkiler
+prefixes:
+- '&aMVIP&c+':
+    priority: 1
